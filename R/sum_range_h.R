@@ -1,10 +1,6 @@
 #' Crear suma de horas por rango de horarios
 #'
-#' Ejemplo: Crear 04 rangos de 06 horas cada uno
-#' - 06.00 - 11.59 (06, 07, 08, 09, 10, 11)
-#' - 12.00 - 17.59 (12, 13, 14, 15, 16, 17)
-#' - 18.00 - 23.59 (18, 19, 20, 21, 22, 23)
-#' - 00.00 - 05.59 (24, 01, 02, 03, 04, 05)
+#' Problema: Dado el reporte de horas de salida y retorno a vivienda, calcular la suma de horas dentro de cada rango establecido
 #'
 #' @param dt data frame
 #' @param lim_sal_h hora limite de salida
@@ -22,6 +18,14 @@
 #' test <- tibble(obs_sal_hx=c(07,04,07,04,24,11,NA,20,22,04),
 #'                obs_ret_hx=c(10,08,13,13,21,NA,NA,09,04,22))
 #' test
+#'
+#' Ejemplo:
+#' Crear 04 rangos de 06 horas cada uno
+#' sumar la cantidad de horas en dicho rango
+#' - 06.00 - 11.59 (06, 07, 08, 09, 10, 11)
+#' - 12.00 - 17.59 (12, 13, 14, 15, 16, 17)
+#' - 18.00 - 23.59 (18, 19, 20, 21, 22, 23)
+#' - 00.00 - 05.59 (24, 01, 02, 03, 04, 05)
 #'
 #' #crear suma por rango
 #' test %>%
@@ -41,6 +45,8 @@
 #'            lim_ret_h = 05,
 #'            obs_sal_h = obs_sal_hx,
 #'            obs_ret_h = obs_ret_hx,prefix = "mpu_",suffix = "_h1") %>%
+#'
+#' #rangos extra
 #' sum_range_h(lim_sal_h = 19,
 #'            lim_ret_h = 24,
 #'            obs_sal_h = obs_sal_hx,

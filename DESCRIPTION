@@ -2,10 +2,10 @@ Package: avallecam
 Type: Package
 Title: avallecam - custom functions to solve current problems
 Version: 0.1.0
-Author: Andree Valle Campos <avallecam@gmail.com>
+Author: Andree Valle Campos
 Maintainer: Andree Valle Campos <avallecam@gmail.com>
-Description: More about what it does (maybe more than one line)
-    Use four spaces when indenting paragraphs within the Description.
+Description: Miscelanea of functions that I developed for different porpuses.
+    The main aim was learn how to build a R package.
 License: MIT
 Imports: tidyverse, dplyr, rgdal, stringr, lubridate, broom, rlang
 Encoding: UTF-8
