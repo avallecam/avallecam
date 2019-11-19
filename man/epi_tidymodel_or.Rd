@@ -5,6 +5,7 @@
 \alias{epi_tidymodel_rr}
 \alias{epi_tidymodel_pr}
 \alias{epi_tidymodel_up}
+\alias{epi_tidynested}
 \title{Tidy up -even more- an output model using broom functions}
 \usage{
 epi_tidymodel_or(model_output, digits = 5)
@@ -14,6 +15,8 @@ epi_tidymodel_rr(model_output, digits = 5)
 epi_tidymodel_pr(model_output, digits = 5)
 
 epi_tidymodel_up(reference_model, variable)
+
+epi_tidynested(add_nested, level = i)
 }
 \arguments{
 \item{model_output}{output raw GLM model}
@@ -23,6 +26,10 @@ epi_tidymodel_up(reference_model, variable)
 \item{reference_model}{reference model to update}
 
 \item{variable}{new variable to update into the model}
+
+\item{add_nested}{add1() output model}
+
+\item{level}{level of nesting process}
 }
 \value{
 table summary from traditional epi models.
@@ -39,6 +46,8 @@ Summarize OR, RR, PR regression outputs and update models for simple and other m
 \item \code{epi_tidymodel_pr}: summarize and calculates PR coefficients from bin/poisson-log regression
 
 \item \code{epi_tidymodel_up}: updates reference models (null or parsimonius) by adjusting with a new covariate. to use with purrr::map() and requires to use rlang::sym() to recognize the variable.
+
+\item \code{epi_tidynested}: tidy output for each update level in the nested models procedure
 }}
 
 \examples{

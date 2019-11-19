@@ -76,3 +76,18 @@ epi_tidymodel_pr <- function(model_output,digits=5) {
 epi_tidymodel_up <- function(reference_model,variable) {
   update(reference_model, expr(~ . + !!variable))
 }
+
+#' @describeIn epi_tidymodel_or tidy output for each update level in the nested models procedure
+#' @inheritParams epi_tidymodel_or
+#' @param add_nested add1() output model
+#' @param level level of nesting process
+
+epi_tidynested <- function(add_nested,level=i) {
+  add_nested %>%
+    broom::tidy() %>%
+    arrange(p.value) %>%
+    print() %>%
+    rownames_to_column("rank") %>%
+    select(term,df,LRT,p.value,rank) %>%
+    rename_at(.vars = c("rank","LRT","p.value"),.funs = str_replace, "(.+)",paste0("\\1\\_",level))
+}
