@@ -99,9 +99,9 @@ epi_tidynested <- function(add_nested,level=i) {
 #' @inheritParams epi_tidymodel_or
 
 epi_tidymodel_coef <- function(model_output,digits = 5) {
-  m1 <- wm1 %>% tidy() %>% #mutate(coef=estimate) %>%
+  m1 <- model_output %>% tidy() %>% #mutate(coef=estimate) %>%
     rownames_to_column()
-  m2 <- wm1 %>% confint_tidy() %>% #mutate_all(list(exp)) %>%
+  m2 <- model_output %>% confint_tidy() %>% #mutate_all(list(exp)) %>%
     rownames_to_column()
 
   left_join(m1,m2) %>%
