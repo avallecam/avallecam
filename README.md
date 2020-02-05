@@ -13,7 +13,7 @@ Type this in your R console:
 
 ### epidemiologically usefull
 
-- `epi_tidymodel_*`: summmarize core estimates for OR, RR, PR regression models
+- `epi_tidymodel_*`: summmarize core estimates for OR, RR, PR, regression models (including gaussian-identity)
 - `epi_tidymodel_up`: update raw models to generate various simple models or adjsuted by one parsimous model
 
 ### to make my life -just a little bit more- easy

@@ -92,3 +92,25 @@ epi_tidynested <- function(add_nested,level=i) {
     select(term,df,LRT,p.value,rank) %>%
     rename_at(.vars = c("rank","LRT","p.value"),.funs = str_replace, "(.+)",paste0("\\1\\_",level))
 }
+
+
+#' @describeIn epi_tidymodel_or summarize and calculates coefficients from linear regression (gaussian identity GLM)
+#' @inheritParams epi_tidymodel_or
+
+epi_tidymodel_coef <- function(model_output,digits = 5) {
+  m1 <- wm1 %>% tidy() %>% #mutate(coef=estimate) %>%
+    rownames_to_column()
+  m2 <- wm1 %>% confint_tidy() %>% #mutate_all(list(exp)) %>%
+    rownames_to_column()
+
+  left_join(m1,m2) %>%
+    dplyr::select(term,#log.coef=estimate,
+                  estimate ,#coef,
+                  se=std.error,
+                  conf.low,conf.high,
+                  p.value) %>%
+    mutate_at(.vars = vars(-term,-p.value),round, digits = digits) %>%
+    mutate_at(.vars = vars(p.value),round, digits = digits) %>%
+    #print() %>%
+    return()
+}
