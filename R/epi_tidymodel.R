@@ -22,6 +22,7 @@
 #'@export epi_tidymodel_pr
 #'@export epi_tidymodel_up
 #'@export epi_tidynested
+#'@export epi_tidymodel_coef
 #'
 
 epi_tidymodel_or <- function(model_output,digits=5) {
