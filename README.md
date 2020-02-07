@@ -6,6 +6,7 @@ Personal library for custom R functions.
 
 Type this in your R console: 
 
+> if(!require("devtools")) install.packages("devtools")
 > devtools::install_github("avallecam/avallecam")
 
 
