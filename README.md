@@ -21,7 +21,7 @@ devtools::install_github("avallecam/avallecam")
 
 ### to make my life -just a little bit more- easy
 
-- `adorn_2x2`: adorn a tabyl output for a 2 by 2 [`tabyl`](https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html#tabyl---a-better-version-of-table)
+- `adorn_ame`: adorn a [`tabyl`](https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html#tabyl---a-better-version-of-table) with totals on margins, percentages and N on values in only one function! 
 - `print_inf`: make a quick(er) `print(n=Inf)`
 
 ### custom
