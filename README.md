@@ -24,8 +24,12 @@ devtools::install_github("avallecam/avallecam")
 - `adorn_ame`: adorn a [`tabyl`](https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html#tabyl---a-better-version-of-table) with totals on margins, percentages and N on values in only one function! 
 - `print_inf`: make a quick(er) `print(n=Inf)`
 
-### custom
+### spatially useful
 
 - `read_gpx`: read GPX extension formats
+- `st_coordinates_tidy`: st_coordinates_tidy retrieve coordinates within the original sf/data.frame object.
+
+### movementally usefull
+
 - `sum_range_h`: custom function to calculate amount of hours between to reported times
- 
+- `get_distance_m`: generates a distance output between two set of points within a tibble and flexible with `dplyr::group_by` and `purrr::pmap` 
