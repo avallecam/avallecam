@@ -13,6 +13,7 @@
 #'
 #' library(tidyverse)
 #' library(sf)
+#' library(avallecam)
 #'
 #' sites <- tibble(gpx_point = c("a","b"),
 #'                 longitude = c(-80.144005, -80.109),
@@ -22,6 +23,9 @@
 #'   st_as_sf(coords = c("longitude", "latitude"),
 #'            remove = T,
 #'            crs = 4326) %>% print()
+#'
+#' sites_sf %>%
+#'   st_coordinates()
 #'
 #' sites_sf %>%
 #'   st_coordinates_tidy()

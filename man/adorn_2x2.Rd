@@ -33,7 +33,7 @@ adorn up a tabyl output
 }
 \section{Functions}{
 \itemize{
-\item \code{adorn_2x2}: [DEPRECATED] Creates the usual 2 by 2 output to a tabyl format.
+\item \code{adorn_2x2}: \link{DEPRECATED} Creates the usual 2 by 2 output to a tabyl format.
 
 \item \code{adorn_ame}: Creates total, percetage and N to a tabyl format.
 

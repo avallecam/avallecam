@@ -17,6 +17,7 @@
 #' library(tidyverse)
 #' library(geosphere)
 #' library(purrr)
+#' library(avallecam)
 #'
 #' d <- tibble(run = c(rep(1,6), rep(2,6)),
 #'             grp = c(rep("a",3),rep("b",3),rep("a",3),rep("b",3)),

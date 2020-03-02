@@ -30,6 +30,8 @@ Problema: Dado el reporte de horas de salida y retorno a vivienda, calcular la s
 \examples{
 #crear base
 library(tidyverse)
+library(avallecam)
+
 test <- tibble(obs_sal_hx=c(07,04,07,04,24,11,NA,20,22,04),
                obs_ret_hx=c(10,08,13,13,21,NA,NA,09,04,22))
 test
