@@ -1,13 +1,20 @@
 Package: avallecam
-Type: Package
-Title: avallecam - custom functions to solve current problems
-Version: 0.1.0
-Author: Andree Valle Campos
-Maintainer: Andree Valle Campos <avallecam@gmail.com>
-Description: Miscelanea of functions that I developed for different porpuses.
-    The main aim was learn how to build a R package.
-License: MIT
-Imports: tidyverse, dplyr, rgdal, stringr, lubridate, broom, rlang, janitor
+Title: Custom Functions to Solve Common Problems
+Version: 0.0.0.9000
+Date: 2020-02-18
+Authors@R: 
+    person(given = "Andree",
+           family = "Valle-Campos",
+           role = c("aut", "cre"),
+           email = "avallecam@gmail.com",
+           comment = c(ORCID = "0000-0002-7779-481X"))
+Description: Miscelanea of functions that I developed for different porpuses. The main aim was learn how to build a R package.
+URL: https://avallecam.github.io/avallecam/
+License: MIT + file LICENSE
+Imports: tidyverse, dplyr, rgdal, stringr, lubridate, broom, rlang, janitor, geosphere, sf
+Suggests: 
+    testthat
 Encoding: UTF-8
 LazyData: true
+Roxygen: list(markdown = TRUE)
 RoxygenNote: 6.1.1
