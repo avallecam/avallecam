@@ -14,8 +14,168 @@
 #'
 #' @examples
 #'
-#' # ejemplo
-#' # falta
+#'
+#' # paquetes ----------------------------------------------------------------
+#'
+#' set.seed(33)
+#'
+#' library(tidyverse)
+#' library(magrittr)
+#' library(mosaicData)
+#' library(compareGroups)
+#' library(avallecam)
+#'
+#' # imporat base ------------------------------------------------------------
+#'
+#' data("Whickham")
+#' smoke <- Whickham %>% as_tibble()
+#'
+#' # limpieza ----------------------------------------------------------------
+#'
+#' smoke_clean <- smoke %>%
+#'   mutate(
+#'     #desenlace
+#'     outcome_1=as.numeric(outcome),
+#'     outcome_1=outcome_1-1,
+#'     outcome_2=fct_rev(outcome),
+#'     #exposición
+#'     smoker_2=fct_rev(smoker),
+#'     #confusor
+#'     #agegrp=cut(age,breaks = c(18,44,64,Inf),include.lowest = T))
+#'     agegrp=case_when(
+#'       age %in% 18:44 ~ "18-44",
+#'       age %in% 45:64 ~ "45-64",
+#'       age > 64 ~ "65+"),
+#'     agegrp=as.factor(agegrp),
+#'     random_cov1=rnorm(n = n()),
+#'     random_cov2=rnorm(n = n(),mean = 5,sd = 10),
+#'   )
+#'
+#' # outcome_1: 1 is dead
+#' smoke_clean %>%
+#'   mutate(outcome_1=as.factor(outcome_1)) %>%
+#'   compareGroups(~.,data = .) %>%
+#'   createTable()
+#'
+#' # null model --------------------------------------------------------------
+#'
+#' smoke_clean %>% pull(outcome_1) %>% mean()
+#'
+#' glm_null <- glm(outcome_1 ~ 1,
+#'                 data = smoke_clean,
+#'                 family = poisson(link = "log"),
+#'                 na.action = na.exclude)
+#'
+#' glm_null %>% epi_tidymodel_rr()
+#'
+#' # one simple model ------------------------------------------------------------
+#'
+#' # write all
+#' glm(outcome_1 ~ smoker,
+#'     data = smoke_clean,
+#'     family = poisson(link = "log"),
+#'     na.action = na.exclude) %>%
+#'   epi_tidymodel_rr()
+#'
+#' # or just an update
+#' epi_tidymodel_up(reference_model = glm_null,
+#'                  variable = sym("smoker")) %>%
+#'   epi_tidymodel_rr()
+#'
+#' # more than one simple model ------------------------------------------------------------
+#'
+#' simple_models <- smoke_clean %>%
+#'   #transform columnames to tibble
+#'   colnames() %>%
+#'   enframe(name = NULL) %>%
+#'   #remove non required variables
+#'   filter(!is_in(value,c("outcome","outcome_1",
+#'                         "outcome_2","smoker_2"))) %>%
+#'   #purrr::map
+#'   #create symbol, update null model, tidy up the results
+#'   mutate(variable=map(value,sym),
+#'          simple_rawm=map(.x = variable, .f = epi_tidymodel_up, reference_model=glm_null),
+#'          simple_tidy=map(.x = simple_rawm, .f = epi_tidymodel_rr)
+#'   ) %>%
+#'   #unnest coefficients
+#'   unnest(cols = c(simple_tidy)) %>%
+#'   #filter out intercepts
+#'   filter(term!="(Intercept)")
+#'
+#' simple_models
+#'
+#' # multiple model ----------------------------------------------------------
+#'
+#' # define confounder set
+#' glm_adjusted <- epi_tidymodel_up(reference_model = glm_null,
+#'                                  variable = sym("agegrp"))
+#'
+#' multiple_model <- simple_models %>%
+#'   #keep variables over a p value threshold
+#'   filter(p.value<0.05) %>%
+#'   #keep those variables
+#'   select(value) %>%
+#'   distinct(.keep_all = T) %>%
+#'   #remove unwanted covariates: e.g. confounder related
+#'   filter(!is_in(value,c("agegrp","age"))) %>%
+#'   #add new themaic covariates to evaluate as exposure
+#'   add_row(value="random_cov1") %>% #add one thematic importat covariate
+#'   #purrr::map
+#'   #create symbol, update simple models, tidy up the results
+#'   mutate(variable=map(value,sym),
+#'          multiple_rawm=map(variable,epi_tidymodel_up,reference_model=glm_adjusted),
+#'          multiple_tidy=map(multiple_rawm,epi_tidymodel_rr)
+#'   ) %>%
+#'   unnest(cols = c(multiple_tidy)) %>%
+#'   filter(term!="(Intercept)") %>%
+#'   select(-variable,-multiple_rawm) %>%
+#'   #remove confounders from estimated coefficients
+#'   distinct(term,.keep_all = T) %>%
+#'   #CAREFULL!
+#'   #this only remove confunders, requires manual changes!
+#'   slice(-(1:2)) %>%
+#'   print_inf()
+#'
+#'
+#' # final table -------------------------------------------------------------
+#'
+#' simple_models %>%
+#'   select(-variable,-simple_rawm) %>%
+#'   full_join(multiple_model,by = "term",suffix=c(".s",".m")) %>%
+#'   #filter(!is.na(p.value.m)) %>%
+#'   #add to upper rows to add covariate name and reference category
+#'   group_by(value.s) %>%
+#'   nest() %>%
+#'   mutate(data=map(.x = data,
+#'                   .f = ~add_row(.data = .x,
+#'                                 term=".ref",
+#'                                 .before = 1)),
+#'          data=map(.x = data,
+#'                   .f = ~add_row(.data = .x,
+#'                                 term=".name",
+#'                                 .before = 1))) %>%
+#'   unnest(cols = c(data)) %>%
+#'   #retire columns
+#'   select(-contains("log.rr"),-contains("se.")) %>%
+#'   # round numeric values
+#'   mutate_at(.vars = vars(rr.s,conf.low.s,conf.high.s,
+#'                          rr.m,conf.low.m,conf.high.m),
+#'             .funs = round, digits=2) %>%
+#'   mutate_at(.vars = vars(p.value.s,p.value.m),
+#'             .funs = round, digits=3) %>%
+#'   #join confidence intervals
+#'   mutate(ci.s=str_c(conf.low.s," - ",conf.high.s),
+#'          ci.m=str_c(conf.low.m," - ",conf.high.m)) %>%
+#'   #remove and reorder columns
+#'   select(starts_with("value"),term,
+#'          starts_with("rr"),starts_with("ci"),starts_with("p.val"),
+#'          -starts_with("conf")) %>%
+#'   select(starts_with("value"),term,ends_with(".s"),ends_with(".m")) %>%
+#'   select(-value.m) %>%
+#'   #add ref to estimates
+#'   mutate(rr.s=if_else(str_detect(term,".ref"),"Ref.",as.character(rr.s)),
+#'          rr.m=if_else(str_detect(term,".ref"),"Ref.",as.character(rr.m))) %>%
+#'   ungroup()
 #'
 #'@export epi_tidymodel_or
 #'@export epi_tidymodel_rr
