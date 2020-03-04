@@ -175,15 +175,8 @@
 <span class='fu'><a href='https://rdrr.io/r/base/Random.html'>set.seed</a></span>(<span class='fl'>33</span>)
 
 <span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>tidyverse</span>)
-<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>magrittr</span>)</div><div class='output co'>#&gt; <span class='message'></span>
-#&gt; <span class='message'>Attaching package: 'magrittr'</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from 'package:purrr':</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    set_names</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from 'package:tidyr':</span>
-#&gt; <span class='message'></span>
-#&gt; <span class='message'>    extract</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>mosaicData</span>)
-<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>compareGroups</span>)</div><div class='output co'>#&gt; <span class='message'>Loading required package: SNPassoc</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: haplo.stats</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: survival</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: mvtnorm</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: parallel</span></div><div class='output co'>#&gt; <span class='message'>Registered S3 method overwritten by 'SNPassoc':</span>
-#&gt; <span class='message'>  method            from       </span>
-#&gt; <span class='message'>  summary.haplo.glm haplo.stats</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>avallecam</span>)
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>mosaicData</span>)
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>avallecam</span>)
 
 <span class='co'># imporat base ------------------------------------------------------------</span>
 
@@ -214,8 +207,10 @@
 <span class='co'># outcome_1: 1 is dead</span>
 <span class='no'>smoke_clean</span> <span class='kw'>%&gt;%</span>
   <span class='fu'>mutate</span>(<span class='kw'>outcome_1</span><span class='kw'>=</span><span class='fu'><a href='https://rdrr.io/r/base/factor.html'>as.factor</a></span>(<span class='no'>outcome_1</span>)) <span class='kw'>%&gt;%</span>
-  <span class='fu'><a href='https://rdrr.io/pkg/compareGroups/man/compareGroups.html'>compareGroups</a></span>(~<span class='no'>.</span>,<span class='kw'>data</span> <span class='kw'>=</span> <span class='no'>.</span>) <span class='kw'>%&gt;%</span>
-  <span class='fu'><a href='https://rdrr.io/pkg/compareGroups/man/createTable.html'>createTable</a></span>()</div><div class='output co'>#&gt; 
+  <span class='kw pkg'>compareGroups</span><span class='kw ns'>::</span><span class='fu'><a href='https://rdrr.io/pkg/compareGroups/man/compareGroups.html'>compareGroups</a></span>(~<span class='no'>.</span>,<span class='kw'>data</span> <span class='kw'>=</span> <span class='no'>.</span>) <span class='kw'>%&gt;%</span>
+  <span class='kw pkg'>compareGroups</span><span class='kw ns'>::</span><span class='fu'><a href='https://rdrr.io/pkg/compareGroups/man/createTable.html'>createTable</a></span>()</div><div class='output co'>#&gt; <span class='message'>Registered S3 method overwritten by 'SNPassoc':</span>
+#&gt; <span class='message'>  method            from       </span>
+#&gt; <span class='message'>  summary.haplo.glm haplo.stats</span></div><div class='output co'>#&gt; 
 #&gt; --------Summary descriptives table ---------
 #&gt; 
 #&gt; ____________________________ 
@@ -271,7 +266,7 @@
 #&gt; </span><span style='color: #555555;'>2</span><span> smokerYes   -</span><span style='color: #BB0000;'>0.274</span><span> 0.107  0.760    0.615     0.937  0.010</span><span style='text-decoration: underline;'>7</span><span></div><div class='input'>
 <span class='co'># or just an update</span>
 <span class='fu'>epi_tidymodel_up</span>(<span class='kw'>reference_model</span> <span class='kw'>=</span> <span class='no'>glm_null</span>,
-                 <span class='kw'>variable</span> <span class='kw'>=</span> <span class='fu'>sym</span>(<span class='st'>"smoker"</span>)) <span class='kw'>%&gt;%</span>
+                 <span class='kw'>variable</span> <span class='kw'>=</span> <span class='kw pkg'>dplyr</span><span class='kw ns'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/tidyeval.html'>sym</a></span>(<span class='st'>"smoker"</span>)) <span class='kw'>%&gt;%</span>
   <span class='fu'>epi_tidymodel_rr</span>()</div><div class='output co'>#&gt; <span class='error'>Error in is.data.frame(data): objeto 'smoke_clean' no encontrado</span></div><div class='input'>
 <span class='co'># more than one simple model ------------------------------------------------------------</span>
 
@@ -280,11 +275,11 @@
   <span class='fu'><a href='https://rdrr.io/r/base/colnames.html'>colnames</a></span>() <span class='kw'>%&gt;%</span>
   <span class='fu'>enframe</span>(<span class='kw'>name</span> <span class='kw'>=</span> <span class='kw'>NULL</span>) <span class='kw'>%&gt;%</span>
   <span class='co'>#remove non required variables</span>
-  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span>(!<span class='fu'><a href='https://rdrr.io/pkg/magrittr/man/aliases.html'>is_in</a></span>(<span class='no'>value</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"outcome"</span>,<span class='st'>"outcome_1"</span>,
-                        <span class='st'>"outcome_2"</span>,<span class='st'>"smoker_2"</span>))) <span class='kw'>%&gt;%</span>
+  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span>(!<span class='kw pkg'>magrittr</span><span class='kw ns'>::</span><span class='fu'><a href='https://rdrr.io/pkg/magrittr/man/aliases.html'>is_in</a></span>(<span class='no'>value</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"outcome"</span>,<span class='st'>"outcome_1"</span>,
+                                  <span class='st'>"outcome_2"</span>,<span class='st'>"smoker_2"</span>))) <span class='kw'>%&gt;%</span>
   <span class='co'>#purrr::map</span>
   <span class='co'>#create symbol, update null model, tidy up the results</span>
-  <span class='fu'>mutate</span>(<span class='kw'>variable</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='no'>value</span>,<span class='no'>sym</span>),
+  <span class='fu'>mutate</span>(<span class='kw'>variable</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='no'>value</span>,<span class='kw pkg'>dplyr</span><span class='kw ns'>::</span><span class='no'><a href='https://dplyr.tidyverse.org/reference/tidyeval.html'>sym</a></span>),
          <span class='kw'>simple_rawm</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='kw'>.x</span> <span class='kw'>=</span> <span class='no'>variable</span>, <span class='kw'>.f</span> <span class='kw'>=</span> <span class='no'>epi_tidymodel_up</span>, <span class='kw'>reference_model</span><span class='kw'>=</span><span class='no'>glm_null</span>),
          <span class='kw'>simple_tidy</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='kw'>.x</span> <span class='kw'>=</span> <span class='no'>simple_rawm</span>, <span class='kw'>.f</span> <span class='kw'>=</span> <span class='no'>epi_tidymodel_rr</span>)
   ) <span class='kw'>%&gt;%</span>
@@ -295,9 +290,11 @@
 <span class='no'>simple_models</span></div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): objeto 'simple_models' no encontrado</span></div><div class='input'>
 <span class='co'># multiple model ----------------------------------------------------------</span>
 
+<span class='co'># _ bivariate selection ---------------------------------------------------</span>
+
 <span class='co'># define confounder set</span>
 <span class='no'>glm_adjusted</span> <span class='kw'>&lt;-</span> <span class='fu'>epi_tidymodel_up</span>(<span class='kw'>reference_model</span> <span class='kw'>=</span> <span class='no'>glm_null</span>,
-                                 <span class='kw'>variable</span> <span class='kw'>=</span> <span class='fu'>sym</span>(<span class='st'>"agegrp"</span>))</div><div class='output co'>#&gt; <span class='error'>Error in is.data.frame(data): objeto 'smoke_clean' no encontrado</span></div><div class='input'>
+                                 <span class='kw'>variable</span> <span class='kw'>=</span> <span class='kw pkg'>dplyr</span><span class='kw ns'>::</span><span class='fu'><a href='https://dplyr.tidyverse.org/reference/tidyeval.html'>sym</a></span>(<span class='st'>"agegrp"</span>))</div><div class='output co'>#&gt; <span class='error'>Error in is.data.frame(data): objeto 'smoke_clean' no encontrado</span></div><div class='input'>
 <span class='no'>multiple_model</span> <span class='kw'>&lt;-</span> <span class='no'>simple_models</span> <span class='kw'>%&gt;%</span>
   <span class='co'>#keep variables over a p value threshold</span>
   <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span>(<span class='no'>p.value</span><span class='kw'>&lt;</span><span class='fl'>0.05</span>) <span class='kw'>%&gt;%</span>
@@ -305,12 +302,12 @@
   <span class='fu'>select</span>(<span class='no'>value</span>) <span class='kw'>%&gt;%</span>
   <span class='fu'>distinct</span>(<span class='kw'>.keep_all</span> <span class='kw'>=</span> <span class='no'>T</span>) <span class='kw'>%&gt;%</span>
   <span class='co'>#remove unwanted covariates: e.g. confounder related</span>
-  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span>(!<span class='fu'><a href='https://rdrr.io/pkg/magrittr/man/aliases.html'>is_in</a></span>(<span class='no'>value</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"agegrp"</span>,<span class='st'>"age"</span>))) <span class='kw'>%&gt;%</span>
+  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span>(!<span class='kw pkg'>magrittr</span><span class='kw ns'>::</span><span class='fu'><a href='https://rdrr.io/pkg/magrittr/man/aliases.html'>is_in</a></span>(<span class='no'>value</span>,<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"agegrp"</span>,<span class='st'>"age"</span>))) <span class='kw'>%&gt;%</span>
   <span class='co'>#add new themaic covariates to evaluate as exposure</span>
   <span class='fu'>add_row</span>(<span class='kw'>value</span><span class='kw'>=</span><span class='st'>"random_cov1"</span>) <span class='kw'>%&gt;%</span> <span class='co'>#add one thematic importat covariate</span>
   <span class='co'>#purrr::map</span>
   <span class='co'>#create symbol, update simple models, tidy up the results</span>
-  <span class='fu'>mutate</span>(<span class='kw'>variable</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='no'>value</span>,<span class='no'>sym</span>),
+  <span class='fu'>mutate</span>(<span class='kw'>variable</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='no'>value</span>,<span class='kw pkg'>dplyr</span><span class='kw ns'>::</span><span class='no'><a href='https://dplyr.tidyverse.org/reference/tidyeval.html'>sym</a></span>),
          <span class='kw'>multiple_rawm</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='no'>variable</span>,<span class='no'>epi_tidymodel_up</span>,<span class='kw'>reference_model</span><span class='kw'>=</span><span class='no'>glm_adjusted</span>),
          <span class='kw'>multiple_tidy</span><span class='kw'>=</span><span class='fu'>map</span>(<span class='no'>multiple_rawm</span>,<span class='no'>epi_tidymodel_rr</span>)
   ) <span class='kw'>%&gt;%</span>
@@ -321,10 +318,9 @@
   <span class='fu'>distinct</span>(<span class='no'>term</span>,<span class='kw'>.keep_all</span> <span class='kw'>=</span> <span class='no'>T</span>) <span class='kw'>%&gt;%</span>
   <span class='co'>#CAREFULL!</span>
   <span class='co'>#this only remove confunders, requires manual changes!</span>
-  <span class='fu'>slice</span>(-(<span class='fl'>1</span>:<span class='fl'>2</span>)) <span class='kw'>%&gt;%</span>
-  <span class='fu'><a href='print_inf.html'>print_inf</a></span>()</div><div class='output co'>#&gt; <span class='error'>Error in eval(lhs, parent, parent): objeto 'simple_models' no encontrado</span></div><div class='input'>
-
-<span class='co'># final table -------------------------------------------------------------</span>
+  <span class='fu'>slice</span>(-(<span class='fl'>1</span>:<span class='fl'>2</span>))</div><div class='output co'>#&gt; <span class='error'>Error in eval(lhs, parent, parent): objeto 'simple_models' no encontrado</span></div><div class='input'>
+<span class='no'>multiple_model</span></div><div class='output co'>#&gt; <span class='error'>Error in eval(expr, envir, enclos): objeto 'multiple_model' no encontrado</span></div><div class='input'>
+<span class='co'># _ final table -----------------------------------------------------------</span>
 
 <span class='no'>simple_models</span> <span class='kw'>%&gt;%</span>
   <span class='fu'>select</span>(-<span class='no'>variable</span>,-<span class='no'>simple_rawm</span>) <span class='kw'>%&gt;%</span>
@@ -363,6 +359,64 @@
   <span class='fu'>mutate</span>(<span class='kw'>rr.s</span><span class='kw'>=</span><span class='fu'>if_else</span>(<span class='fu'>str_detect</span>(<span class='no'>term</span>,<span class='st'>".ref"</span>),<span class='st'>"Ref."</span>,<span class='fu'><a href='https://rdrr.io/r/base/character.html'>as.character</a></span>(<span class='no'>rr.s</span>)),
          <span class='kw'>rr.m</span><span class='kw'>=</span><span class='fu'>if_else</span>(<span class='fu'>str_detect</span>(<span class='no'>term</span>,<span class='st'>".ref"</span>),<span class='st'>"Ref."</span>,<span class='fu'><a href='https://rdrr.io/r/base/character.html'>as.character</a></span>(<span class='no'>rr.m</span>))) <span class='kw'>%&gt;%</span>
   <span class='fu'>ungroup</span>()</div><div class='output co'>#&gt; <span class='error'>Error in eval(lhs, parent, parent): objeto 'simple_models' no encontrado</span></div><div class='input'>
+
+<span class='co'># _ nested selection ------------------------------------------------------</span>
+
+<span class='co'>#source: http://www.cookbook-r.com/Formulas/Creating_a_formula_from_a_string/</span>
+<span class='no'>measurevar</span> <span class='kw'>&lt;-</span> <span class='st'>"outcome"</span>
+<span class='no'>groupvars</span>  <span class='kw'>&lt;-</span> <span class='no'>smoke_clean</span> <span class='kw'>%&gt;%</span>
+  <span class='fu'>select_if</span>(<span class='kw'>.predicate</span> <span class='kw'>=</span> !<span class='kw pkg'>magrittr</span><span class='kw ns'>::</span><span class='fu'><a href='https://rdrr.io/pkg/magrittr/man/aliases.html'>is_in</a></span>(<span class='kw'>x</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/colnames.html'>colnames</a></span>(<span class='no'>.</span>),
+                                          <span class='kw'>table</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"outcome"</span>,<span class='st'>"outcome_1"</span>,
+                                                    <span class='st'>"outcome_2"</span>,<span class='st'>"smoker_2"</span>))) <span class='kw'>%&gt;%</span>
+  <span class='fu'><a href='https://rdrr.io/r/base/colnames.html'>colnames</a></span>()
+
+<span class='co'># This returns the formula:</span>
+<span class='no'>myformula</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/stats/formula.html'>as.formula</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/paste.html'>paste</a></span>(<span class='no'>measurevar</span>,
+                              <span class='fu'><a href='https://rdrr.io/r/base/paste.html'>paste</a></span>(<span class='no'>groupvars</span>, <span class='kw'>collapse</span><span class='kw'>=</span><span class='st'>" + "</span>),
+                              <span class='kw'>sep</span><span class='kw'>=</span><span class='st'>" ~ "</span>))
+
+<span class='fu'><a href='https://rdrr.io/r/stats/add1.html'>add1</a></span>(<span class='no'>glm_null</span>,
+     <span class='kw'>scope</span> <span class='kw'>=</span> <span class='no'>myformula</span>,
+     <span class='kw'>test</span> <span class='kw'>=</span> <span class='st'>"LRT"</span>) <span class='kw'>%&gt;%</span>
+  <span class='fu'>epi_tidynested</span>(<span class='fl'>1</span>) <span class='co'>#-&gt; rank_l1</span></div><div class='output co'>#&gt; <span class='warning'>Warning: The following column names in ANOVA output were not recognized or transformed: Deviance, AIC, LRT</span></div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 6 x 5</span><span>
+#&gt;   term           df   LRT_1 p.value_1 rank_1
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> 
+#&gt; </span><span style='color: #555555;'>1</span><span> age             1 382.     5.21</span><span style='color: #555555;'>e</span><span style='color: #BB0000;'>-85</span><span> 1     
+#&gt; </span><span style='color: #555555;'>2</span><span> agegrp          2 382.     9.86</span><span style='color: #555555;'>e</span><span style='color: #BB0000;'>-84</span><span> 2     
+#&gt; </span><span style='color: #555555;'>3</span><span> smoker          1   6.65   9.93</span><span style='color: #555555;'>e</span><span style='color: #BB0000;'>- 3</span><span> 3     
+#&gt; </span><span style='color: #555555;'>4</span><span> random_cov1     1   0.990  3.20</span><span style='color: #555555;'>e</span><span style='color: #BB0000;'>- 1</span><span> 4     
+#&gt; </span><span style='color: #555555;'>5</span><span> random_cov2     1   0.527  4.68</span><span style='color: #555555;'>e</span><span style='color: #BB0000;'>- 1</span><span> 5     
+#&gt; </span><span style='color: #555555;'>6</span><span> &lt;none&gt;         </span><span style='color: #BB0000;'>NA</span><span>  </span><span style='color: #BB0000;'>NA</span><span>     </span><span style='color: #BB0000;'>NA</span><span>   </span><span style='color: #555555;'> </span><span>    6     </div><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/stats/add1.html'>add1</a></span>(<span class='fu'><a href='https://rdrr.io/r/stats/update.html'>update</a></span>(<span class='no'>glm_null</span>, ~ <span class='no'>.</span> + <span class='no'>age</span>),
+     <span class='kw'>scope</span> <span class='kw'>=</span> <span class='no'>myformula</span>,
+     <span class='kw'>test</span> <span class='kw'>=</span> <span class='st'>"LRT"</span>) <span class='kw'>%&gt;%</span>
+  <span class='fu'>epi_tidynested</span>(<span class='fl'>2</span>) <span class='co'>#-&gt; rank_l2</span></div><div class='output co'>#&gt; <span class='warning'>Warning: The following column names in ANOVA output were not recognized or transformed: Deviance, AIC, LRT</span></div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 5 x 5</span><span>
+#&gt;   term           df    LRT_2 p.value_2 rank_2
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> 
+#&gt; </span><span style='color: #555555;'>1</span><span> agegrp          2 16.0      0.000</span><span style='text-decoration: underline;'>343</span><span> 1     
+#&gt; </span><span style='color: #555555;'>2</span><span> smoker          1  2.19     0.139    2     
+#&gt; </span><span style='color: #555555;'>3</span><span> random_cov1     1  0.007</span><span style='text-decoration: underline;'>80</span><span>  0.930    3     
+#&gt; </span><span style='color: #555555;'>4</span><span> random_cov2     1  0.003</span><span style='text-decoration: underline;'>72</span><span>  0.951    4     
+#&gt; </span><span style='color: #555555;'>5</span><span> &lt;none&gt;         </span><span style='color: #BB0000;'>NA</span><span> </span><span style='color: #BB0000;'>NA</span><span>       </span><span style='color: #BB0000;'>NA</span><span>        5     </div><div class='input'>
+<span class='fu'><a href='https://rdrr.io/r/stats/add1.html'>add1</a></span>(<span class='fu'><a href='https://rdrr.io/r/stats/update.html'>update</a></span>(<span class='no'>glm_null</span>, ~ <span class='no'>.</span> + <span class='no'>age</span> + <span class='no'>agegrp</span>),
+     <span class='kw'>scope</span> <span class='kw'>=</span> <span class='no'>myformula</span>,
+     <span class='kw'>test</span> <span class='kw'>=</span> <span class='st'>"LRT"</span>) <span class='kw'>%&gt;%</span>
+  <span class='fu'>epi_tidynested</span>(<span class='fl'>3</span>) <span class='co'>#-&gt; rank_l3</span></div><div class='output co'>#&gt; <span class='warning'>Warning: The following column names in ANOVA output were not recognized or transformed: Deviance, AIC, LRT</span></div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 4 x 5</span><span>
+#&gt;   term           df    LRT_3 p.value_3 rank_3
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>       </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> 
+#&gt; </span><span style='color: #555555;'>1</span><span> smoker          1  1.90        0.168 1     
+#&gt; </span><span style='color: #555555;'>2</span><span> random_cov2     1  0.009</span><span style='text-decoration: underline;'>05</span><span>     0.924 2     
+#&gt; </span><span style='color: #555555;'>3</span><span> random_cov1     1  0.004</span><span style='text-decoration: underline;'>02</span><span>     0.949 3     
+#&gt; </span><span style='color: #555555;'>4</span><span> &lt;none&gt;         </span><span style='color: #BB0000;'>NA</span><span> </span><span style='color: #BB0000;'>NA</span><span>          </span><span style='color: #BB0000;'>NA</span><span>     4     </div><div class='input'>
+<span class='no'>glm_nested</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/r/stats/update.html'>update</a></span>(<span class='no'>glm_null</span>, ~ <span class='no'>.</span> + <span class='no'>age</span> + <span class='no'>agegrp</span>)
+<span class='no'>glm_nested</span> <span class='kw'>%&gt;%</span> <span class='fu'>epi_tidymodel_or</span>()</div><div class='output co'>#&gt; <span class='message'>Joining, by = "rowname"</span></div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 4 x 7</span><span>
+#&gt;   term         log.or      se     or conf.low conf.high  p.value
+#&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>         </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>   </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>  </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'>1</span><span> (Intercept) -</span><span style='color: #BB0000;'>4.26</span><span>   0.350   0.014</span><span style='text-decoration: underline;'>1</span><span>  0.007</span><span style='text-decoration: underline;'>02</span><span>    0.027</span><span style='text-decoration: underline;'>7</span><span> 0       
+#&gt; </span><span style='color: #555555;'>2</span><span> age          0.034</span><span style='text-decoration: underline;'>8</span><span> 0.008</span><span style='text-decoration: underline;'>85</span><span> 1.04    1.02       1.05   0.000</span><span style='text-decoration: underline;'>08</span><span> 
+#&gt; </span><span style='color: #555555;'>3</span><span> agegrp45-64  1.12   0.293   3.06    1.74       5.50   0.000</span><span style='text-decoration: underline;'>130</span><span>
+#&gt; </span><span style='color: #555555;'>4</span><span> agegrp65+    1.56   0.415   4.75    2.12      10.8    0.000</span><span style='text-decoration: underline;'>18</span><span> </div><div class='input'>
+
 </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">

@@ -20,9 +20,7 @@
 #' set.seed(33)
 #'
 #' library(tidyverse)
-#' library(magrittr)
 #' library(mosaicData)
-#' library(compareGroups)
 #' library(avallecam)
 #'
 #' # imporat base ------------------------------------------------------------
@@ -54,8 +52,8 @@
 #' # outcome_1: 1 is dead
 #' smoke_clean %>%
 #'   mutate(outcome_1=as.factor(outcome_1)) %>%
-#'   compareGroups(~.,data = .) %>%
-#'   createTable()
+#'   compareGroups::compareGroups(~.,data = .) %>%
+#'   compareGroups::createTable()
 #'
 #' # null model --------------------------------------------------------------
 #'
@@ -79,7 +77,7 @@
 #'
 #' # or just an update
 #' epi_tidymodel_up(reference_model = glm_null,
-#'                  variable = sym("smoker")) %>%
+#'                  variable = dplyr::sym("smoker")) %>%
 #'   epi_tidymodel_rr()
 #'
 #' # more than one simple model ------------------------------------------------------------
@@ -89,11 +87,11 @@
 #'   colnames() %>%
 #'   enframe(name = NULL) %>%
 #'   #remove non required variables
-#'   filter(!is_in(value,c("outcome","outcome_1",
-#'                         "outcome_2","smoker_2"))) %>%
+#'   filter(!magrittr::is_in(value,c("outcome","outcome_1",
+#'                                   "outcome_2","smoker_2"))) %>%
 #'   #purrr::map
 #'   #create symbol, update null model, tidy up the results
-#'   mutate(variable=map(value,sym),
+#'   mutate(variable=map(value,dplyr::sym),
 #'          simple_rawm=map(.x = variable, .f = epi_tidymodel_up, reference_model=glm_null),
 #'          simple_tidy=map(.x = simple_rawm, .f = epi_tidymodel_rr)
 #'   ) %>%
@@ -106,9 +104,11 @@
 #'
 #' # multiple model ----------------------------------------------------------
 #'
+#' # _ bivariate selection ---------------------------------------------------
+#'
 #' # define confounder set
 #' glm_adjusted <- epi_tidymodel_up(reference_model = glm_null,
-#'                                  variable = sym("agegrp"))
+#'                                  variable = dplyr::sym("agegrp"))
 #'
 #' multiple_model <- simple_models %>%
 #'   #keep variables over a p value threshold
@@ -117,12 +117,12 @@
 #'   select(value) %>%
 #'   distinct(.keep_all = T) %>%
 #'   #remove unwanted covariates: e.g. confounder related
-#'   filter(!is_in(value,c("agegrp","age"))) %>%
+#'   filter(!magrittr::is_in(value,c("agegrp","age"))) %>%
 #'   #add new themaic covariates to evaluate as exposure
 #'   add_row(value="random_cov1") %>% #add one thematic importat covariate
 #'   #purrr::map
 #'   #create symbol, update simple models, tidy up the results
-#'   mutate(variable=map(value,sym),
+#'   mutate(variable=map(value,dplyr::sym),
 #'          multiple_rawm=map(variable,epi_tidymodel_up,reference_model=glm_adjusted),
 #'          multiple_tidy=map(multiple_rawm,epi_tidymodel_rr)
 #'   ) %>%
@@ -133,11 +133,11 @@
 #'   distinct(term,.keep_all = T) %>%
 #'   #CAREFULL!
 #'   #this only remove confunders, requires manual changes!
-#'   slice(-(1:2)) %>%
-#'   print_inf()
+#'   slice(-(1:2))
 #'
+#' multiple_model
 #'
-#' # final table -------------------------------------------------------------
+#' # _ final table -----------------------------------------------------------
 #'
 #' simple_models %>%
 #'   select(-variable,-simple_rawm) %>%
@@ -176,6 +176,41 @@
 #'   mutate(rr.s=if_else(str_detect(term,".ref"),"Ref.",as.character(rr.s)),
 #'          rr.m=if_else(str_detect(term,".ref"),"Ref.",as.character(rr.m))) %>%
 #'   ungroup()
+#'
+#'
+#' # _ nested selection ------------------------------------------------------
+#'
+#' #source: http://www.cookbook-r.com/Formulas/Creating_a_formula_from_a_string/
+#' measurevar <- "outcome"
+#' groupvars  <- smoke_clean %>%
+#'   select_if(.predicate = !magrittr::is_in(x = colnames(.),
+#'                                           table = c("outcome","outcome_1",
+#'                                                     "outcome_2","smoker_2"))) %>%
+#'   colnames()
+#'
+#' # This returns the formula:
+#' myformula <- as.formula(paste(measurevar,
+#'                               paste(groupvars, collapse=" + "),
+#'                               sep=" ~ "))
+#'
+#' add1(glm_null,
+#'      scope = myformula,
+#'      test = "LRT") %>%
+#'   epi_tidynested(1) #-> rank_l1
+#'
+#' add1(update(glm_null, ~ . + age),
+#'      scope = myformula,
+#'      test = "LRT") %>%
+#'   epi_tidynested(2) #-> rank_l2
+#'
+#' add1(update(glm_null, ~ . + age + agegrp),
+#'      scope = myformula,
+#'      test = "LRT") %>%
+#'   epi_tidynested(3) #-> rank_l3
+#'
+#' glm_nested <- update(glm_null, ~ . + age + agegrp)
+#' glm_nested %>% epi_tidymodel_or()
+#'
 #'
 #'@export epi_tidymodel_or
 #'@export epi_tidymodel_rr
@@ -248,7 +283,7 @@ epi_tidynested <- function(add_nested,level=i) {
   add_nested %>%
     broom::tidy() %>%
     arrange(p.value) %>%
-    print() %>%
+    #print() %>%
     rownames_to_column("rank") %>%
     select(term,df,LRT,p.value,rank) %>%
     rename_at(.vars = c("rank","LRT","p.value"),.funs = str_replace, "(.+)",paste0("\\1\\_",level))
