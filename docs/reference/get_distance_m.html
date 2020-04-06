@@ -34,7 +34,7 @@
 
 <meta property="og:title" content="distance tibble — get_distance_m" />
 
-<meta property="og:description" content="distance tibble" />
+<meta property="og:description" content="generates a distance (in meters) output between two set of points within a tibble and flexible with group_by and purrr::pmap" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -105,7 +105,7 @@
 
     <div class="ref-description">
     
-    <p>distance tibble</p>
+    <p>generates a distance (in meters) output between two set of points within a tibble and flexible with group_by and purrr::pmap</p>
     
     </div>
 
@@ -140,8 +140,12 @@
 
     
 <ul>
-<li><p><code>get_distance_m</code>: generates a distance output between two set of points within a tibble and flexible with group_by and purrr::pmap</p></li>
+<li><p><code>get_distance_m</code>: generates a distance (in meters) output between two set of points within a tibble and flexible with group_by and purrr::pmap</p></li>
 </ul>
+    
+    <h2 class="hasAnchor" id="references"><a class="anchor" href="#references"></a>References</h2>
+
+    <p>for more details check <a href='https://cran.r-project.org/web/packages/geosphere/index.html'>geosphere</a> package</p>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
@@ -151,26 +155,31 @@
 <span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>purrr</span>)
 <span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>avallecam</span>)
 
+<span class='co'># function alone</span>
+
+<span class='fu'>get_distance_m</span>(<span class='kw'>set1_lat</span> <span class='kw'>=</span> <span class='fl'>57.2</span>, <span class='kw'>set1_lon</span> <span class='kw'>=</span> -<span class='fl'>2.08</span>,
+               <span class='kw'>set2_lat</span> <span class='kw'>=</span> <span class='fl'>52.4</span>, <span class='kw'>set2_lon</span> <span class='kw'>=</span> -<span class='fl'>4.08</span>)</div><div class='output co'>#&gt; [1] 549534.3</div><div class='input'>
+<span class='co'># in a tibble this works as a rowwise operation</span>
+
+<span class='fu'>tibble</span>(
+  <span class='kw'>set1_lat</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fl'>57.2</span>, <span class='fl'>47.2</span>), <span class='kw'>set1_lon</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(-<span class='fl'>2.08</span>,-<span class='fl'>12.08</span>),
+  <span class='kw'>set2_lat</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fl'>52.4</span>, <span class='fl'>62.4</span>), <span class='kw'>set2_lon</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(-<span class='fl'>4.08</span>,-<span class='fl'>14.08</span>)
+) <span class='kw'>%&gt;%</span>
+  <span class='fu'>mutate</span>(<span class='kw'>dist_test</span><span class='kw'>=</span><span class='fu'><a href='https://purrr.tidyverse.org/reference/map2.html'>pmap_dbl</a></span>(<span class='kw'>.l</span> <span class='kw'>=</span> <span class='fu'>select</span>(<span class='no'>.</span>,<span class='no'>set1_lat</span>,<span class='no'>set1_lon</span>,<span class='no'>set2_lat</span>,<span class='no'>set2_lon</span>),
+                            <span class='kw'>.f</span> <span class='kw'>=</span> <span class='no'>get_distance_m</span>))</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 2 x 5</span><span>
+#&gt;   set1_lat set1_lon set2_lat set2_lon dist_test
+#&gt;      </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
+#&gt; </span><span style='color: #555555;'>1</span><span>     57.2    -</span><span style='color: #BB0000;'>2.08</span><span>     52.4    -</span><span style='color: #BB0000;'>4.08</span><span>   </span><span style='text-decoration: underline;'>549</span><span>534.
+#&gt; </span><span style='color: #555555;'>2</span><span>     47.2   -</span><span style='color: #BB0000;'>12.1</span><span>      62.4   -</span><span style='color: #BB0000;'>14.1</span><span>   1</span><span style='text-decoration: underline;'>696</span><span>708.</div><div class='input'>
+<span class='co'># with lag or lead rows and group by operations</span>
+
 <span class='no'>d</span> <span class='kw'>&lt;-</span> <span class='fu'>tibble</span>(<span class='kw'>run</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='fl'>1</span>,<span class='fl'>6</span>), <span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='fl'>2</span>,<span class='fl'>6</span>)),
             <span class='kw'>grp</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='st'>"a"</span>,<span class='fl'>3</span>),<span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='st'>"b"</span>,<span class='fl'>3</span>),<span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='st'>"a"</span>,<span class='fl'>3</span>),<span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='st'>"b"</span>,<span class='fl'>3</span>)),
             <span class='kw'>lat</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='fl'>57.15508</span>, <span class='fl'>52.41283</span>, <span class='fl'>57.15521</span>,
                         <span class='fl'>52.41278</span>, <span class='fl'>57.14520</span>, <span class='fl'>52.41317</span>),<span class='fl'>2</span>),
             <span class='kw'>lon</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/rep.html'>rep</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(-<span class='fl'>2.07887</span>, -<span class='fl'>4.07806</span>, -<span class='fl'>2.07886</span>,
-                        -<span class='fl'>4.07803</span>, -<span class='fl'>2.07886</span>, -<span class='fl'>4.07858</span>),<span class='fl'>2</span>)) <span class='kw'>%&gt;%</span> <span class='fu'><a href='https://rdrr.io/r/base/print.html'>print</a></span>()</div><div class='output co'>#&gt; <span style='color: #555555;'># A tibble: 12 x 4</span><span>
-#&gt;      run grp     lat   lon
-#&gt;    </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>
-#&gt; </span><span style='color: #555555;'> 1</span><span>     1 a      57.2 -</span><span style='color: #BB0000;'>2.08</span><span>
-#&gt; </span><span style='color: #555555;'> 2</span><span>     1 a      52.4 -</span><span style='color: #BB0000;'>4.08</span><span>
-#&gt; </span><span style='color: #555555;'> 3</span><span>     1 a      57.2 -</span><span style='color: #BB0000;'>2.08</span><span>
-#&gt; </span><span style='color: #555555;'> 4</span><span>     1 b      52.4 -</span><span style='color: #BB0000;'>4.08</span><span>
-#&gt; </span><span style='color: #555555;'> 5</span><span>     1 b      57.1 -</span><span style='color: #BB0000;'>2.08</span><span>
-#&gt; </span><span style='color: #555555;'> 6</span><span>     1 b      52.4 -</span><span style='color: #BB0000;'>4.08</span><span>
-#&gt; </span><span style='color: #555555;'> 7</span><span>     2 a      57.2 -</span><span style='color: #BB0000;'>2.08</span><span>
-#&gt; </span><span style='color: #555555;'> 8</span><span>     2 a      52.4 -</span><span style='color: #BB0000;'>4.08</span><span>
-#&gt; </span><span style='color: #555555;'> 9</span><span>     2 a      57.2 -</span><span style='color: #BB0000;'>2.08</span><span>
-#&gt; </span><span style='color: #555555;'>10</span><span>     2 b      52.4 -</span><span style='color: #BB0000;'>4.08</span><span>
-#&gt; </span><span style='color: #555555;'>11</span><span>     2 b      57.1 -</span><span style='color: #BB0000;'>2.08</span><span>
-#&gt; </span><span style='color: #555555;'>12</span><span>     2 b      52.4 -</span><span style='color: #BB0000;'>4.08</span><span></div><div class='input'><span class='co'>#test</span>
+                        -<span class='fl'>4.07803</span>, -<span class='fl'>2.07886</span>, -<span class='fl'>4.07858</span>),<span class='fl'>2</span>))
+
 <span class='no'>d</span> <span class='kw'>%&gt;%</span>
   <span class='fu'>group_by</span>(<span class='no'>run</span>,<span class='no'>grp</span>) <span class='kw'>%&gt;%</span>
   <span class='fu'>mutate</span>(<span class='kw'>dist</span><span class='kw'>=</span><span class='fu'><a href='https://purrr.tidyverse.org/reference/map2.html'>pmap_dbl</a></span>(<span class='fu'><a href='https://rdrr.io/r/base/list.html'>list</a></span>(<span class='no'>lat</span>,<span class='no'>lon</span>,<span class='fu'><a href='https://rdrr.io/r/stats/lag.html'>lag</a></span>(<span class='no'>lat</span>),<span class='fu'><a href='https://rdrr.io/r/stats/lag.html'>lag</a></span>(<span class='no'>lon</span>)),<span class='no'>get_distance_m</span>))</div><div class='output co'>#&gt; </span><span style='color: #555555;'># A tibble: 12 x 5</span><span>
@@ -189,6 +198,7 @@
 #&gt; </span><span style='color: #555555;'>10</span><span>     2 b      52.4 -</span><span style='color: #BB0000;'>4.08</span><span>     </span><span style='color: #BB0000;'>NA</span><span> 
 #&gt; </span><span style='color: #555555;'>11</span><span>     2 b      57.1 -</span><span style='color: #BB0000;'>2.08</span><span> </span><span style='text-decoration: underline;'>542</span><span>225.
 #&gt; </span><span style='color: #555555;'>12</span><span>     2 b      52.4 -</span><span style='color: #BB0000;'>4.08</span><span> </span><span style='text-decoration: underline;'>542</span><span>192.</div><div class='input'>
+
 </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">
@@ -199,10 +209,14 @@
       <li><a href="#value">Value</a></li>
 
       <li><a href="#functions">Functions</a></li>
+
+      <li><a href="#references">References</a></li>
       
       <li><a href="#examples">Examples</a></li>
     </ul>
 
+    <h2>Author</h2>
+    <p>Andree Valle-Campos at Emerge, Emergent Diseases and Climate Change Unit - UPCH.</p>
   </div>
 </div>
 

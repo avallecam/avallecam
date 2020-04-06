@@ -29,7 +29,7 @@ adorn_tpn(tabyl, where = "col", denominator = "row",
 tabyl object with horizontal % and in front N.
 }
 \description{
-adorn up a tabyl output
+Creates total, percetage and N to a tabyl format.
 }
 \section{Functions}{
 \itemize{

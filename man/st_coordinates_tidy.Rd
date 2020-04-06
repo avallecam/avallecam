@@ -13,7 +13,7 @@ st_coordinates_tidy(sf_object)
 sf and data.frame object X and Y extracted from geometry column
 }
 \description{
-retrieve coordinates within the original sf/data.frame object
+retrieve coordinates within the original sf/data.frame object. an alternative from st_coordinates() (https://r-spatial.github.io/sf/reference/st_coordinates.html)
 }
 \section{Functions}{
 \itemize{

@@ -1,6 +1,6 @@
 #' Read gpx files
 #'
-#' Read gpx files from different GPS tracking devices
+#' @description Read gpx files from different GPS tracking devices
 #'
 #' @param list list of gpx files. easier if they came from a list.files() output
 #'

@@ -13,6 +13,8 @@ devtools::install_github("avallecam/avallecam")
 
 ## Main functionalities
 
+Check the [reference page](https://avallecam.github.io/avallecam/reference/index.html) for examples.
+
 ### epidemiologically usefull
 
 - `epi_tidymodel_*`: summmarize core estimates for OR, RR, PR regression models and linear regression coefficients.

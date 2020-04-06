@@ -1,6 +1,6 @@
 #' Crear suma de horas por rango de horarios
 #'
-#' Problema: Dado el reporte de horas de salida y retorno a vivienda, calcular la suma de horas dentro de cada rango establecido
+#' @description Problema: Dado el reporte de horas de salida y retorno a vivienda, calcular la suma de horas dentro de cada rango establecido
 #'
 #' @param dt data frame
 #' @param lim_sal_h hora limite de salida

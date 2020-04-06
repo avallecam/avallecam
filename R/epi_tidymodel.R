@@ -1,6 +1,6 @@
 #' Tidy up -even more- an output model using broom functions
 #'
-#' Summarize OR, RR, PR regression outputs and update models for simple and other multiple models.
+#' @description Summarize OR, RR, PR regression outputs and update models for simple and other multiple models.
 #'
 #' @describeIn epi_tidymodel_or summarize and calculates OR coefficients from bin-logit regression
 #'

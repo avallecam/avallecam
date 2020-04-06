@@ -1,5 +1,7 @@
 #' retrieve coordinates within the original sf/data.frame object
 #'
+#' @description retrieve coordinates within the original sf/data.frame object. an alternative from st_coordinates() (https://r-spatial.github.io/sf/reference/st_coordinates.html)
+#'
 #' @describeIn st_coordinates_tidy retrieve coordinates within the original sf/data.frame object. an alternative from st_coordinates() (https://r-spatial.github.io/sf/reference/st_coordinates.html)
 #'
 #' @param sf_object sf_object input
