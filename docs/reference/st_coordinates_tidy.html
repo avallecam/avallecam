@@ -6,7 +6,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-<title>retrieve coordinates within the original sf/data.frame object — st_coordinates_tidy • avallecam</title>
+<title>tibble friendly sf, ppp, and raster operations — st_coordinates_tidy • avallecam</title>
 
 <!-- jquery -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
@@ -32,9 +32,9 @@
 
 
 
-<meta property="og:title" content="retrieve coordinates within the original sf/data.frame object — st_coordinates_tidy" />
+<meta property="og:title" content="tibble friendly sf, ppp, and raster operations — st_coordinates_tidy" />
 
-<meta property="og:description" content="retrieve coordinates within the original sf/data.frame object. an alternative from st_coordinates() (https://r-spatial.github.io/sf/reference/st_coordinates.html)" />
+<meta property="og:description" content="functions ot extract coordinates from a point geometry, convert a sf to ppp and create a raster" />
 <meta name="twitter:card" content="summary" />
 
 
@@ -98,18 +98,22 @@
 <div class="row">
   <div class="col-md-9 contents">
     <div class="page-header">
-    <h1>retrieve coordinates within the original sf/data.frame object</h1>
+    <h1>tibble friendly sf, ppp, and raster operations</h1>
     
     <div class="hidden name"><code>st_coordinates_tidy.Rd</code></div>
     </div>
 
     <div class="ref-description">
     
-    <p>retrieve coordinates within the original sf/data.frame object. an alternative from st_coordinates() (https://r-spatial.github.io/sf/reference/st_coordinates.html)</p>
+    <p>functions ot extract coordinates from a point geometry, convert a sf to ppp and create a raster</p>
     
     </div>
 
-    <pre class="usage"><span class='fu'>st_coordinates_tidy</span>(<span class='no'>sf_object</span>)</pre>
+    <pre class="usage"><span class='fu'>st_coordinates_tidy</span>(<span class='no'>sf_object</span>)
+
+<span class='fu'>sf_as_ppp</span>(<span class='no'>sf_geometry_input</span>, <span class='no'>sf_polygon_boundary</span>)
+
+<span class='fu'>tibble_as_raster</span>(<span class='no'>data</span>)</pre>
     
     <h2 class="hasAnchor" id="arguments"><a class="anchor" href="#arguments"></a>Arguments</h2>
     <table class="ref-arguments">
@@ -117,6 +121,18 @@
     <tr>
       <th>sf_object</th>
       <td><p>sf_object input</p></td>
+    </tr>
+    <tr>
+      <th>sf_geometry_input</th>
+      <td><p>input sf of points</p></td>
+    </tr>
+    <tr>
+      <th>sf_polygon_boundary</th>
+      <td><p>input sf of box or boundary</p></td>
+    </tr>
+    <tr>
+      <th>data</th>
+      <td><p>tibble with three column names: x, y, z (for longitud, latitud, and grid value)</p></td>
     </tr>
     </table>
     
@@ -128,12 +144,16 @@
 
     
 <ul>
-<li><p><code>st_coordinates_tidy</code>: retrieve coordinates within the original sf/data.frame object. an alternative from st_coordinates() (https://r-spatial.github.io/sf/reference/st_coordinates.html)</p></li>
+<li><p><code>st_coordinates_tidy</code>: retrieve coordinates within the original sf/data.frame object. an alternative from <a href='https://r-spatial.github.io/sf/reference/st_coordinates.html'>st_coordinates()</a></p></li>
+<li><p><code>sf_as_ppp</code>: integrates point geometry dataset and a boundary to create a ppp for spatstat analysis. <a href='https://github.com/r-spatial/sf/issues/1233'>more</a></p></li>
+<li><p><code>tibble_as_raster</code>: transform a x,y,z tibble to a raster</p></li>
 </ul>
     
 
     <h2 class="hasAnchor" id="examples"><a class="anchor" href="#examples"></a>Examples</h2>
     <pre class="examples"><div class='input'>
+<span class='co'># st_coordinates_tidy --------------------------------------</span>
+
 <span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>tidyverse</span>)
 <span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>sf</span>)</div><div class='output co'>#&gt; <span class='message'>Linking to GEOS 3.6.1, GDAL 2.2.3, PROJ 4.9.3</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>avallecam</span>)
 
@@ -158,10 +178,12 @@
 #&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>              </span><span style='color: #555555;font-style: italic;'>&lt;POINT [°]&gt;</span><span>
 #&gt; </span><span style='color: #555555;'>1</span><span> a         (-80.14401 26.47901)
 #&gt; </span><span style='color: #555555;'>2</span><span> b              (-80.109 26.83)</div><div class='input'>
+<span class='co'># current solution</span>
 <span class='no'>sites_sf</span> <span class='kw'>%&gt;%</span>
   <span class='fu'><a href='https://rdrr.io/pkg/sf/man/st_coordinates.html'>st_coordinates</a></span>()</div><div class='output co'>#&gt;           X        Y
 #&gt; 1 -80.14401 26.47901
 #&gt; 2 -80.10900 26.83000</div><div class='input'>
+<span class='co'># our proposal</span>
 <span class='no'>sites_sf</span> <span class='kw'>%&gt;%</span>
   <span class='fu'>st_coordinates_tidy</span>()</div><div class='output co'>#&gt; <span class='message'>Joining, by = "rowname"</span></div><div class='output co'>#&gt; Simple feature collection with 2 features and 3 fields
 #&gt; geometry type:  POINT
@@ -174,6 +196,58 @@
 #&gt;   </span><span style='color: #555555;font-style: italic;'>&lt;chr&gt;</span><span>     </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span> </span><span style='color: #555555;font-style: italic;'>&lt;dbl&gt;</span><span>          </span><span style='color: #555555;font-style: italic;'>&lt;POINT [°]&gt;</span><span>
 #&gt; </span><span style='color: #555555;'>1</span><span> a         -</span><span style='color: #BB0000;'>80.1</span><span>  26.5 (-80.14401 26.47901)
 #&gt; </span><span style='color: #555555;'>2</span><span> b         -</span><span style='color: #BB0000;'>80.1</span><span>  26.8      (-80.109 26.83)</div><div class='input'>
+<span class='co'># sf_to_ppp ------------------------------------------</span>
+
+<span class='co'># data packages</span>
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>tidyverse</span>)
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>avallecam</span>)
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>maptools</span>)</div><div class='output co'>#&gt; <span class='message'>Loading required package: sp</span></div><div class='output co'>#&gt; <span class='message'>Checking rgeos availability: TRUE</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>sf</span>)
+
+<span class='co'># import sample data</span>
+<span class='fu'><a href='https://rdrr.io/r/base/library.html'>library</a></span>(<span class='no'>spatstat</span>)</div><div class='output co'>#&gt; <span class='message'>Loading required package: spatstat.data</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: nlme</span></div><div class='output co'>#&gt; <span class='message'></span>
+#&gt; <span class='message'>Attaching package: 'nlme'</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from 'package:dplyr':</span>
+#&gt; <span class='message'></span>
+#&gt; <span class='message'>    collapse</span></div><div class='output co'>#&gt; <span class='message'>Loading required package: rpart</span></div><div class='output co'>#&gt; <span class='message'></span>
+#&gt; <span class='message'>spatstat 1.59-0       (nickname: 'J'ai omis les oeufs de caille') </span>
+#&gt; <span class='message'>For an introduction to spatstat, type 'beginner' </span></div><div class='output co'>#&gt; <span class='message'></span>
+#&gt; <span class='message'>Note: spatstat version 1.59-0 is out of date by more than a year; we strongly recommend upgrading to the latest version.</span></div><div class='output co'>#&gt; <span class='message'></span>
+#&gt; <span class='message'>Attaching package: 'spatstat'</span></div><div class='output co'>#&gt; <span class='message'>The following object is masked from 'package:geosphere':</span>
+#&gt; <span class='message'></span>
+#&gt; <span class='message'>    perimeter</span></div><div class='input'><span class='fu'><a href='https://rdrr.io/r/utils/data.html'>data</a></span>(<span class='st'>"flu"</span>)
+<span class='no'>flu_one</span> <span class='kw'>&lt;-</span> <span class='no'>flu</span>$<span class='no'>pattern</span>$<span class='no'>`wt M2-M1 13`</span>
+<span class='no'>flu_one</span> <span class='kw'>%&gt;%</span> <span class='fu'><a href='https://rdrr.io/pkg/sf/man/plot.html'>plot</a></span>()</div><div class='img'><img src='st_coordinates_tidy-1.png' alt='' width='700' height='433' /></div><div class='input'>
+<span class='co'># reverse engineering</span>
+
+<span class='co'># extract window from ppp</span>
+<span class='no'>flu_one_window</span> <span class='kw'>&lt;-</span> <span class='fu'><a href='https://rdrr.io/pkg/sf/man/st_as_sf.html'>st_as_sf</a></span>(<span class='no'>flu_one</span>) <span class='kw'>%&gt;%</span>
+  <span class='fu'><a href='https://rdrr.io/r/stats/filter.html'>filter</a></span>(<span class='no'>label</span><span class='kw'>==</span><span class='st'>"window"</span>) <span class='kw'>%&gt;%</span>
+  <span class='fu'>pull</span>(<span class='no'>geom</span>)
+<span class='co'># extract points from ppp</span>
+<span class='no'>flu_one_points</span> <span class='kw'>&lt;-</span> <span class='no'>flu_one</span> <span class='kw'>%&gt;%</span>
+  <span class='fu'>as_tibble</span>() <span class='kw'>%&gt;%</span>
+  <span class='co'>#tibble to sf</span>
+  <span class='fu'><a href='https://rdrr.io/pkg/sf/man/st_as_sf.html'>st_as_sf</a></span>(<span class='kw'>coords</span> <span class='kw'>=</span> <span class='fu'><a href='https://rdrr.io/r/base/c.html'>c</a></span>(<span class='st'>"y"</span>, <span class='st'>"x"</span>),
+           <span class='kw'>remove</span> <span class='kw'>=</span> <span class='no'>T</span>,
+           <span class='kw'>crs</span> <span class='kw'>=</span> <span class='fl'>4326</span>,
+           <span class='kw'>agr</span> <span class='kw'>=</span> <span class='st'>"constant"</span>)
+
+<span class='co'># re-create a ppp from points and bbox</span>
+<span class='fu'>sf_as_ppp</span>(<span class='kw'>sf_geometry_input</span> <span class='kw'>=</span> <span class='no'>flu_one_points</span>,
+          <span class='kw'>sf_polygon_boundary</span> <span class='kw'>=</span> <span class='no'>flu_one_window</span>) <span class='kw'>%&gt;%</span>
+  <span class='fu'><a href='https://rdrr.io/pkg/sf/man/plot.html'>plot</a></span>()</div><div class='img'><img src='st_coordinates_tidy-2.png' alt='' width='700' height='433' /></div><div class='input'>
+<span class='co'># tibble_as_raster -------------------------------------</span>
+
+<span class='fu'><a href='https://rdrr.io/r/base/Random.html'>set.seed</a></span>(<span class='fl'>33</span>)
+
+<span class='fu'>expand_grid</span>(<span class='kw'>x</span><span class='kw'>=</span><span class='fl'>1</span>:<span class='fl'>10</span>,
+       <span class='kw'>y</span><span class='kw'>=</span><span class='fl'>1</span>:<span class='fl'>10</span>) <span class='kw'>%&gt;%</span>
+  <span class='fu'>mutate</span>(<span class='kw'>z</span><span class='kw'>=</span><span class='fu'><a href='https://rdrr.io/r/stats/Normal.html'>rnorm</a></span>(<span class='fl'>100</span>)) <span class='kw'>%&gt;%</span>
+
+  <span class='co'># convert tibble to raster</span>
+  <span class='fu'>tibble_as_raster</span>() <span class='kw'>%&gt;%</span>
+
+  <span class='co'># plot to verify</span>
+  <span class='fu'><a href='https://rdrr.io/pkg/sf/man/plot.html'>plot</a></span>()</div><div class='img'><img src='st_coordinates_tidy-3.png' alt='' width='700' height='433' /></div><div class='input'>
 </div></span></pre>
   </div>
   <div class="col-md-3 hidden-xs hidden-sm" id="sidebar">

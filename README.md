@@ -29,7 +29,9 @@ Check the [reference page](https://avallecam.github.io/avallecam/reference/index
 ### spatially useful
 
 - `read_gpx`: read GPX extension formats
-- `st_coordinates_tidy`: st_coordinates_tidy retrieve coordinates within the original sf/data.frame object.
+- `st_coordinates_tidy`: a tidy alternative to `sf::st_coordinates`. it retrieve coordinates within the original sf/data.frame object.
+- `sf_as_ppp`: integrates point geometry dataset and a boundary to create a ppp for spatstat analysis. [more](https://github.com/r-spatial/sf/issues/1233)
+-  `tibble_as_raster`: transform a x,y,z tibble to a raster. 
 
 ### movementally usefull
 
