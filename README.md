@@ -30,10 +30,16 @@ Check the [reference page](https://avallecam.github.io/avallecam/reference/index
 
 - `read_gpx`: read GPX extension formats
 - `st_coordinates_tidy`: a tidy alternative to `sf::st_coordinates`. it retrieve coordinates within the original sf/data.frame object.
-- `sf_as_ppp`: integrates point geometry dataset and a boundary to create a ppp for spatstat analysis. [more](https://github.com/r-spatial/sf/issues/1233)
+- `sf_as_ppp`: integrates point geometry dataset and a boundary to create a ppp for spatstat analysis. [clink here for more information](https://github.com/r-spatial/sf/issues/1233).
 -  `tibble_as_raster`: transform a x,y,z tibble to a raster. 
 
-### movementally usefull
+### movement(ally) usefull
 
 - `sum_range_h`: custom function to calculate amount of hours between to reported times
 - `get_distance_m`: generates a distance output between two set of points within a tibble and flexible with `dplyr::group_by` and `purrr::pmap` 
+
+### incidence(cially) usefull
+
+- `get_info_tidy` generates a tibble of `incidence::get_info()`. [clink here for more information](https://www.repidemicsconsortium.org/incidence/index.html).
+- `tidy_incidence` generates a complete summary tibble from incidence fit paramteter estimates
+- `glance_incidence` generates a complete summary tibble from incidence fit model performance

@@ -12,7 +12,7 @@ Description: Miscelanea of functions that I developed for different porpuses. Th
 URL: https://avallecam.github.io/avallecam/
 BugReports: https://github.com/avallecam/avallecam/issues
 License: MIT + file LICENSE
-Imports: tidyverse, dplyr, tidyr, rgdal, stringr, lubridate, broom, rlang, janitor, geosphere, sf, spatstat, maptools, raster
+Imports: tidyverse, dplyr, tidyr, rgdal, stringr, lubridate, broom, rlang, janitor, geosphere, sf, spatstat, maptools, raster, incidence
 Suggests: 
     testthat
 Encoding: UTF-8
