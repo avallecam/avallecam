@@ -40,6 +40,6 @@ Check the [reference page](https://avallecam.github.io/avallecam/reference/index
 
 ### incidence(cially) usefull
 
-- `get_info_tidy` generates a tibble of `incidence::get_info()`. [clink here for more information](https://www.repidemicsconsortium.org/incidence/index.html).
-- `tidy_incidence` generates a complete summary tibble from incidence fit paramteter estimates
-- `glance_incidence` generates a complete summary tibble from incidence fit model performance
+- `get_info_tidy`: generates a tibble of `incidence::get_info()`. [clink here for more information](https://www.repidemicsconsortium.org/incidence/index.html).
+- `tidy_incidence`: generates a complete summary tibble from incidence fit paramteter estimates
+- `glance_incidence`: generates a complete summary tibble from incidence fit model performance
