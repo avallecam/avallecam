@@ -2,16 +2,35 @@
 % Please edit documentation in R/avmisc.R
 \name{print_inf}
 \alias{print_inf}
-\title{funciones varias}
+\alias{read_lastfile}
+\title{The Most Important Custom Functions}
 \usage{
 print_inf(object)
+
+read_lastfile(path, pattern)
 }
 \arguments{
 \item{object}{objeto input}
+
+\item{path}{path to folder}
+
+\item{pattern}{any specific file extension}
 }
 \value{
-object with n=Inf.
+Really (context dependent) important outputs.
 }
 \description{
-impresión de todo el contenido.
+benchwork optimizer
+}
+\section{Functions}{
+\itemize{
+\item \code{print_inf}: make a quick(er) \code{print(n=Inf)}
+
+\item \code{read_lastfile}: read the last file in a folder (ideal for workflows with daily inputs and updates)
+}}
+
+\examples{
+
+# read_lastfile(path = "../../long_rute_to_folder/", pattern = "*.xlsx") \%>\% print()
+
 }

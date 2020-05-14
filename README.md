@@ -25,6 +25,7 @@ Check the [reference page](https://avallecam.github.io/avallecam/reference/index
 
 - `adorn_ame`: adorn a [`tabyl`](https://cran.r-project.org/web/packages/janitor/vignettes/janitor.html#tabyl---a-better-version-of-table) with totals on margins, percentages and N on values in only one function! 
 - `print_inf`: make a quick(er) `print(n=Inf)`
+- `read_lastfile`: read the last file in a folder (ideal for workflows with daily inputs and updates)
 
 ### spatially useful
 
