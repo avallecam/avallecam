@@ -12,7 +12,11 @@
 #'
 #' @examples
 #'
-#' # read_lastfile(path = "../../long_rute_to_folder/", pattern = "*.xlsx") %>% print()
+#' # # read last name in a long list of files
+#' # lastfile_name <- read_lastfile(path = "../../long_rute_to_folder/", pattern = "*.xlsx") %>% print()
+#' #
+#' # # read that filename
+#' # read_excel(lastfile_name)
 #'
 #' @export print_inf
 #' @export read_lastfile
