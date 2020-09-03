@@ -1,5 +1,9 @@
 # avallecam
 
+
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4014183.svg)](https://doi.org/10.5281/zenodo.4014183)
+
+
 Personal library for custom R functions.
 
 ## Installation
