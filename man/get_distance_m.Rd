@@ -28,6 +28,8 @@ generates a distance (in meters) output between two set of points within a tibbl
 
 \examples{
 
+\dontrun{
+
 library(tidyverse)
 library(geosphere)
 library(purrr)
@@ -59,6 +61,8 @@ d <- tibble(run = c(rep(1,6), rep(2,6)),
 d \%>\%
   group_by(run,grp) \%>\%
   mutate(dist=pmap_dbl(list(lat,lon,lag(lat),lag(lon)),get_distance_m))
+
+ }
 
 
 }

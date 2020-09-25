@@ -38,6 +38,8 @@ functions ot extract coordinates from a point geometry, convert a sf to ppp and 
 
 \examples{
 
+\dontrun{
+
 # st_coordinates_tidy --------------------------------------
 
 library(tidyverse)
@@ -108,5 +110,7 @@ expand_grid(x=1:10,
 
   # plot to verify
   plot()
+
+  }
 
 }

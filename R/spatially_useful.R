@@ -9,12 +9,11 @@
 #' @return sf and data.frame object X and Y extracted from geometry column
 #'
 #' @import dplyr
-#' @import sf
-#' @import spatstat
-#' @import maptools
 #' @import tidyr
 #'
 #' @examples
+#'
+#' \dontrun{
 #'
 #' # st_coordinates_tidy --------------------------------------
 #'
@@ -87,6 +86,8 @@
 #'   # plot to verify
 #'   plot()
 #'
+#'   }
+#'
 #' @export st_coordinates_tidy
 #' @export sf_as_ppp
 #' @export tibble_as_raster
@@ -97,7 +98,7 @@ st_coordinates_tidy <- function(sf_object) {
     rownames_to_column() %>%
     left_join(
       sf_object %>%
-        st_coordinates() %>%
+        sf::st_coordinates() %>%
         as_tibble() %>%
         rownames_to_column()
     ) %>%
@@ -115,11 +116,11 @@ sf_as_ppp <- function(sf_geometry_input,sf_polygon_boundary) {
   window_boundary <- sf_polygon_boundary
   # transform sf to ppp
   house_g <- house #%>% select(geometry)
-  house_poly <- window_boundary %>% st_buffer(dist = 0) %>% st_union() #needs to be cleaner!
+  house_poly <- window_boundary %>% sf::st_buffer(dist = 0) %>% sf::st_union() #needs to be cleaner!
   p.sp  <- as(house_g, "Spatial")  # Create Spatial* object
   p.ppp <- as(p.sp, "ppp")      # Create ppp object
   # add window
-  Window(p.ppp) <- as.owin(as(house_poly, "Spatial"))
+  Window(p.ppp) <- spatstat::as.owin(as(house_poly, "Spatial"))
   # # determine the binwidth
   # h_ppp <- bw.scott(p.ppp) #bw.ppl(p.ppp)
   # h_ppp

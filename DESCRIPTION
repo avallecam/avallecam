@@ -8,12 +8,26 @@ Authors@R:
            role = c("aut", "cre"),
            email = "avallecam@gmail.com",
            comment = c(ORCID = "0000-0002-7779-481X"))
-Description: Miscelanea of functions that I developed for different porpuses. The main aim was learn how to build a R package.
+Description: Miscelanea of functions that I developed for
+    different porpuses. The main aim was learn how to build a R package.
+License: GPL-3
 URL: https://avallecam.github.io/avallecam/
 BugReports: https://github.com/avallecam/avallecam/issues
-License: MIT + file LICENSE
-Imports: tidyverse, dplyr, tidyr, rgdal, stringr, lubridate, broom, rlang, janitor, geosphere, sf, spatstat, maptools, raster, incidence
+Imports: 
+    broom,
+    dplyr,
+    lubridate,
+    rgdal,
+    rlang,
+    stringr,
+    tidyr,
+    tidyverse
 Suggests: 
+    geosphere,
+    maptools,
+    raster,
+    sf,
+    spatstat,
     testthat
 Encoding: UTF-8
 LazyData: true

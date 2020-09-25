@@ -13,6 +13,9 @@
 #' @return nueva columna con suma de horas por rango
 #'
 #' @examples
+#'
+#' \dontrun{
+#'
 #' #crear base
 #' library(tidyverse)
 #' library(avallecam)
@@ -57,6 +60,8 @@
 #'            lim_ret_h = 22,
 #'            obs_sal_h = obs_sal_hx,
 #'            obs_ret_h = obs_ret_hx,prefix = "mpu_",suffix = "_h1")
+#'
+#'            }
 #'@export
 
 

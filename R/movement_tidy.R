@@ -16,9 +16,10 @@
 #' @references for more details check [geosphere](https://cran.r-project.org/web/packages/geosphere/index.html) package
 #'
 #' @import dplyr
-#' @import geosphere
 #'
 #' @examples
+#'
+#' \dontrun{
 #'
 #' library(tidyverse)
 #' library(geosphere)
@@ -52,10 +53,14 @@
 #'   group_by(run,grp) %>%
 #'   mutate(dist=pmap_dbl(list(lat,lon,lag(lat),lag(lon)),get_distance_m))
 #'
+#'  }
+#'
 #'
 #' @export get_distance_m
 
 get_distance_m <- function(set1_lat, set1_lon, set2_lat, set2_lon) {
-  distm(x = c(set1_lon, set1_lat), y = c(set2_lon, set2_lat), fun = distGeo) %>%
+  geosphere::distm(x = c(set1_lon, set1_lat),
+                   y = c(set2_lon, set2_lat),
+                   fun = geosphere::distGeo) %>%
     as.numeric()
 }

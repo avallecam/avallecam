@@ -31,6 +31,8 @@ benchwork optimizer
 
 \examples{
 
+\dontrun{
+
 # print_inf ---------------------------------------------------
 
 library(tidyverse)
@@ -43,5 +45,7 @@ mtcars \%>\% as_tibble() \%>\% print_inf()
 #
 # # read that filename
 # read_excel(lastfile_name)
+
+}
 
 }

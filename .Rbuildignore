@@ -3,3 +3,8 @@
 ^_pkgdown\.yml$
 ^docs$
 ^pkgdown$
+^avallecam\.Rproj$
+^LICENSE\.md$
+^README\.Rmd$
+^cran-comments\.md$
+^\.github$

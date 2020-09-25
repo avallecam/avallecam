@@ -12,6 +12,8 @@
 #'
 #' @examples
 #'
+#' \dontrun{
+#'
 #' # print_inf ---------------------------------------------------
 #'
 #' library(tidyverse)
@@ -24,6 +26,8 @@
 #' #
 #' # # read that filename
 #' # read_excel(lastfile_name)
+#'
+#' }
 #'
 #' @export print_inf
 #' @export read_lastfile

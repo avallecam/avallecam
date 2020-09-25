@@ -28,6 +28,9 @@ nueva columna con suma de horas por rango
 Problema: Dado el reporte de horas de salida y retorno a vivienda, calcular la suma de horas dentro de cada rango establecido
 }
 \examples{
+
+\dontrun{
+
 #crear base
 library(tidyverse)
 library(avallecam)
@@ -72,4 +75,6 @@ sum_range_h(lim_sal_h = 17,
            lim_ret_h = 22,
            obs_sal_h = obs_sal_hx,
            obs_ret_h = obs_ret_hx,prefix = "mpu_",suffix = "_h1")
+
+           }
 }
