@@ -17,6 +17,7 @@ knitr::opts_chunk$set(
 <!-- badges: start -->
 [![Lifecycle: experimental](https://img.shields.io/badge/lifecycle-experimental-orange.svg)](https://www.tidyverse.org/lifecycle/#experimental)
 [![CRAN status](https://www.r-pkg.org/badges/version/avallecam)](https://cran.r-project.org/package=avallecam)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.4014183.svg)](https://doi.org/10.5281/zenodo.4014183)
 <!-- badges: end -->
 
 Personal library for custom R functions.
