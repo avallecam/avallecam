@@ -11,7 +11,7 @@ Authors@R:
 Description: Miscelanea of functions that I developed for
     different porpuses. The main aim was learn how to build a R package.
 License: GPL-3
-URL: https://avallecam.github.io/avallecam/
+URL: https://github.com/avallecam/avallecam
 BugReports: https://github.com/avallecam/avallecam/issues
 Imports: 
     broom,
