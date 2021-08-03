@@ -5,12 +5,11 @@
 
 ## I’m a geneticist skilled in health data science
 
-🏗️ I opportunistically take **data** problems to learn new **tools** in
-the route to solve them, satisfy my own expectations, and **motivate**
-myself :)
+🏗️ I take **data** problems to learn new **tools** in the route to solve
+them, satisfy my own expectations, and **motivate** myself :)
 
-🌱 Highly interested in reproducible **open** research, healthy **work**
-environments, and learning how to **teach** effectively in our current
+🌱 Interested in reproducible **open** research, healthy **work**
+environments, and how to **teach** effectively in our current
 remote-land.
 
 ### NOW
