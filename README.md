@@ -6,11 +6,11 @@
 ## I’m a geneticist skilled in health data science
 
 🏗️ I opportunistically take **data** problems to learn new **tools** in
-the route to solve them, satisfy my own expectations and **motivate**
+the route to solve them, satisfy my own expectations, and **motivate**
 myself :)
 
-🌱 Highly interested in interdisciplinary, **open** and reproducible
-research, also learning how to **teach** effectively in our current
+🌱 Highly interested in reproducible **open** research, healthy **work**
+environments, and learning how to **teach** effectively in our current
 remote-land.
 
 ### NOW
@@ -31,6 +31,8 @@ remote-land.
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
     **Universidad Nacional Mayor de San Marcos** (2015)
 -   ⚙️ I use `R` daily
+-   😎 I invite you to take a look to my **cheatsheet** in
+    [gist](https://gist.github.com/avallecam)
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **epidemiological reproducible research**
 -   🌍 I’m trying to be active within the **R Community**
