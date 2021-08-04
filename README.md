@@ -8,7 +8,7 @@
 🏗️ I take **data** problems to learn new **tools** in the route to solve
 them, satisfy my **own** expectations, and **motivate** myself :)
 
-🌱 Interested in reproducible **open** research since its *design*,
+🌱 Interested in reproducible **open** research from its *design*,
 healthy **work** environments, and how to **teach** effectively.
 
 ### NOW
@@ -28,12 +28,12 @@ healthy **work** environments, and how to **teach** effectively.
     **Universidad Peruana Cayetano Heredia** (2018)
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
     **Universidad Nacional Mayor de San Marcos** (2015)
--   ⚙️ I use `R` daily
+-   ⚙️ I use **`R`** daily
 -   😎 Take a look to my coding **cheatsheet** full of reproducible
     examples in [gist](https://gist.github.com/avallecam)
--   🌍 I’ve shared a couple of **solutions** for the community in
+-   🌍 I’ve contributed some **answers** for the community in
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
--   📚 I have my publication record in
+-   📚 Take a look to my academic **publications** list in
     [orcid](https://orcid.org/0000-0002-7779-481X) and
     [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es)
 -   💬 Ping me about **applied biostatistics**, **data science
