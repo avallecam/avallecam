@@ -8,8 +8,8 @@
 🏗️ I take **data** problems to learn new **tools** in the route to solve
 them, satisfy my **own** expectations, and **motivate** myself :)
 
-🌱 Interested in reproducible **open** research, healthy **work**
-environments, and how to **teach** effectively and remotely.
+🌱 Interested in reproducible **open** research since its *design*,
+healthy **work** environments, and how to **teach** effectively.
 
 ### NOW
 
