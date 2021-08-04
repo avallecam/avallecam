@@ -58,33 +58,27 @@ knitr::opts_chunk$set(
 📌 __serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification at UseR! 2021__
 
 - 🍭 presentación: https://bit.ly/serosurvey-user21 
-
 - 🍲 repositorio: https://github.com/avallecam/serosurvey-user21 
 
 📌 __Introducción al análisis estadístico de epidemias__
 
 - 🍭 presentación: https://bit.ly/cursoepidemias-analisisbrote 
-
 - ⚒️ tutorial: https://www.reconlearn.org/topics/spanish.html 
 
 📌 __Introducción a R__
 
 - 🍭 presentación: https://bit.ly/cursoepidemia-intror 
-
 - ⚒️ tutorial: https://www.reconlearn.org/topics/spanish.html 
 
 📌 __Análisis de datos en Vigilancia Epidemiológica II: análisis espacial__
 
 - 🍭 presentación: http://bit.ly/episurv2021parte2 
-
 - ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte1 
-
 - ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte2  
 
 📌 __Análisis de datos en Vigilancia Epidemiológica I: tiempo, espacio, persona y curva epidémica__
 
 - ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte1 
-
 - ⚒️ tutorial yapa: canal endémico https://rpubs.com/avallecam/episurv2021 
 
 📌 __Visualizando datos de salud pública y epidemiología de campo: Uso de Dashboards y otras herramientas de visualización con datos abiertos de COVID-19 para la toma de decisiones en Salud Pública__
@@ -94,7 +88,6 @@ knitr::opts_chunk$set(
 📌 __Introducción a ggplot2__
 
 - 🍭 presentación: https://bit.ly/r08ggplot2 
-
 - 🍲 repositorio: https://github.com/avallecam/workshop_ggplot2 
 
 📌 __Introducción al uso de proyectos en R__
@@ -120,59 +113,46 @@ knitr::opts_chunk$set(
 📌 __Análisis epidemiológico de la epidemia del Síndrome de Guillain Barré en Perú 2019__
 
 - 🍿 poster: https://raw.githubusercontent.com/avallecam/cdcperu-gt_investigacion/master/20191120-poster-SGB-INSv3.jpg 
-
 - 🍲 repositorio: https://avallecam.github.io/cdcperu-gt_investigacion/
 
-📌 __Ponencia de R aplicado a la epidemiología - Por la semana de la epidemiología 2019 en CDC Perú__
+📌 __Ponencia de R aplicado a la epidemiología. Por la semana de la epidemiología 2019 en CDC Perú__
 
 - 🍭 presentación: https://speakerdeck.com/avallecam/r-aplicado-a-epidemiologia 
-
 - 🍿 video: https://www.youtube.com/watch?v=C3Yqw883jrs 
-
 - 🍲 repositorio: https://avallecam.github.io/epiapli2019/ 
 
-📌 __Curso en Análisis epidemiológico en R - post-congreso ASTMH Perú 2019__
+📌 __Curso en Análisis epidemiológico en R. post-congreso ASTMH Perú 2019__
 
 - 🍭 presentación: https://avallecam.github.io/epistat2019/r02.html#1 
-
 - 🍲 repositorio: https://avallecam.github.io/epistat2019/ 
 
-📌 __Taller en Estadística inferencial en R - Curso en RNA-seq 2019__
+📌 __Taller en Estadística inferencial en R. Curso en RNA-seq 2019__
 
 - 🍭 presentación: https://avallecam.github.io/biostat2019/00-biostat2019-slides.html#1 
-
 - 🍲 repositorio: https://avallecam.github.io/biostat2019/ 
 
 📌 __Taller en Análisis de microarreglos con Tidyverse y Bioconductor 2019__
 
 - 🍲 repositorio: https://github.com/avallecam/bioinfo2019 
 
-📌 __Taller en Ciencia Reproducible y Análisis de Microarreglos - Curso teórico-práctico de Bioinformática 2017__
+📌 __Taller en Ciencia Reproducible y Análisis de Microarreglos. Curso teórico-práctico de Bioinformática 2017__
 
 - 🍭 presentación 1: Ciencia reproducible en R https://bit.ly/reproscience-intro 
-
 - 🍭 presentación 2: Análisis de Microarreglos https://bit.ly/microarrays-intro 
-
 - 🍲 repositorio: https://github.com/avallecam/bioinfo2017 
-
 - ⚒️ tutorial 1: https://avallecam.github.io/bioinfo2017/tidydata.html 
-
 - ⚒️ tutorial 2: https://avallecam.github.io/bioinfo2017/tidymicro-1.nb.html 
-
 - ⚒️ tutorial 3: https://avallecam.github.io/bioinfo2017/tidymicro-2.nb.html 
-
 - ⚒️ tutorial 4: https://avallecam.github.io/bioinfo2017/biocmicro.nb.html
-
 - 🍿 publicidad: https://www.facebook.com/events/796342307197768/permalink/803837343114931 
 
-📌 __Tardígrados y Bioinformática en Transferencia Genética Horizontal - Para el curso de Transferencia Genética Horizontal 2016__
+📌 __Tardígrados y Bioinformática en Transferencia Genética Horizontal. Para el curso de Transferencia Genética Horizontal 2016__
 
 - 🍭 presentación: https://bit.ly/tardigate2016 
 
-📌 __Redes de regulación génica  - Para el curso en Biomatemática 2017__
+📌 __Redes de regulación génica. Para el curso en Biomatemática 2017__
 
 - 🍭 presentación: https://bit.ly/biomath2017 
-
 - ⚒️ tutorial: https://github.com/avallecam/gene_regulatory_networks 
 
 > format inspired by: https://github.com/seabbs/
