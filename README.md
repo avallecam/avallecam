@@ -6,7 +6,7 @@
 ## I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve
-them, satisfy my own expectations, and **motivate** myself :)
+them, satisfy my **own** expectations, and **motivate** myself :)
 
 🌱 Interested in reproducible **open** research, healthy **work**
 environments, and how to **teach** effectively and remotely.
@@ -18,7 +18,7 @@ environments, and how to **teach** effectively and remotely.
     :package:;
 -   ⭐ Here some slides for the last [useR! conf
     2021](https://github.com/avallecam/serosurvey-user21);
--   ✒️ Currently writing my thesis reports, grad applications soon!
+-   ✒️ Currently writing my thesis manuscripts, grad applications soon!
 
 ### BIO
 
@@ -29,14 +29,15 @@ environments, and how to **teach** effectively and remotely.
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
     **Universidad Nacional Mayor de San Marcos** (2015)
 -   ⚙️ I use `R` daily
--   😎 I invite you to take a look to my **cheatsheet** in
+-   😎 I invite you to take a look to my coding **cheatsheet** in
     [gist](https://gist.github.com/avallecam)
+-   🌍 I actively share **solutions** for the community in
+    [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
 -   📚 I have my publication record in
     [orcid](https://orcid.org/0000-0002-7779-481X) and
     [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es)
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **epidemiological reproducible research**
--   🌍 I’m trying to be active within the **R Community**
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
 -   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
