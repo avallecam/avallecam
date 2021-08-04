@@ -9,8 +9,7 @@
 them, satisfy my own expectations, and **motivate** myself :)
 
 🌱 Interested in reproducible **open** research, healthy **work**
-environments, and how to **teach** effectively in our current
-remote-land.
+environments, and how to **teach** effectively and remotely.
 
 ### NOW
 
@@ -19,12 +18,12 @@ remote-land.
     :package:;
 -   ⭐ Here some slides for the last [useR! conf
     2021](https://github.com/avallecam/serosurvey-user21);
--   🧻 Currently working on writing my thesis and some applications
+-   ✒️ Currently writing my thesis reports, grad applications soon!
 
 ### BIO
 
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
-    “quantitative” **Epidemiological research**
+    quantitative **Epidemiological research**
 -   📜 I did my [MSc](https://github.com/avallecam/movmal) at the
     **Universidad Peruana Cayetano Heredia** (2018)
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
@@ -32,13 +31,16 @@ remote-land.
 -   ⚙️ I use `R` daily
 -   😎 I invite you to take a look to my **cheatsheet** in
     [gist](https://gist.github.com/avallecam)
+-   📚 I have my publication record in
+    [orcid](https://orcid.org/0000-0002-7779-481X) and
+    [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es)
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **epidemiological reproducible research**
 -   🌍 I’m trying to be active within the **R Community**
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
--   🐤 Twitt me: [`@avallecam`](https://twitter.com/avallecam)
+-   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
-### R :package: projects
+### R :package:’s
 
 -   💙 [serosurvey](https://github.com/avallecam/serosurvey)
 -   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
@@ -48,9 +50,9 @@ remote-land.
 -   💚 [powder](https://github.com/avallecam/powder)
 -   🚧 [sitreper](https://github.com/avallecam/sitreper)
 -   💚 [cdcper](https://github.com/avallecam/cdcper)
--   💚 [avallecam](https://github.com/avallecam/avallecam)
+-   🔻 [avallecam](https://github.com/avallecam/avallecam)
 
-# {avallecam} R package
+# {avallecam}
 
 <!-- badges: start -->
 
