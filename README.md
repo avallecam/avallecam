@@ -29,9 +29,9 @@ healthy **work** environments, and how to **teach** effectively.
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
     **Universidad Nacional Mayor de San Marcos** (2015)
 -   ⚙️ I use `R` daily
--   😎 I invite you to take a look to my coding **cheatsheet** in
-    [gist](https://gist.github.com/avallecam)
--   🌍 I actively share **solutions** for the community in
+-   😎 Take a look to my coding **cheatsheet** full of reproducible
+    examples in [gist](https://gist.github.com/avallecam)
+-   🌍 I’ve shared a couple of **solutions** for the community in
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
 -   📚 I have my publication record in
     [orcid](https://orcid.org/0000-0002-7779-481X) and
@@ -52,6 +52,8 @@ healthy **work** environments, and how to **teach** effectively.
 -   🚧 [sitreper](https://github.com/avallecam/sitreper)
 -   💚 [cdcper](https://github.com/avallecam/cdcper)
 -   🔻 [avallecam](https://github.com/avallecam/avallecam)
+
+> format inspired by: <https://github.com/seabbs/>
 
 # {avallecam}
 
