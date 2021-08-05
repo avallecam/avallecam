@@ -53,7 +53,7 @@ healthy **work** environments, and how to **teach** effectively.
 -   💚 [powder](https://github.com/avallecam/powder)
 -   🚧 [sitreper](https://github.com/avallecam/sitreper)
 -   💚 [cdcper](https://github.com/avallecam/cdcper)
--   🔻 [avallecam](https://github.com/avallecam/avallecam)
+-   🔻 [avallecam](https://github.com/avallecam/avallecam#avallecam)
 
 ### MÁS
 
