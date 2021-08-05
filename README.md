@@ -18,7 +18,7 @@ healthy **work** environments, and how to **teach** effectively.
     :package:;
 -   ⭐ Here some slides for the last [useR! conf
     2021](https://github.com/avallecam/serosurvey-user21);
--   ✒️ Currently writing my thesis manuscripts, grad applications soon!
+-   ✒️ Excited to finish writing my thesis manuscripts, and start grad school applications soon!
 
 ### BIO
 
