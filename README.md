@@ -36,6 +36,8 @@ healthy **work** environments, and how to **teach** effectively.
 -   📚 Take a look to my academic **publications** list in
     [orcid](https://orcid.org/0000-0002-7779-481X) and
     [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es)
+-   💌 I love to collect links for a lot of topics in a collaborative
+    [trello board](https://trello.com/b/xtO9VP36/scibites)
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **epidemiological reproducible research**
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
@@ -104,9 +106,12 @@ COVID-19 para la toma de decisiones en Salud Pública**
 
 -   🍭 presentación: <https://bit.ly/espacial2021>
 
-📌 **Plantilla de tablas**
+📌 **Plantillas**
 
--   ⚒️ plantilla: <https://bit.ly/epitables>
+-   ⚒️ tablas: <https://bit.ly/epitables>
+-   ⚒️ manuscritos: <https://bit.ly/draftmanuscript>
+-   ⚒️ formularios:
+    <https://twitter.com/avallecam/status/1253319600856461315>
 
 📌 **Análisis de \#multiples epidemias y prevalencias con R y purrr**
 
@@ -115,6 +120,17 @@ COVID-19 para la toma de decisiones en Salud Pública**
 📌 **Pruebas de hipótesis con métodos estadísticos no paramétricos**
 
 -   🍭 presentación: <https://bit.ly/noparam2020>
+-   🍿 video: <https://www.youtube.com/watch?v=1MTt1Ro-OP4>
+
+📌 **Ciencia de Datos en Salud: Aplicaciones en el Centro Nacional de
+Epidemiología, Prevención y Control de Enfermedades, Perú. Boletín
+Epidemiológico del Perú, 2019**
+
+-   🍭 presentación:
+    <https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html>
+-   🍲 repositorio:
+    <https://avallecam.github.io/health_data_science_editorial/>
+-   🍿 thread: <https://twitter.com/avallecam/status/1226361840436961280>
 
 📌 **Análisis epidemiológico de la epidemia del Síndrome de Guillain
 Barré en Perú 2019**
@@ -167,6 +183,7 @@ teórico-práctico de Bioinformática 2017**
     <https://avallecam.github.io/bioinfo2017/biocmicro.nb.html>
 -   🍿 publicidad:
     <https://www.facebook.com/events/796342307197768/permalink/803837343114931>
+-   🍿 video inspiración: <https://www.youtube.com/watch?v=s3JldKoA0zw>
 
 📌 **Tardígrados y Bioinformática en Transferencia Genética Horizontal.
 Para el curso de Transferencia Genética Horizontal 2016**
@@ -177,6 +194,27 @@ Para el curso de Transferencia Genética Horizontal 2016**
 
 -   🍭 presentación: <https://bit.ly/biomath2017>
 -   ⚒️ tutorial: <https://github.com/avallecam/gene_regulatory_networks>
+
+### ME
+
+-   🏊 I was a [swimmer (lane
+    \#5)](https://www.youtube.com/watch?v=fN7sJPFeJcw)
+-   🎼 I love listening to music and watching [musical
+    videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ)
+-   🇵🇪 I have a playlist of [peruvian
+    music](https://youtube.com/playlist?list=PLDHw5KzS-qvKv1z5CBELuQnqanqfZ4WSy)
+-   🙃 I play the guitar 🎸 and piano 🎹 (video soon!)
+-   🌠 I have a wishlist on
+    [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/)
+-   🖤 I read a manga called
+    [berserk](https://readberserk.com/chapter/berserk-chapter-a0/)
+-   🎨 I love visiting [art galleries](https://mali.pe/), hope to see
+    this live
+    [once](https://www.metmuseum.org/es/art/collection/search/267838)
+-   🌩️ I enjoy reading about dialectical materialism:
+    [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
+    [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
+    [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
 
 > format inspired by: <https://github.com/seabbs/>
 
