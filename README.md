@@ -9,16 +9,17 @@
 them, satisfy my **own** expectations, and **motivate** myself :)
 
 🌱 Interested in reproducible **open** research from its *design*,
-healthy **work** environments, and how to **teach** better with \#a11y
+healthy **work** environments, and how to **teach** better!
 
 ### NOW
 
 -   💻 Freelancer;
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     :package:;
--   ⭐ Here some slides for the last [useR! conf
-    2021](https://github.com/avallecam/serosurvey-user21);
--   ✒️ Currently writing my thesis manuscripts, grad applications soon!
+-   ⭐ Coordinator in the last [**outbreak analysis** course for
+    latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
+-   ✒️ Excited to finish writing my thesis manuscripts and grad school
+    applications!
 
 ### BIO
 
@@ -45,9 +46,9 @@ healthy **work** environments, and how to **teach** better with \#a11y
 
 ### R :package:’s
 
--   💙 [serosurvey](https://github.com/avallecam/serosurvey)
+-   💙 [serosurvey](https://avallecam.github.io/serosurvey/)
 -   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
--   💚 [covid19viz](https://github.com/avallecam/covid19viz)
+-   💚 [covid19viz](https://avallecam.github.io/covid19viz/)
 -   💚 [epichannel](https://github.com/avallecam/epichannel)
 -   💚 [epitidy](https://github.com/avallecam/epitidy)
 -   💚 [powder](https://github.com/avallecam/powder)
@@ -57,76 +58,80 @@ healthy **work** environments, and how to **teach** better with \#a11y
 
 ### MÁS
 
-📌 **Ponencia: serosurvey: Serological Surveys and Prevalence Estimation
-Under Misclassification at UseR! 2021**
+📌 **\[talk\]\[EN\] serosurvey: Serological Surveys and Prevalence
+Estimation Under Misclassification at UseR! 2021**
 
 -   🍭 presentación: <https://bit.ly/serosurvey-user21>
 -   🍲 repositorio: <https://github.com/avallecam/serosurvey-user21>
 
-📌 **Taller: Introducción al análisis estadístico de epidemias 2021**
+📌 **\[workshop\]\[ES\] Introducción al análisis estadístico de epidemias
+2021**
 
 -   🍭 presentación: <https://bit.ly/cursoepidemias-analisisbrote>
--   ⚒️ tutorial: <https://www.reconlearn.org/topics/spanish.html>
+-   ⚒️ tutorial:
+    <https://www.reconlearn.org/post/real-time-response-1-spanish.html>
 
-📌 **Taller: Introducción a R y Rstudio 2021**
+📌 **\[workshop\]\[ES\] Introducción a R y Rstudio 2021**
 
 -   🍭 presentación: <https://bit.ly/cursoepidemia-intror>
--   ⚒️ tutorial: <https://www.reconlearn.org/topics/spanish.html>
+-   ⚒️ tutorial:
+    <https://www.reconlearn.org/post/practical-intror-spanish.html>
 
-📌 **Clase: Análisis de datos en Vigilancia Epidemiológica II: análisis
-espacial 2021**
+📌 **\[lesson\]\[ES\] Análisis de datos en Vigilancia Epidemiológica II:
+análisis espacial 2021**
 
 -   🍭 presentación: <http://bit.ly/episurv2021parte2>
 -   ⚒️ tutorial: <https://rpubs.com/avallecam/episurv2021parte1>
 -   ⚒️ tutorial: <https://rpubs.com/avallecam/episurv2021parte2>
 
-📌 **Taller: Análisis de datos en Vigilancia Epidemiológica I: tiempo,
-espacio, persona y curva epidémica 2021**
+📌 **\[workshop\]\[ES\] Análisis de datos en Vigilancia Epidemiológica I:
+tiempo, espacio, persona y curva epidémica 2021**
 
 -   ⚒️ tutorial: <https://rpubs.com/avallecam/episurv2021parte1>
 -   ⚒️ tutorial yapa: canal endémico
     <https://rpubs.com/avallecam/episurv2021>
 
-📌 **Clase: Visualizando datos de salud pública y epidemiología de campo:
-Uso de Dashboards y otras herramientas de visualización con datos
-abiertos de COVID-19 para la toma de decisiones en Salud Pública 2021**
+📌 **\[lesson\]\[ES\] Visualizando datos de salud pública y epidemiología
+de campo: Uso de Dashboards y otras herramientas de visualización con
+datos abiertos de COVID-19 para la toma de decisiones en Salud Pública
+2021**
 
 -   🍭 presentación: <https://bit.ly/epiviz2021>
 
-📌 **Clase: Introducción a ggplot2 2021**
+📌 **\[lesson\]\[ES\] Introducción a ggplot2 2021**
 
 -   🍭 presentación: <https://bit.ly/r08ggplot2>
 -   🍲 repositorio: <https://github.com/avallecam/workshop_ggplot2>
 
-📌 **Clase: Introducción al uso de proyectos en R 2021**
+📌 **\[lesson\]\[ES\] Introducción al uso de proyectos en R 2021**
 
 -   🍭 presentación: <https://bit.ly/r02proyectos>
 
-📌 **Ponencia: Introducción al análisis espacial 2021**
+📌 **\[talk\]\[ES\] Introducción al análisis espacial 2021**
 
 -   🍭 presentación: <https://bit.ly/espacial2021>
 
-📌 **Plantillas 2020**
+📌 **\[template\]\[ES\]\[2020\]**
 
 -   ⚒️ tablas: <https://bit.ly/epitables>
 -   ⚒️ manuscritos: <https://bit.ly/draftmanuscript>
 -   ⚒️ formularios:
     <https://twitter.com/avallecam/status/1253319600856461315>
 
-📌 **Taller: Análisis de \#multiples epidemias y prevalencias con R y
-purrr 2020**
+📌 **\[workshop\]\[ES\] Análisis de \#multiples epidemias y prevalencias
+con R y purrr 2020**
 
 -   🍭 presentación: <https://bit.ly/bbslisepi>
 
-📌 **Ponencia: Pruebas de hipótesis con métodos estadísticos no
+📌 **\[talk\]\[ES\] Pruebas de hipótesis con métodos estadísticos no
 paramétricos 2020**
 
 -   🍭 presentación: <https://bit.ly/noparam2020>
 -   🍿 video: <https://www.youtube.com/watch?v=1MTt1Ro-OP4>
 
-📌 **Editorial: Ciencia de Datos en Salud: Aplicaciones en el Centro
-Nacional de Epidemiología, Prevención y Control de Enfermedades, Perú.
-Boletín Epidemiológico del Perú, 2019**
+📌 **\[editorial\]\[ES\] Ciencia de Datos en Salud: Aplicaciones en el
+Centro Nacional de Epidemiología, Prevención y Control de Enfermedades,
+Perú. Boletín Epidemiológico del Perú, 2019**
 
 -   🍭 presentación:
     <https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html>
@@ -134,15 +139,15 @@ Boletín Epidemiológico del Perú, 2019**
     <https://avallecam.github.io/health_data_science_editorial/>
 -   🍿 thread: <https://twitter.com/avallecam/status/1226361840436961280>
 
-📌 **Ponencia: Análisis epidemiológico de la epidemia del Síndrome de
-Guillain Barré en Perú 2019**
+📌 **\[talk\]\[ES\] Análisis epidemiológico de la epidemia del Síndrome
+de Guillain Barré en Perú 2019**
 
 -   🍿 poster:
     <https://raw.githubusercontent.com/avallecam/cdcperu-gt_investigacion/master/20191120-poster-SGB-INSv3.jpg>
 -   🍲 repositorio:
     <https://avallecam.github.io/cdcperu-gt_investigacion/>
 
-📌 **Ponencia: R aplicado a la epidemiología. Por la semana de la
+📌 **\[talk\]\[ES\] R aplicado a la epidemiología. Por la semana de la
 epidemiología en CDC Perú 2019**
 
 -   🍭 presentación:
@@ -150,49 +155,43 @@ epidemiología en CDC Perú 2019**
 -   🍿 video: <https://www.youtube.com/watch?v=C3Yqw883jrs>
 -   🍲 repositorio: <https://avallecam.github.io/epiapli2019/>
 
-📌 **Curso: Análisis epidemiológico en R. Post-congreso ASTMH Perú 2019**
+📌 **\[workshop\]\[ES\] Análisis epidemiológico en R. Post-congreso ASTMH
+Perú 2019**
 
 -   🍭 presentación: <https://avallecam.github.io/epistat2019/r02.html#1>
 -   🍲 repositorio: <https://avallecam.github.io/epistat2019/>
 
-📌 **Taller: Estadística inferencial en R. Curso en RNA-seq 2019**
+📌 **\[workshop\]\[ES\] Estadística inferencial en R. Curso en RNA-seq
+2019**
 
 -   🍭 presentación:
     <https://avallecam.github.io/biostat2019/00-biostat2019-slides.html#1>
 -   🍲 repositorio: <https://avallecam.github.io/biostat2019/>
 
-📌 **Taller: Análisis de microarreglos con Tidyverse y Bioconductor
-2019**
+📌 **\[workshop\]\[ES\] Análisis de microarreglos con Tidyverse y
+Bioconductor 2019**
 
 -   🍲 repositorio: <https://github.com/avallecam/bioinfo2019>
 
-📌 **Taller: Ciencia Reproducible y Análisis de Microarreglos. Curso
-teórico-práctico de Bioinformática 2017**
+📌 **\[workshop\]\[ES\] Ciencia Reproducible y Análisis de Microarreglos.
+Curso teórico-práctico de Bioinformática 2017**
 
 -   🍭 presentación 1: Ciencia reproducible en R
     <https://bit.ly/reproscience-intro>
 -   🍭 presentación 2: Análisis de Microarreglos
     <https://bit.ly/microarrays-intro>
 -   🍲 repositorio: <https://github.com/avallecam/bioinfo2017>
--   ⚒️ tutorial 1:
-    <https://avallecam.github.io/bioinfo2017/tidydata.html>
--   ⚒️ tutorial 2:
-    <https://avallecam.github.io/bioinfo2017/tidymicro-1.nb.html>
--   ⚒️ tutorial 3:
-    <https://avallecam.github.io/bioinfo2017/tidymicro-2.nb.html>
--   ⚒️ tutorial 4:
+-   ⚒️ tutorial:
     <https://avallecam.github.io/bioinfo2017/biocmicro.nb.html>
--   🍿 publicidad:
-    <https://www.facebook.com/events/796342307197768/permalink/803837343114931>
--   🍿 video inspiración: <https://www.youtube.com/watch?v=s3JldKoA0zw>
 
-📌 **Clase: Tardígrados y Bioinformática en Transferencia Genética
-Horizontal. Para el curso de Transferencia Genética Horizontal 2016**
+📌 **\[lesson\]\[ES\] Tardígrados y Bioinformática en Transferencia
+Genética Horizontal. Para el curso de Transferencia Genética Horizontal
+2016**
 
 -   🍭 presentación: <https://bit.ly/tardigate2016>
 
-📌 **Clase: Redes de regulación génica. Para el curso en Biomatemática
-2015-2017**
+📌 **\[lesson\]\[ES\] Redes de regulación génica. Para el curso en
+Biomatemática 2015-2017**
 
 -   🍭 presentación: <https://bit.ly/biomath2017>
 -   ⚒️ tutorial: <https://github.com/avallecam/gene_regulatory_networks>
@@ -219,6 +218,8 @@ Horizontal. Para el curso de Transferencia Genética Horizontal 2016**
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
 -   ⌚ I took eight hours doing this list, will avoid doing a web page
     for some time 😅
+
+> \#a11y “nothing about us without us”
 
 > format inspired by: <https://github.com/seabbs/>
 
