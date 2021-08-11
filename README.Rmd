@@ -19,12 +19,12 @@ knitr::opts_chunk$set(
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve them, satisfy my **own** expectations, and **motivate** myself :)
 
-🌱 Interested in reproducible **open** research from its _design_, healthy **work** environments, and how to **teach** effectively.
+🌱 Interested in reproducible **open** research from its _design_, healthy **work** environments, and how to **teach** better with #a11y
 
 ### NOW
 
 - 💻 Freelancer; 
-- ✨ Crafted last [serosurvey](https://github.com/avallecam/serosurvey) :package:; 
+- ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) :package:; 
 - ⭐ Here some slides for the last [useR! conf 2021](https://github.com/avallecam/serosurvey-user21);
 - ✒️ Currently writing my thesis manuscripts, grad applications soon!
 

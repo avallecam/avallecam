@@ -9,16 +9,16 @@
 them, satisfy my **own** expectations, and **motivate** myself :)
 
 🌱 Interested in reproducible **open** research from its *design*,
-healthy **work** environments, and how to **teach** effectively.
+healthy **work** environments, and how to **teach** better with \#a11y
 
 ### NOW
 
 -   💻 Freelancer;
--   ✨ Crafted last [serosurvey](https://github.com/avallecam/serosurvey)
+-   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     :package:;
 -   ⭐ Here some slides for the last [useR! conf
     2021](https://github.com/avallecam/serosurvey-user21);
--   ✒️ Excited to finish writing my thesis manuscripts, and start grad school applications soon!
+-   ✒️ Currently writing my thesis manuscripts, grad applications soon!
 
 ### BIO
 
@@ -174,8 +174,17 @@ teórico-práctico de Bioinformática 2017**
 -   🍭 presentación 2: Análisis de Microarreglos
     <https://bit.ly/microarrays-intro>
 -   🍲 repositorio: <https://github.com/avallecam/bioinfo2017>
--   ⚒️ tutorial:
+-   ⚒️ tutorial 1:
+    <https://avallecam.github.io/bioinfo2017/tidydata.html>
+-   ⚒️ tutorial 2:
+    <https://avallecam.github.io/bioinfo2017/tidymicro-1.nb.html>
+-   ⚒️ tutorial 3:
+    <https://avallecam.github.io/bioinfo2017/tidymicro-2.nb.html>
+-   ⚒️ tutorial 4:
     <https://avallecam.github.io/bioinfo2017/biocmicro.nb.html>
+-   🍿 publicidad:
+    <https://www.facebook.com/events/796342307197768/permalink/803837343114931>
+-   🍿 video inspiración: <https://www.youtube.com/watch?v=s3JldKoA0zw>
 
 📌 **Clase: Tardígrados y Bioinformática en Transferencia Genética
 Horizontal. Para el curso de Transferencia Genética Horizontal 2016**
