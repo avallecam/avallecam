@@ -75,7 +75,6 @@ Coordinator in a last [**outbreak analysis** course in latam](https://twitter.co
 📌 __[lesson][ES] Data analysis in epidemiological surveillance II: spatial analysis, 2021__
 
 - 🍭 slides: http://bit.ly/episurv2021parte2 
-- ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte1 
 - ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte2  
 
 📌 __[lesson][ES] Data analysis in epidemiological surveillance I: time, space, person and epidemic curve, 2021__

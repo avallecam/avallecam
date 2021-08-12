@@ -82,7 +82,6 @@ epidemics, 2021**
 spatial analysis, 2021**
 
 -   🍭 slides: <http://bit.ly/episurv2021parte2>
--   ⚒️ tutorial: <https://rpubs.com/avallecam/episurv2021parte1>
 -   ⚒️ tutorial: <https://rpubs.com/avallecam/episurv2021parte2>
 
 📌 **\[lesson\]\[ES\] Data analysis in epidemiological surveillance I:
