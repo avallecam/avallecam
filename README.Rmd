@@ -83,7 +83,7 @@ Coordinator in a last [**outbreak analysis** course in latam](https://twitter.co
 - ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte1 
 - ⚒️ extra: endemic channel https://rpubs.com/avallecam/episurv2021 
 
-📌 __[lesson][ES] Visualizing public health data and field epidemiology, 2021__
+📌 __[lesson][ES] Visualizing public health and field epidemiology data, 2021__
 
 - 🍭 slides: https://bit.ly/epiviz2021 
 

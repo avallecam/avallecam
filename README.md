@@ -91,8 +91,8 @@ time, space, person and epidemic curve, 2021**
 -   ⚒️ tutorial: <https://rpubs.com/avallecam/episurv2021parte1>
 -   ⚒️ extra: endemic channel <https://rpubs.com/avallecam/episurv2021>
 
-📌 **\[lesson\]\[ES\] Visualizing public health data and field
-epidemiology, 2021**
+📌 **\[lesson\]\[ES\] Visualizing public health and field epidemiology
+data, 2021**
 
 -   🍭 slides: <https://bit.ly/epiviz2021>
 
