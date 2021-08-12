@@ -190,19 +190,21 @@ Transfer, 2016**
 
 -   🏊 I was a [swimmer (lane
     \#5)](https://www.youtube.com/watch?v=fN7sJPFeJcw)
--   🎼 I love listening to music and watching [musical
+-   🎬 I love watching [musical
     videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ)
 -   🇵🇪 I have a playlist of [peruvian
     music](https://youtube.com/playlist?list=PLDHw5KzS-qvKv1z5CBELuQnqanqfZ4WSy)
--   🎧 I play the guitar 🎸 and piano 🎹 (video soon!)
+-   🎼 I play the guitar 🎸 and piano 🎹 (video soon!)
 -   🌠 I have a wishlist on
     [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/)
 -   🖤 I read a manga called
     [berserk](https://readberserk.com/chapter/berserk-chapter-a0/)
--   🎨 I love visiting [art galleries](https://mali.pe/), hope to see
+-   🎨 I love visiting [art
+    galleries](https://coleccion.mali.pe/collections), hope to
+    [see](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
     this live
     [once](https://www.metmuseum.org/es/art/collection/search/267838)
--   🌩️ I enjoy reading about dialectical materialism:
+-   🌩️ I enjoy reading dialectical materialism:
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
