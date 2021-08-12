@@ -132,7 +132,7 @@ methods, 2020**
 -   🍭 slides:
     <https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html>
 -   🍲 repo: <https://avallecam.github.io/health_data_science_editorial/>
--   🧵 thread: <https://twitter.com/avallecam/status/1226361840436961280>
+-   🍿 thread: <https://twitter.com/avallecam/status/1226361840436961280>
 
 📌 **\[talk\]\[ES\] Epidemiological analysis of the epidemic of Guillain
 Barré Syndrome in Peru, 2019**
