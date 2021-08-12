@@ -31,7 +31,7 @@ healthy **work** environments, and how to **teach** better!
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
     **Universidad Nacional Mayor de San Marcos** (2015)
 -   ⚙️ I use **`R`** daily
--   😎 Take a look to my coding **cheatsheet** full of reproducible
+-   📑 Take a look to my coding **cheatsheet** full of reproducible
     examples in [gist](https://gist.github.com/avallecam)
 -   🌍 I’ve contributed some **answers** for the community in
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
@@ -219,5 +219,5 @@ Transfer, 2016**
 -   :package: It is also the name of my first R package
 -   📡 Their functions are now hosted in the
     [`epihelper`](https://github.com/avallecam/epihelper) package.
--   🪐️ For documentation go to this [reference
+-   🚞️ For documentation go to this [reference
     page](https://avallecam.github.io/avallecam/reference/index.html)
