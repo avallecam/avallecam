@@ -53,7 +53,7 @@ Coordinator in a last [outbreak analysis course](https://twitter.com/cdc_peru/st
 - 💚 [powder](https://github.com/avallecam/powder)
 - 🚧 [sitreper](https://github.com/avallecam/sitreper)
 - 💚 [cdcper](https://github.com/avallecam/cdcper)
-- 🚧 [epihelper](https://github.com/avallecam/epihelper)
+- 🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
 #### MORE
 
@@ -177,7 +177,7 @@ Coordinator in a last [outbreak analysis course](https://twitter.com/cdc_peru/st
 
 - 🌞 Stands for **a**ndree **valle** **cam**pos.
 - 💕 **cam** intentionally commemorates my [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos) ancestry
-- :package: It is also the name of my first R package, now hosted [here](https://github.com/avallecam/epihelper) 
+- :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/) 
 
 > #a11y nothing about us without us
 

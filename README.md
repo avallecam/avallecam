@@ -56,7 +56,7 @@ healthy **work** environments, and how to **teach** better!
 -   💚 [powder](https://github.com/avallecam/powder)
 -   🚧 [sitreper](https://github.com/avallecam/sitreper)
 -   💚 [cdcper](https://github.com/avallecam/cdcper)
--   🚧 [epihelper](https://github.com/avallecam/epihelper)
+-   🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
 #### MORE
 
@@ -215,7 +215,7 @@ Transfer, 2016**
     [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos)
     ancestry
 -   :package: It is also the name of my first R package, now hosted
-    [here](https://github.com/avallecam/epihelper)
+    [elsewhere](https://avallecam.github.io/epihelper/)
 
 > \#a11y nothing about us without us
 
