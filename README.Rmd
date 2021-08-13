@@ -25,8 +25,7 @@ knitr::opts_chunk$set(
 
 - 💻 Freelancer; 
 - ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) :package:; 
-- ⭐ 
-Coordinator in a last [outbreak analysis course](https://twitter.com/cdc_peru/status/1392099144689401857?s=20) in latam [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
+- ⭐ Coordinator in a last [outbreak analysis course](https://twitter.com/cdc_peru/status/1392099144689401857?s=20) in latinamerica [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 - ✒️ Excited to finish writing my thesis manuscripts and grad school applications!
 
 #### BIO
@@ -173,12 +172,13 @@ Coordinator in a last [outbreak analysis course](https://twitter.com/cdc_peru/st
 - 🌩️ I enjoy reading dialectical materialism: [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136), [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2), [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
 <!-- - ⌚ I took ten hours setting this 😅 -->
 
-### avallecam
+#### avallecam
 
 - 🌞 Stands for **a**ndree **valle** **cam**pos.
-- 💕 **cam** intentionally commemorates my [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos) ancestry
-- :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/) 
+- 💕 I intentionally used **cam** in reference to my [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos) ancestry
+<!-- - :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
 
-> #a11y nothing about us without us
+> #a11y << nothing about us without us >>
 
 > format inspired by: https://github.com/seabbs/
+

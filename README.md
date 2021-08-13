@@ -18,7 +18,7 @@ healthy **work** environments, and how to **teach** better!
     :package:;
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://twitter.com/cdc_peru/status/1392099144689401857?s=20)
-    in latam
+    in latinamerica
     [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
@@ -208,15 +208,14 @@ Transfer, 2016**
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
     <!-- - ⌚ I took ten hours setting this 😅 -->
 
-### avallecam
+#### avallecam
 
 -   🌞 Stands for **a**ndree **valle** **cam**pos.
--   💕 **cam** intentionally commemorates my
+-   💕 I intentionally used **cam** in reference to my
     [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos)
     ancestry
--   :package: It is also the name of my first R package, now hosted
-    [elsewhere](https://avallecam.github.io/epihelper/)
+    <!-- - :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
 
-> \#a11y nothing about us without us
+> \#a11y &lt;&lt; nothing about us without us &gt;&gt;
 
 > format inspired by: <https://github.com/seabbs/>
