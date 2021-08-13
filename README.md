@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-# Hi there 👋
+## Hi there 👋
 
-## I’m a geneticist skilled in health data science
+### I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve
 them, satisfy my **own** expectations, and **motivate** myself :)
@@ -11,18 +11,19 @@ them, satisfy my **own** expectations, and **motivate** myself :)
 🌱 Interested in reproducible **open** research from its *design*,
 healthy **work** environments, and how to **teach** better!
 
-### NOW
+#### NOW
 
 -   💻 Freelancer;
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     :package:;
--   ⭐ Coordinator in a last [**outbreak analysis** course in
-    latam](https://twitter.com/cdc_peru/status/1392099144689401857?s=20)
+-   ⭐ Coordinator in a last [outbreak analysis
+    course](https://twitter.com/cdc_peru/status/1392099144689401857?s=20)
+    in latam
     [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
 
-### BIO
+#### BIO
 
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
     quantitative **Epidemiological research**
@@ -31,21 +32,21 @@ healthy **work** environments, and how to **teach** better!
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
     **Universidad Nacional Mayor de San Marcos** (2015)
 -   ⚙️ I use **`R`** daily
--   📑 Take a look to my coding **cheatsheet** full of reproducible
-    examples in [gist](https://gist.github.com/avallecam)
--   🌍 I’ve contributed some **answers** for the community in
+-   📑 I have a coding **cheatsheet** full of reproducible examples in
+    [gist](https://gist.github.com/avallecam)
+-   🌍 I have contributed with **answers** for the community in
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
--   📚 Take a look to my academic **publications** list in
+-   📚 I have my academic **publications** list in
     [orcid](https://orcid.org/0000-0002-7779-481X) and
     [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es)
--   💌 I love to collect links for a lot of topics in a collaborative
+-   💌 I love to collect **links** for a lot of topics in a collaborative
     [trello board](https://trello.com/b/xtO9VP36/scibites)
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **epidemiological reproducible research**
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
 -   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
-### R :package:’s
+#### R :package:’s
 
 -   💙 [serosurvey](https://avallecam.github.io/serosurvey/)
 -   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
@@ -57,7 +58,7 @@ healthy **work** environments, and how to **teach** better!
 -   💚 [cdcper](https://github.com/avallecam/cdcper)
 -   🚧 [epihelper](https://github.com/avallecam/epihelper)
 
-### MORE
+#### MORE
 
 📌 **\[talk\] serosurvey: Serological Surveys and Prevalence Estimation
 Under Misclassification, 2021**
@@ -167,10 +168,8 @@ Bioconductor, 2019**
 📌 **\[workshop\]\[ES\] Reproducible Science and Microarray Analysis,
 2017**
 
--   🍭 slides: Ciencia reproducible en R
-    <https://bit.ly/reproscience-intro>
--   🍭 slides: Análisis de Microarreglos
-    <https://bit.ly/microarrays-intro>
+-   🍭 slides: <https://bit.ly/reproscience-intro>
+-   🍭 slides: <https://bit.ly/microarrays-intro>
 -   🍲 repo: <https://github.com/avallecam/bioinfo2017>
 -   ⚒️ tutorial:
     <https://avallecam.github.io/bioinfo2017/biocmicro.nb.html>
@@ -185,7 +184,7 @@ Transfer, 2016**
 -   🍭 slides: <https://bit.ly/biomath2017_>
 -   ⚒️ tutorial: <https://github.com/avallecam/gene_regulatory_networks>
 
-### ME
+#### ME
 
 -   🏊 I was a [swimmer (lane
     \#5)](https://www.youtube.com/watch?v=fN7sJPFeJcw)
@@ -193,7 +192,7 @@ Transfer, 2016**
     videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ)
 -   🇵🇪 I have a playlist of [peruvian
     music](https://youtube.com/playlist?list=PLDHw5KzS-qvKv1z5CBELuQnqanqfZ4WSy)
--   🎼 I play the guitar 🎸 and piano 🎹 (video soon!)
+-   🎼 I play the guitar 🎸 and piano 🎹
 -   🌠 I have a wishlist on
     [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/)
 -   🖤 I read a manga called
@@ -209,11 +208,7 @@ Transfer, 2016**
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
     <!-- - ⌚ I took ten hours setting this 😅 -->
 
-> \#a11y nothing about us without us
-
-> format inspired by: <https://github.com/seabbs/>
-
-# {avallecam}
+#### {avallecam}
 
 -   🌞 Stands for **a**ndree **valle** **cam**pos.
 -   :package: It is also the name of my first R package
@@ -221,3 +216,7 @@ Transfer, 2016**
     [`epihelper`](https://github.com/avallecam/epihelper) package.
 -   🚞️ For documentation go to this [reference
     page](https://avallecam.github.io/avallecam/reference/index.html)
+
+> \#a11y nothing about us without us
+
+> format inspired by: <https://github.com/seabbs/>
