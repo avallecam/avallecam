@@ -111,10 +111,11 @@ data, 2021**
 
 📌 **\[template\]\[ES\]**
 
--   ⚒️ tables: <https://bit.ly/epitables>
--   ⚒️ manuscript: <https://bit.ly/draftmanuscript>
--   ⚒️ survey-forms:
+-   ♻️ tables: <https://bit.ly/epitables>
+-   ♻️ manuscript: <https://bit.ly/draftmanuscript>
+-   ♻️ survey-forms:
     <https://twitter.com/avallecam/status/1253319600856461315>
+-   ♻️ shinyapp: <https://avallecam.shinyapps.io/data_qc/>
 
 📌 **\[workshop\]\[ES\] Analysis of \#multiple epidemics and prevalences
 with R and purrr, 2020**
@@ -216,6 +217,6 @@ Transfer, 2016**
     ancestry
     <!-- - :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
 
-> \#a11y &lt;&lt; nothing about us without us &gt;&gt;
+> \#a11y - nothing about us without us
 
 > format inspired by: <https://github.com/seabbs/>

@@ -100,9 +100,10 @@ knitr::opts_chunk$set(
 
 📌 __[template][ES]__
 
-- ⚒️ tables: https://bit.ly/epitables
-- ⚒️ manuscript: https://bit.ly/draftmanuscript
-- ⚒️ survey-forms: https://twitter.com/avallecam/status/1253319600856461315
+- ♻️ tables: https://bit.ly/epitables
+- ♻️ manuscript: https://bit.ly/draftmanuscript
+- ♻️ survey-forms: https://twitter.com/avallecam/status/1253319600856461315
+- ♻️ shinyapp: https://avallecam.shinyapps.io/data_qc/
 
 📌 __[workshop][ES] Analysis of #multiple epidemics and prevalences with R and purrr, 2020__
 
@@ -178,7 +179,7 @@ knitr::opts_chunk$set(
 - 💕 I intentionally used **cam** in reference to my [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos) ancestry
 <!-- - :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
 
-> #a11y << nothing about us without us >>
+> #a11y - nothing about us without us
 
 > format inspired by: https://github.com/seabbs/
 
