@@ -208,14 +208,14 @@ Transfer, 2016**
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
     <!-- - ⌚ I took ten hours setting this 😅 -->
 
-#### {avallecam}
+### avallecam
 
 -   🌞 Stands for **a**ndree **valle** **cam**pos.
--   :package: It is also the name of my first R package
--   📡 Their functions are now hosted in the
-    [`epihelper`](https://github.com/avallecam/epihelper) package.
--   🚞️ For documentation go to this [reference
-    page](https://avallecam.github.io/avallecam/reference/index.html)
+-   💕 **cam** intentionally commemorates my
+    [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos)
+    ancestry
+-   :package: It is also the name of my first R package, now hosted
+    [here](https://github.com/avallecam/epihelper)
 
 > \#a11y nothing about us without us
 
