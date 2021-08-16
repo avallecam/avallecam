@@ -51,14 +51,14 @@ healthy **work** environments, and how to **teach** better!
 -   💙 [serosurvey](https://avallecam.github.io/serosurvey/)
 -   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
 -   💚 [covid19viz](https://avallecam.github.io/covid19viz/)
--   💚 [epichannel](https://github.com/avallecam/epichannel)
--   💚 [epitidy](https://github.com/avallecam/epitidy)
 -   💚 [powder](https://github.com/avallecam/powder)
 -   🚧 [sitreper](https://github.com/avallecam/sitreper)
 -   💚 [cdcper](https://github.com/avallecam/cdcper)
+-   💚 [epichannel](https://github.com/avallecam/epichannel)
+-   💚 [epitidy](https://github.com/avallecam/epitidy)
 -   🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
-#### MORE
+#### TALKS
 
 📌 **\[talk\] serosurvey: Serological Surveys and Prevalence Estimation
 Under Misclassification, 2021**
@@ -109,14 +109,6 @@ data, 2021**
 
 -   🍭 slides: <https://bit.ly/espacial2021>
 
-📌 **\[template\]\[ES\]**
-
--   ♻️ tables: <https://bit.ly/epitables>
--   ♻️ manuscript: <https://bit.ly/draftmanuscript>
--   ♻️ survey-forms:
-    <https://twitter.com/avallecam/status/1253319600856461315>
--   ♻️ shinyapp: <https://avallecam.shinyapps.io/data_qc/>
-
 📌 **\[workshop\]\[ES\] Analysis of \#multiple epidemics and prevalences
 with R and purrr, 2020**
 
@@ -127,6 +119,12 @@ methods, 2020**
 
 -   🍭 slides: <https://bit.ly/noparam2020>
 -   🍿 video: <https://www.youtube.com/watch?v=1MTt1Ro-OP4>
+
+📌 **\[opinion\]\[ES\] Data and transparency to fight against the
+coronavirus, 2020**
+
+-   🍭 slides:
+    <https://ojo-publico.com/1718/datos-y-transparencia-para-luchar-contra-el-coronavirus>
 
 📌 **\[editorial\]\[ES\] Health Data Science: Applications at CDC Perú,
 2019**
@@ -185,6 +183,13 @@ Transfer, 2016**
 -   🍭 slides: <https://bit.ly/biomath2017_>
 -   ⚒️ tutorial: <https://github.com/avallecam/gene_regulatory_networks>
 
+#### TEMPLATES
+
+-   ♻️ tables: <https://bit.ly/epitables>
+-   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
+-   ♻️ survey-forms: <https://ee.kobotoolbox.org/preview/oW0aWyxX>
+-   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/>
+
 #### ME
 
 -   🏊 I was a [swimmer (lane
@@ -194,9 +199,9 @@ Transfer, 2016**
 -   🇵🇪 I have a playlist of [peruvian
     music](https://youtube.com/playlist?list=PLDHw5KzS-qvKv1z5CBELuQnqanqfZ4WSy)
 -   🎼 I play the guitar 🎸 and piano 🎹
--   🌠 I have a wishlist on
+-   🌠 I have a wishlist in
     [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/)
--   🖤 I read a manga called
+-   🖤 I am reading a manga called
     [berserk](https://readberserk.com/chapter/berserk-chapter-a0/)
 -   🎨 I love visiting [art
     galleries](https://coleccion.mali.pe/collections), hope to
@@ -207,6 +212,10 @@ Transfer, 2016**
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
+-   🍥 I am [learning](https://www.a11yproject.com/) to design
+    [accessible](https://user2021.r-project.org/participation/accessibility/)
+    outputs <!-- > #a11y - nothing about us without us -->
+    <!-- - I am interested in discussing about how to provide local solutions against local [inequalities](https://unsdg.un.org/2030-agenda/universal-values/leave-no-one-behind) in society -->
     <!-- - ⌚ I took ten hours setting this 😅 -->
 
 #### avallecam
@@ -216,7 +225,5 @@ Transfer, 2016**
     [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos)
     ancestry
     <!-- - :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
-
-> \#a11y - nothing about us without us
 
 > format inspired by: <https://github.com/seabbs/>
