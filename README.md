@@ -13,9 +13,8 @@ healthy **work** environments, and how to **teach** better!
 
 #### NOW
 
--   💻 Freelancer and [health data
-    science](https://avallecam.github.io/health_data_science_editorial/)
-    coach;
+-   💻 Freelancer… and
+    [coach](https://avallecam.github.io/health_data_science_editorial/)?;
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     :package:;
 -   ⭐ Coordinator in a last [outbreak analysis

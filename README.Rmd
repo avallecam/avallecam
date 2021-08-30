@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 
 #### NOW
 
-- 💻 Freelancer and [health data science](https://avallecam.github.io/health_data_science_editorial/) coach; 
+- 💻 Freelancer... and [coach](https://avallecam.github.io/health_data_science_editorial/)?; 
 - ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) :package:; 
 - ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in latinamerica [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 <!-- https://twitter.com/cdc_peru/status/1392099144689401857?s=20 -->
