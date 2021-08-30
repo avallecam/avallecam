@@ -71,26 +71,26 @@ knitr::opts_chunk$set(
 - 🍭 slides: https://bit.ly/cursoepidemia-intror 
 - ⚒️ tutorial: https://www.reconlearn.org/post/practical-intror-spanish.html
 
-📌 __[lesson][ES] Data analysis in epidemiological surveillance II: spatial analysis, 2021__
+📌 __[lecture][ES] Data analysis in epidemiological surveillance II: spatial analysis, 2021__
 
 - 🍭 slides: http://bit.ly/episurv2021parte2 
 - ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte2  
 
-📌 __[lesson][ES] Data analysis in epidemiological surveillance I: time, space, person and epidemic curve, 2021__
+📌 __[lecture][ES] Data analysis in epidemiological surveillance I: time, space, person and epidemic curve, 2021__
 
 - ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte1 
 - ⚒️ extra: endemic channel https://rpubs.com/avallecam/episurv2021 
 
-📌 __[lesson][ES] Visualizing public health and field epidemiology data, 2021__
+📌 __[lecture][ES] Visualizing public health and field epidemiology data, 2021__
 
 - 🍭 slides: https://bit.ly/epiviz2021 
 
-📌 __[lesson][ES] Introduction to ggplot2, 2021__
+📌 __[lecture][ES] Introduction to ggplot2, 2021__
 
 - 🍭 slides: https://bit.ly/r08ggplot2 
 - 🍲 repo: https://github.com/avallecam/workshop_ggplot2 
 
-📌 __[lesson][ES] Introduction to the use of R projects, 2021__
+📌 __[lecture][ES] Introduction to the use of R projects, 2021__
 
 - 🍭 slides: https://bit.ly/r02proyectos 
 
@@ -149,11 +149,11 @@ knitr::opts_chunk$set(
 - 🍲 repo: https://github.com/avallecam/bioinfo2017 
 - ⚒️ tutorial: https://avallecam.github.io/bioinfo2017/biocmicro.nb.html
 
-📌 __[lesson][ES] Tardigrades and Bioinformatics in Horizontal Gene Transfer, 2016__
+📌 __[lecture][ES] Tardigrades and Bioinformatics in Horizontal Gene Transfer, 2016__
 
 - 🍭 slides: https://bit.ly/tardigate2016 
 
-📌 __[lesson][ES] Gene regulatory networks, 2015-2017__
+📌 __[lecture][ES] Gene regulatory networks, 2015-2017__
 
 - 🍭 slides: https://bit.ly/biomath2017_ 
 - ⚒️ tutorial: https://github.com/avallecam/gene_regulatory_networks 
