@@ -19,9 +19,10 @@ healthy **work** environments, and how to **teach** better!
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     :package:;
 -   ⭐ Coordinator in a last [outbreak analysis
-    course](https://twitter.com/cdc_peru/status/1392099144689401857?s=20)
-    in latinamerica
+    course](https://www.cursoepidemias-col-peru-2021.org/) in
+    latinamerica
     [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
+    <!-- https://twitter.com/cdc_peru/status/1392099144689401857?s=20 -->
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
 
@@ -98,14 +99,15 @@ data, 2021**
 
 -   🍭 slides: <https://bit.ly/epiviz2021>
 
-📌 **\[lecture\]\[ES\] Introduction to ggplot2, 2021**
+📌 **\[workshop\]\[ES\] Introduction to ggplot2, 2021**
 
 -   🍭 slides: <https://bit.ly/r08ggplot2>
 -   🍲 repo: <https://github.com/avallecam/workshop_ggplot2>
 
-📌 **\[lecture\]\[ES\] Introduction to the use of R projects, 2021**
+📌 **\[workshop\]\[ES\] Introduction to the use of R projects, 2021**
 
 -   🍭 slides: <https://bit.ly/r02proyectos>
+-   🍲 repo: <https://cdcperucursos.github.io/cursorcdc1.html>
 
 📌 **\[talk\]\[ES\] Introduction to spatial analysis, 2021**
 
