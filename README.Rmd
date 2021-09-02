@@ -23,7 +23,7 @@ knitr::opts_chunk$set(
 
 #### NOW
 
-- 💻 Freelancer... and [coach](https://avallecam.github.io/health_data_science_editorial/)?; 
+- 💻 Freelancer and [coach](https://avallecam.github.io/health_data_science_editorial/); 
 - ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) :package:; 
 - ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in latinamerica [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 <!-- https://twitter.com/cdc_peru/status/1392099144689401857?s=20 -->
@@ -55,7 +55,7 @@ knitr::opts_chunk$set(
 - 💚 [epitidy](https://github.com/avallecam/epitidy)
 - 🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
-#### TALKS
+#### WORKS
 
 📌 __[talk] serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification, 2021__
 
@@ -111,18 +111,27 @@ knitr::opts_chunk$set(
 
 📌 __[opinion][ES] Data and transparency to fight against the coronavirus, 2020__
 
-- 🍭 slides: https://ojo-publico.com/1718/datos-y-transparencia-para-luchar-contra-el-coronavirus
+- 📒 text: https://ojo-publico.com/1718/datos-y-transparencia-para-luchar-contra-el-coronavirus
 
 📌 __[editorial][ES] Health Data Science: Applications at CDC Perú, 2019__
 
-- 🍭 slides: https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html
+- 📒 text: https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html
 - 🍲 repo: https://avallecam.github.io/health_data_science_editorial/
-- 🍿 thread: https://twitter.com/avallecam/status/1226361840436961280
 
-📌 __[talk][ES] Epidemiological analysis of the epidemic of Guillain Barré Syndrome in Peru, 2019__
+📌 __[poster][ES] Epidemiological analysis of the epidemic of Guillain Barré Syndrome in Peru, 2019__
 
 - 🍿 poster: https://raw.githubusercontent.com/avallecam/cdcperu-gt_investigacion/master/20191120-poster-SGB-INSv3.jpg 
 - 🍲 repo: https://avallecam.github.io/cdcperu-gt_investigacion/
+
+<!-- 📌 __[abstract][ES] Changes in the morbidity and mortality profiles in Peru (2002-2016). Aplications with R and cdcper R package, 2019__ -->
+
+<!-- - 📒 poster:   -->
+<!-- - 🍲 repo: https://rpmesp.ins.gob.pe/rpmesp/article/view/5178 -->
+
+📌 __[poster] Human mobility and malaria history in a periurban community of the Peruvian Amazon, 2019__
+
+- 🍿 poster: https://raw.githubusercontent.com/avallecam/movmal/master/poster/astmh_poster-ValleAA-20191116.jpg 
+- 🍲 repo: https://github.com/avallecam/movmal
 
 📌 __[talk][ES] R applied to epidemiology, 2019__
 
@@ -147,9 +156,8 @@ knitr::opts_chunk$set(
 📌 __[workshop][ES] Reproducible Science and Microarray Analysis, 2017__
 
 - 🍭 slides: https://bit.ly/reproscience-intro 
-- 🍭 slides: https://bit.ly/microarrays-intro 
-- 🍲 repo: https://github.com/avallecam/bioinfo2017 
 - ⚒️ tutorial: https://avallecam.github.io/bioinfo2017/biocmicro.nb.html
+- 🍲 repo: https://avallecam.github.io/bioinfo2017/ 
 
 📌 __[lecture][ES] Tardigrades and Bioinformatics in Horizontal Gene Transfer, 2016__
 
@@ -159,6 +167,7 @@ knitr::opts_chunk$set(
 
 - 🍭 slides: https://bit.ly/biomath2017_ 
 - ⚒️ tutorial: https://github.com/avallecam/gene_regulatory_networks 
+- 🍲 repo: https://github.com/avallecam/gene_regulatory_networks
 
 #### TEMPLATES
 

@@ -13,8 +13,8 @@ healthy **work** environments, and how to **teach** better!
 
 #### NOW
 
--   💻 Freelancer… and
-    [coach](https://avallecam.github.io/health_data_science_editorial/)?;
+-   💻 Freelancer and
+    [coach](https://avallecam.github.io/health_data_science_editorial/);
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     :package:;
 -   ⭐ Coordinator in a last [outbreak analysis
@@ -60,7 +60,7 @@ healthy **work** environments, and how to **teach** better!
 -   💚 [epitidy](https://github.com/avallecam/epitidy)
 -   🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
-#### TALKS
+#### WORKS
 
 📌 **\[talk\] serosurvey: Serological Surveys and Prevalence Estimation
 Under Misclassification, 2021**
@@ -126,23 +126,33 @@ methods, 2020**
 📌 **\[opinion\]\[ES\] Data and transparency to fight against the
 coronavirus, 2020**
 
--   🍭 slides:
+-   📒 text:
     <https://ojo-publico.com/1718/datos-y-transparencia-para-luchar-contra-el-coronavirus>
 
 📌 **\[editorial\]\[ES\] Health Data Science: Applications at CDC Perú,
 2019**
 
--   🍭 slides:
+-   📒 text:
     <https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html>
 -   🍲 repo: <https://avallecam.github.io/health_data_science_editorial/>
--   🍿 thread: <https://twitter.com/avallecam/status/1226361840436961280>
 
-📌 **\[talk\]\[ES\] Epidemiological analysis of the epidemic of Guillain
-Barré Syndrome in Peru, 2019**
+📌 **\[poster\]\[ES\] Epidemiological analysis of the epidemic of
+Guillain Barré Syndrome in Peru, 2019**
 
 -   🍿 poster:
     <https://raw.githubusercontent.com/avallecam/cdcperu-gt_investigacion/master/20191120-poster-SGB-INSv3.jpg>
 -   🍲 repo: <https://avallecam.github.io/cdcperu-gt_investigacion/>
+
+<!-- 📌 __[abstract][ES] Changes in the morbidity and mortality profiles in Peru (2002-2016). Aplications with R and cdcper R package, 2019__ -->
+<!-- - 📒 poster:   -->
+<!-- - 🍲 repo: https://rpmesp.ins.gob.pe/rpmesp/article/view/5178 -->
+
+📌 **\[poster\] Human mobility and malaria history in a periurban
+community of the Peruvian Amazon, 2019**
+
+-   🍿 poster:
+    <https://raw.githubusercontent.com/avallecam/movmal/master/poster/astmh_poster-ValleAA-20191116.jpg>
+-   🍲 repo: <https://github.com/avallecam/movmal>
 
 📌 **\[talk\]\[ES\] R applied to epidemiology, 2019**
 
@@ -171,10 +181,9 @@ Bioconductor, 2019**
 2017**
 
 -   🍭 slides: <https://bit.ly/reproscience-intro>
--   🍭 slides: <https://bit.ly/microarrays-intro>
--   🍲 repo: <https://github.com/avallecam/bioinfo2017>
 -   ⚒️ tutorial:
     <https://avallecam.github.io/bioinfo2017/biocmicro.nb.html>
+-   🍲 repo: <https://avallecam.github.io/bioinfo2017/>
 
 📌 **\[lecture\]\[ES\] Tardigrades and Bioinformatics in Horizontal Gene
 Transfer, 2016**
@@ -185,6 +194,7 @@ Transfer, 2016**
 
 -   🍭 slides: <https://bit.ly/biomath2017_>
 -   ⚒️ tutorial: <https://github.com/avallecam/gene_regulatory_networks>
+-   🍲 repo: <https://github.com/avallecam/gene_regulatory_networks>
 
 #### TEMPLATES
 
