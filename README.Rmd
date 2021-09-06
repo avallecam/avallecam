@@ -23,7 +23,8 @@ knitr::opts_chunk$set(
 
 #### NOW
 
-- 💻 Freelancer and [coach](https://avallecam.github.io/health_data_science_editorial/); 
+- 💻 Freelancer; 
+<!-- and [coach](https://avallecam.github.io/health_data_science_editorial/);  -->
 - ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) :package:; 
 - ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in latinamerica [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 <!-- https://twitter.com/cdc_peru/status/1392099144689401857?s=20 -->
@@ -103,6 +104,10 @@ knitr::opts_chunk$set(
 📌 __[workshop][ES] Analysis of #multiple epidemics and prevalences with R and purrr, 2020__
 
 - 🍭 slides: https://bit.ly/bbslisepi 
+
+📌 __[talk][ES] Causal questions for hypothetical interventions, 2020__
+
+- 🍭 slides: https://bit.ly/casual_question 
 
 📌 __[talk][ES] Hypothesis testing with nonparametric statistical methods, 2020__
 

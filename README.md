@@ -13,8 +13,8 @@ healthy **work** environments, and how to **teach** better!
 
 #### NOW
 
--   💻 Freelancer and
-    [coach](https://avallecam.github.io/health_data_science_editorial/);
+-   💻 Freelancer;
+    <!-- and [coach](https://avallecam.github.io/health_data_science_editorial/);  -->
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     :package:;
 -   ⭐ Coordinator in a last [outbreak analysis
@@ -116,6 +116,11 @@ data, 2021**
 with R and purrr, 2020**
 
 -   🍭 slides: <https://bit.ly/bbslisepi>
+
+📌 **\[talk\]\[ES\] Causal questions for hypothetical interventions,
+2020**
+
+-   🍭 slides: <https://bit.ly/casual_question>
 
 📌 **\[talk\]\[ES\] Hypothesis testing with nonparametric statistical
 methods, 2020**
