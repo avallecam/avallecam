@@ -56,63 +56,15 @@ knitr::opts_chunk$set(
 - 💚 [epitidy](https://github.com/avallecam/epitidy)
 - 🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
-#### WORKS
+#### TEMPLATES
 
-📌 __[talk] serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification, 2021__
+- ♻️ tables: https://bit.ly/epitables
+- ♻️ manuscripts: https://bit.ly/draftmanuscript
+- ♻️ survey-forms: https://ee.kobotoolbox.org/preview/oW0aWyxX
+- ♻️ shinyapps: https://avallecam.shinyapps.io/data_qc/ [[ES](https://avallecam.shinyapps.io/data_qc-es/)]
 
-- 🍭 slides: https://bit.ly/serosurvey-user21 
-- 🍲 repo: https://github.com/avallecam/serosurvey-user21 
 
-📌 __[workshop][ES] Introduction to statistical analysis of epidemics, 2021__
-
-- 🍭 slides: https://bit.ly/cursoepidemias-analisisbrote 
-- ⚒️ tutorial: https://www.reconlearn.org/post/real-time-response-1-spanish.html
-
-📌 __[workshop][ES] Introduction to R and Rstudio, 2021__
-
-- 🍭 slides: https://bit.ly/cursoepidemia-intror 
-- ⚒️ tutorial: https://www.reconlearn.org/post/practical-intror-spanish.html
-
-📌 __[lecture][ES] Data analysis in epidemiological surveillance II: spatial analysis, 2021__
-
-- 🍭 slides: http://bit.ly/episurv2021parte2 
-- ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte2  
-
-📌 __[lecture][ES] Data analysis in epidemiological surveillance I: time, space, person and epidemic curve, 2021__
-
-- ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte1 
-- ⚒️ extra: endemic channel https://rpubs.com/avallecam/episurv2021 
-
-📌 __[lecture][ES] Visualizing public health and field epidemiology data, 2021__
-
-- 🍭 slides: https://bit.ly/epiviz2021 
-
-📌 __[workshop][ES] Introduction to ggplot2, 2021__
-
-- 🍭 slides: https://bit.ly/r08ggplot2 
-- 🍲 repo: https://github.com/avallecam/workshop_ggplot2 
-
-📌 __[workshop][ES] Introduction to the use of R projects, 2021__
-
-- 🍭 slides: https://bit.ly/r02proyectos 
-- 🍲 repo: https://cdcperucursos.github.io/cursorcdc1.html
-
-📌 __[talk][ES] Introduction to spatial analysis, 2021__
-
-- 🍭 slides: https://bit.ly/espacial2021 
-
-📌 __[workshop][ES] Analysis of #multiple epidemics and prevalences with R and purrr, 2020__
-
-- 🍭 slides: https://bit.ly/bbslisepi 
-
-📌 __[talk][ES] Causal questions for hypothetical interventions, 2020__
-
-- 🍭 slides: https://bit.ly/casual_question 
-
-📌 __[talk][ES] Hypothesis testing with nonparametric statistical methods, 2020__
-
-- 🍭 slides: https://bit.ly/noparam2020 
-- 🍿 video: https://www.youtube.com/watch?v=1MTt1Ro-OP4
+#### PUBS
 
 📌 __[opinion][ES] Data and transparency to fight against the coronavirus, 2020__
 
@@ -123,63 +75,121 @@ knitr::opts_chunk$set(
 - 📒 text: https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html
 - 🍲 repo: https://avallecam.github.io/health_data_science_editorial/
 
-📌 __[poster][ES] Epidemiological analysis of the epidemic of Guillain Barré Syndrome in Peru, 2019__
+
+#### TALKS
+
+🔊 __serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification, 2021__
+
+- 🍭 slides: https://bit.ly/serosurvey-user21 
+- 🍲 repo: https://github.com/avallecam/serosurvey-user21 
+
+🔊 __[ES] Introduction to spatial analysis, 2021__
+
+- 🍭 slides: https://bit.ly/espacial2021 
+
+🔊 __[ES] Analysis of #multiple epidemics and prevalences with R and purrr, 2020__
+
+- 🍭 slides: https://bit.ly/bbslisepi 
+
+🔊 __[ES] Causal questions for hypothetical interventions, 2020__
+
+- 🍭 slides: https://bit.ly/casual_question 
+
+🔊 __[ES] Hypothesis testing with nonparametric statistical methods, 2020__
+
+- 🍭 slides: https://bit.ly/noparam2020 
+- 🍿 video: https://www.youtube.com/watch?v=1MTt1Ro-OP4
+
+🔊 __[poster][ES] Epidemiological analysis of the epidemic of Guillain Barré Syndrome in Peru, 2019__
 
 - 🍿 poster: https://raw.githubusercontent.com/avallecam/cdcperu-gt_investigacion/master/20191120-poster-SGB-INSv3.jpg 
 - 🍲 repo: https://avallecam.github.io/cdcperu-gt_investigacion/
 
-<!-- 📌 __[abstract][ES] Changes in the morbidity and mortality profiles in Peru (2002-2016). Aplications with R and cdcper R package, 2019__ -->
+<!-- 🔊 __[abstract][ES] Changes in the morbidity and mortality profiles in Peru (2002-2016). Aplications with R and cdcper R package, 2019__ -->
 
 <!-- - 📒 poster:   -->
 <!-- - 🍲 repo: https://rpmesp.ins.gob.pe/rpmesp/article/view/5178 -->
 
-📌 __[poster] Human mobility and malaria history in a periurban community of the Peruvian Amazon, 2019__
+🔊 __[poster] Human mobility and malaria history in a periurban community of the Peruvian Amazon, 2019__
 
 - 🍿 poster: https://raw.githubusercontent.com/avallecam/movmal/master/poster/astmh_poster-ValleAA-20191116.jpg 
 - 🍲 repo: https://github.com/avallecam/movmal
 
-📌 __[talk][ES] R applied to epidemiology, 2019__
+🔊 __[ES] R applied to epidemiology, 2019__
 
 - 🍭 slides: https://speakerdeck.com/avallecam/r-aplicado-a-epidemiologia 
 - 🍿 video: https://www.youtube.com/watch?v=C3Yqw883jrs 
 - 🍲 repo: https://avallecam.github.io/epiapli2019/ 
 
-📌 __[workshop][ES] Epidemiological analysis in R, 2019__
+#### LECTURES
 
-- 🍭 slides: https://avallecam.github.io/epistat2019/r02.html#1 
-- 🍲 repo: https://avallecam.github.io/epistat2019/ 
+📌 __[ES] Data analysis in epidemiological surveillance II: spatial analysis, 2021__
 
-📌 __[workshop][ES] Inferential statistics in R, 2019__
+- 🍭 slides: http://bit.ly/episurv2021parte2 
+- ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte2  
 
-- 🍭 slides: https://avallecam.github.io/biostat2019/00-biostat2019-slides.html#1 
-- 🍲 repo: https://avallecam.github.io/biostat2019/ 
+📌 __[ES] Data analysis in epidemiological surveillance I: time, space, person and epidemic curve, 2021__
 
-📌 __[workshop][ES] Microarray analysis with Tidyverse and Bioconductor, 2019__
+- ⚒️ tutorial: https://rpubs.com/avallecam/episurv2021parte1 
+- ⚒️ extra: endemic channel https://rpubs.com/avallecam/episurv2021 
 
-- 🍲 repo: https://github.com/avallecam/bioinfo2019 
+📌 __[ES] Visualizing public health and field epidemiology data, 2021__
 
-📌 __[workshop][ES] Reproducible Science and Microarray Analysis, 2017__
+- 🍭 slides: https://bit.ly/epiviz2021 
 
-- 🍭 slides: https://bit.ly/reproscience-intro 
-- ⚒️ tutorial: https://avallecam.github.io/bioinfo2017/biocmicro.nb.html
-- 🍲 repo: https://avallecam.github.io/bioinfo2017/ 
-
-📌 __[lecture][ES] Tardigrades and Bioinformatics in Horizontal Gene Transfer, 2016__
+📌 __[ES] Tardigrades and Bioinformatics in Horizontal Gene Transfer, 2016__
 
 - 🍭 slides: https://bit.ly/tardigate2016 
 
-📌 __[lecture][ES] Gene regulatory networks, 2015-2017__
+📌 __[ES] Gene regulatory networks, 2015-2017__
 
 - 🍭 slides: https://bit.ly/biomath2017_ 
 - ⚒️ tutorial: https://github.com/avallecam/gene_regulatory_networks 
 - 🍲 repo: https://github.com/avallecam/gene_regulatory_networks
 
-#### TEMPLATES
 
-- ♻️ tables: https://bit.ly/epitables
-- ♻️ manuscripts: https://bit.ly/draftmanuscript
-- ♻️ survey-forms: https://ee.kobotoolbox.org/preview/oW0aWyxX
-- ♻️ shinyapps: https://avallecam.shinyapps.io/data_qc/ [[ES](https://avallecam.shinyapps.io/data_qc-es/)]
+#### WORKSHOPS
+
+🖐️ __[ES] Introduction to statistical analysis of epidemics, 2021__
+
+- 🍭 slides: https://bit.ly/cursoepidemias-analisisbrote 
+- ⚒️ tutorial: https://www.reconlearn.org/post/real-time-response-1-spanish.html
+
+🖐️ __[ES] Introduction to R and Rstudio, 2021__
+
+- 🍭 slides: https://bit.ly/cursoepidemia-intror 
+- ⚒️ tutorial: https://www.reconlearn.org/post/practical-intror-spanish.html
+
+🖐️ __[ES] Introduction to ggplot2, 2021__
+
+- 🍭 slides: https://bit.ly/r08ggplot2 
+- 🍲 repo: https://github.com/avallecam/workshop_ggplot2 
+
+🖐️ __[ES] Introduction to the use of R projects, 2021__
+
+- 🍭 slides: https://bit.ly/r02proyectos 
+- 🍲 repo: https://cdcperucursos.github.io/cursorcdc1.html
+
+🖐️ __[ES] Epidemiological analysis in R, 2019__
+
+- 🍭 slides: https://avallecam.github.io/epistat2019/r02.html#1 
+- 🍲 repo: https://avallecam.github.io/epistat2019/ 
+
+🖐️ __[ES] Inferential statistics in R, 2019__
+
+- 🍭 slides: https://avallecam.github.io/biostat2019/00-biostat2019-slides.html#1 
+- 🍲 repo: https://avallecam.github.io/biostat2019/ 
+
+🖐️ __[ES] Microarray analysis with Tidyverse and Bioconductor, 2019__
+
+- 🍲 repo: https://github.com/avallecam/bioinfo2019 
+
+🖐️ __[ES] Reproducible Science and Microarray Analysis, 2017__
+
+- 🍭 slides: https://bit.ly/reproscience-intro 
+- ⚒️ tutorial: https://avallecam.github.io/bioinfo2017/biocmicro.nb.html
+- 🍲 repo: https://avallecam.github.io/bioinfo2017/ 
+
 
 #### ME
 
