@@ -206,8 +206,8 @@ Transfer, 2016**
 -   ♻️ tables: <https://bit.ly/epitables>
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
 -   ♻️ survey-forms: <https://ee.kobotoolbox.org/preview/oW0aWyxX>
--   ♻️ shinyapp-EN: <https://avallecam.shinyapps.io/data_qc/>
--   ♻️ shinyapp-ES: <https://avallecam.shinyapps.io/data_qc-es/>
+-   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/>
+    \[[ES](https://avallecam.shinyapps.io/data_qc-es/)\]
 
 #### ME
 
