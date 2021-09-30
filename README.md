@@ -16,7 +16,7 @@ biology, **signaling** and living matter **configuration** principles.
 healthy **work** environments, and how to **teach** better!
 
 ⛑️ Here is my cv and
-[resume](https://github.com/avallecam/resume/blob/main/cv-andree_vallecampos.pdf)
+[resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf)
 
 ### NOW
 
