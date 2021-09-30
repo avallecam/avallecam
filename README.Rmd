@@ -24,7 +24,7 @@ knitr::opts_chunk$set(
 
 🔓 Also interested in reproducible **open** research from its _design_, healthy **work** environments, and how to **teach** better!
 
-⛑️ This is my cv. Here my [resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
+⛑️ This is my **cv**. Here my [resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
 
 ### NOW
 
@@ -49,7 +49,7 @@ knitr::opts_chunk$set(
 - 📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
 - 🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
-### R 📦's
+## R 📦's
 
 - 💙 [serosurvey](https://avallecam.github.io/serosurvey/) 
 - 🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
@@ -61,7 +61,7 @@ knitr::opts_chunk$set(
 - 💚 [epitidy](https://github.com/avallecam/epitidy)
 - 🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
-### TEMPLATES
+## TEMPLATES
 
 - ♻️ tables: https://bit.ly/epitables
 - ♻️ manuscripts: https://bit.ly/draftmanuscript
@@ -69,7 +69,7 @@ knitr::opts_chunk$set(
 - ♻️ shinyapps: https://avallecam.shinyapps.io/data_qc/ translated to [[ES](https://avallecam.shinyapps.io/data_qc-es/)]
 
 
-### PUBS
+## READS
 
 📌 __[opinion][ES] Data and transparency to fight against the coronavirus, 2020__
 
@@ -81,7 +81,7 @@ knitr::opts_chunk$set(
 - 🍲 repo: https://avallecam.github.io/health_data_science_editorial/
 
 
-### TALKS
+## TALKS
 
 🔔 __serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification, 2021__
 
@@ -126,7 +126,7 @@ knitr::opts_chunk$set(
 - 🍿 video: https://www.youtube.com/watch?v=C3Yqw883jrs 
 - 🍲 repo: https://avallecam.github.io/epiapli2019/ 
 
-### LECTURES
+## LECTURES
 
 📌 __[ES] Data analysis in epidemiological surveillance II: spatial analysis, 2021__
 
@@ -154,7 +154,7 @@ knitr::opts_chunk$set(
 - 🍲 repo: https://github.com/avallecam/gene_regulatory_networks
 
 
-### WORKSHOPS
+## WORKSHOPS
 
 🖐️ __[ES] Introduction to statistical analysis of epidemics, 2021__
 
@@ -197,7 +197,7 @@ knitr::opts_chunk$set(
 - 🍲 repo: https://avallecam.github.io/bioinfo2017/ 
 
 
-### ME
+## ME
 
 - 🏊 I was a [swimmer (lane #5)](https://www.youtube.com/watch?v=fN7sJPFeJcw)
 - 🎬 I love watching [musical videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ)
