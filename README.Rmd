@@ -15,7 +15,7 @@ knitr::opts_chunk$set(
 
 # Hi there 👋
 
-## `r emo::ji("peru")` **Andree Valle-Campos** (él/he/his)
+### `r emo::ji("peru")` **Andree Valle-Campos** (él/he/his)
 
 ![](figure/avallecam-perfil-20210426-2.jpeg){ width=100% }
 

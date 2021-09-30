@@ -3,7 +3,7 @@
 
 # Hi there 👋
 
-## 🇵🇪 **Andree Valle-Campos** (él/he/his)
+### 🇵🇪 **Andree Valle-Campos** (él/he/his)
 
 <img src="figure/avallecam-perfil-20210426-2.jpeg" style="width:100.0%" />
 
