@@ -75,18 +75,18 @@ healthy **work** environments, and how to **teach** better!
 -   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/> translated
     to \[[ES](https://avallecam.shinyapps.io/data_qc-es/)\]
 
-## READS
+## TEXTS
 
 📌 **\[opinion\]\[ES\] Data and transparency to fight against the
 coronavirus, 2020**
 
--   🔖 text:
+-   🔖 link:
     <https://ojo-publico.com/1718/datos-y-transparencia-para-luchar-contra-el-coronavirus>
 
 📌 **\[editorial\]\[ES\] Health Data Science: Applications at CDC Perú,
 2019**
 
--   🔖 text:
+-   🔖 link:
     <https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html>
 -   🍲 repo: <https://avallecam.github.io/health_data_science_editorial/>
 
