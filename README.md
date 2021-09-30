@@ -1,9 +1,9 @@
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
 
-## Hi there 👋
+# Hi there 👋
 
-### I’m a geneticist skilled in health data science
+## I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve
 them, satisfy my **own** expectations, and **motivate** myself :)
@@ -15,7 +15,7 @@ biology, **signaling** and living matter **configuration** principles.
 🔓 Also interested in reproducible **open** research from its *design*,
 healthy **work** environments, and how to **teach** better!
 
-#### NOW
+### NOW
 
 -   💻 Freelancer;
     <!-- and [coach](https://avallecam.github.io/health_data_science_editorial/);  -->
@@ -29,7 +29,7 @@ healthy **work** environments, and how to **teach** better!
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
 
-#### BIO
+### BIO
 
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
     quantitative **Epidemiological research**
@@ -52,7 +52,7 @@ healthy **work** environments, and how to **teach** better!
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
 -   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
-#### R 📦’s
+### R 📦’s
 
 -   💙 [serosurvey](https://avallecam.github.io/serosurvey/)
 -   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
@@ -64,7 +64,7 @@ healthy **work** environments, and how to **teach** better!
 -   💚 [epitidy](https://github.com/avallecam/epitidy)
 -   🚧 [epihelper](https://avallecam.github.io/epihelper/)
 
-#### TEMPLATES
+### TEMPLATES
 
 -   ♻️ tables: <https://bit.ly/epitables>
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
@@ -72,7 +72,7 @@ healthy **work** environments, and how to **teach** better!
 -   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/> translated
     to \[[ES](https://avallecam.shinyapps.io/data_qc-es/)\]
 
-#### PUBS
+### PUBS
 
 📌 **\[opinion\]\[ES\] Data and transparency to fight against the
 coronavirus, 2020**
@@ -87,7 +87,7 @@ coronavirus, 2020**
     <https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html>
 -   🍲 repo: <https://avallecam.github.io/health_data_science_editorial/>
 
-#### TALKS
+### TALKS
 
 🔔 **serosurvey: Serological Surveys and Prevalence Estimation Under
 Misclassification, 2021**
@@ -139,7 +139,7 @@ community of the Peruvian Amazon, 2019**
 -   🍿 video: <https://www.youtube.com/watch?v=C3Yqw883jrs>
 -   🍲 repo: <https://avallecam.github.io/epiapli2019/>
 
-#### LECTURES
+### LECTURES
 
 📌 **\[ES\] Data analysis in epidemiological surveillance II: spatial
 analysis, 2021**
@@ -169,7 +169,7 @@ person and epidemic curve, 2021**
 -   ⚒️ tutorial: <https://github.com/avallecam/gene_regulatory_networks>
 -   🍲 repo: <https://github.com/avallecam/gene_regulatory_networks>
 
-#### WORKSHOPS
+### WORKSHOPS
 
 🖐️ **\[ES\] Introduction to statistical analysis of epidemics, 2021**
 
@@ -215,7 +215,7 @@ person and epidemic curve, 2021**
     <https://avallecam.github.io/bioinfo2017/biocmicro.nb.html>
 -   🍲 repo: <https://avallecam.github.io/bioinfo2017/>
 
-#### ME
+### ME
 
 -   🏊 I was a [swimmer (lane
     \#5)](https://www.youtube.com/watch?v=fN7sJPFeJcw)
@@ -243,7 +243,7 @@ person and epidemic curve, 2021**
     <!-- - I am interested in discussing about how to provide local solutions against local [inequalities](https://unsdg.un.org/2030-agenda/universal-values/leave-no-one-behind) in society -->
     <!-- - ⌚ I took ten hours setting this 😅 -->
 
-#### avallecam
+### avallecam
 
 -   🌞 Stands for **a**ndree **valle** **cam**pos.
 -   💕 I intentionally used **cam** in reference to my
