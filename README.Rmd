@@ -28,7 +28,7 @@ knitr::opts_chunk$set(
 
 - 💻 Freelancer; 
 <!-- and [coach](https://avallecam.github.io/health_data_science_editorial/);  -->
-- ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) :package:; 
+- ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) 📦; 
 - ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in latinamerica [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 <!-- https://twitter.com/cdc_peru/status/1392099144689401857?s=20 -->
 - ✒️ Excited to finish writing my thesis manuscripts and grad school applications!
@@ -47,7 +47,7 @@ knitr::opts_chunk$set(
 - 📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
 - 🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
-#### R :package:'s
+#### R 📦's
 
 - 💙 [serosurvey](https://avallecam.github.io/serosurvey/) 
 - 🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
@@ -214,7 +214,7 @@ knitr::opts_chunk$set(
 
 - 🌞 Stands for **a**ndree **valle** **cam**pos.
 - 💕 I intentionally used **cam** in reference to my [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos) ancestry
-<!-- - :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
+<!-- - 📦 It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
 
 > format inspired by: https://github.com/seabbs/
 

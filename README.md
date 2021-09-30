@@ -20,7 +20,7 @@ healthy **work** environments, and how to **teach** better!
 -   💻 Freelancer;
     <!-- and [coach](https://avallecam.github.io/health_data_science_editorial/);  -->
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
-    :package:;
+    📦;
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
     latinamerica
@@ -52,7 +52,7 @@ healthy **work** environments, and how to **teach** better!
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
 -   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
-#### R :package:’s
+#### R 📦’s
 
 -   💙 [serosurvey](https://avallecam.github.io/serosurvey/)
 -   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
@@ -249,6 +249,6 @@ person and epidemic curve, 2021**
 -   💕 I intentionally used **cam** in reference to my
     [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos)
     ancestry
-    <!-- - :package: It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
+    <!-- - 📦 It is also the name of my first R package, now hosted [elsewhere](https://avallecam.github.io/epihelper/)  -->
 
 > format inspired by: <https://github.com/seabbs/>
