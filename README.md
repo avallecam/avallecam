@@ -3,6 +3,10 @@
 
 # Hi there 👋
 
+### 🇵🇪 **Andree Valle-Campos** (pronouns: él/he/his)
+
+<img src="figure/avallecam-perfil-20210426-2.jpeg" style="width:100.0%" />
+
 ## I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve

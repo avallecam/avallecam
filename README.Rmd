@@ -15,6 +15,10 @@ knitr::opts_chunk$set(
 
 # Hi there 👋
 
+### `r emo::ji("peru")` **Andree Valle-Campos** (pronouns: él/he/his)
+
+![](figure/avallecam-perfil-20210426-2.jpeg){ width=100% }
+
 ## I'm a geneticist skilled in health data science 
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve them, satisfy my **own** expectations, and **motivate** myself :)
