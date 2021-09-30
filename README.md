@@ -15,8 +15,8 @@ biology, **signaling** and living matter **configuration** principles.
 🔓 Also interested in reproducible **open** research from its *design*,
 healthy **work** environments, and how to **teach** better!
 
-⛑️ Here is my cv and
-[resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf)
+⛑️ This is my cv. Here my
+[resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
 
 ### NOW
 
@@ -27,7 +27,7 @@ healthy **work** environments, and how to **teach** better!
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
     latinamerica
-    [(thread)](https://twitter.com/avallecam/status/1413682203041701889?s=20);
+    ([thread](https://twitter.com/avallecam/status/1413682203041701889?s=20));
     <!-- https://twitter.com/cdc_peru/status/1392099144689401857?s=20 -->
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
