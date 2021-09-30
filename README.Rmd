@@ -19,7 +19,10 @@ knitr::opts_chunk$set(
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve them, satisfy my **own** expectations, and **motivate** myself :)
 
-🌱 Interested in reproducible **open** research from its _design_, healthy **work** environments, and how to **teach** better!
+🌱 Interested in **quantitative** biology, **systems** developmental biology, **signaling** and living matter **configuration** principles. 
+<!-- **signaling** systems -->
+
+🔓 Also interested in reproducible **open** research from its _design_, healthy **work** environments, and how to **teach** better!
 
 #### NOW
 
@@ -40,7 +43,7 @@ knitr::opts_chunk$set(
 - 🌍 I have contributed with **answers** for the community in [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
 - 📚 I have my academic **publications** list in [orcid](https://orcid.org/0000-0002-7779-481X) and [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es)
 - 💌 I love to collect **links** for a lot of topics in a collaborative [trello board](https://trello.com/b/xtO9VP36/scibites) 
-- 💬 Ping me about **applied biostatistics**, **data science education**, and **epidemiological reproducible research**
+- 💬 Ping me about **applied biostatistics**, **data science education**, and **reproducible research**
 - 📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
 - 🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
 
@@ -61,61 +64,61 @@ knitr::opts_chunk$set(
 - ♻️ tables: https://bit.ly/epitables
 - ♻️ manuscripts: https://bit.ly/draftmanuscript
 - ♻️ survey-forms: https://ee.kobotoolbox.org/preview/oW0aWyxX
-- ♻️ shinyapps: https://avallecam.shinyapps.io/data_qc/ [[ES](https://avallecam.shinyapps.io/data_qc-es/)]
+- ♻️ shinyapps: https://avallecam.shinyapps.io/data_qc/ [translation [ES](https://avallecam.shinyapps.io/data_qc-es/)]
 
 
 #### PUBS
 
 📌 __[opinion][ES] Data and transparency to fight against the coronavirus, 2020__
 
-- 📒 text: https://ojo-publico.com/1718/datos-y-transparencia-para-luchar-contra-el-coronavirus
+- 🔖 text: https://ojo-publico.com/1718/datos-y-transparencia-para-luchar-contra-el-coronavirus
 
 📌 __[editorial][ES] Health Data Science: Applications at CDC Perú, 2019__
 
-- 📒 text: https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html
+- 🔖 text: https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html
 - 🍲 repo: https://avallecam.github.io/health_data_science_editorial/
 
 
 #### TALKS
 
-🔊 __serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification, 2021__
+🔔 __serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification, 2021__
 
 - 🍭 slides: https://bit.ly/serosurvey-user21 
 - 🍲 repo: https://github.com/avallecam/serosurvey-user21 
 
-🔊 __[ES] Introduction to spatial analysis, 2021__
+🔔 __[ES] Introduction to spatial analysis, 2021__
 
 - 🍭 slides: https://bit.ly/espacial2021 
 
-🔊 __[ES] Analysis of #multiple epidemics and prevalences with R and purrr, 2020__
+🔔 __[ES] Analysis of #multiple epidemics and prevalences with R and purrr, 2020__
 
 - 🍭 slides: https://bit.ly/bbslisepi 
 
-🔊 __[ES] Causal questions for hypothetical interventions, 2020__
+🔔 __[ES] Causal questions for hypothetical interventions, 2020__
 
 - 🍭 slides: https://bit.ly/casual_question 
 
-🔊 __[ES] Hypothesis testing with nonparametric statistical methods, 2020__
+🔔 __[ES] Hypothesis testing with nonparametric statistical methods, 2020__
 
 - 🍭 slides: https://bit.ly/noparam2020 
 - 🍿 video: https://www.youtube.com/watch?v=1MTt1Ro-OP4
 
-🔊 __[poster][ES] Epidemiological analysis of the epidemic of Guillain Barré Syndrome in Peru, 2019__
+🔔 __[poster][ES] Epidemiological analysis of the epidemic of Guillain Barré Syndrome in Peru, 2019__
 
 - 🍿 poster: https://raw.githubusercontent.com/avallecam/cdcperu-gt_investigacion/master/20191120-poster-SGB-INSv3.jpg 
 - 🍲 repo: https://avallecam.github.io/cdcperu-gt_investigacion/
 
-<!-- 🔊 __[abstract][ES] Changes in the morbidity and mortality profiles in Peru (2002-2016). Aplications with R and cdcper R package, 2019__ -->
+<!-- 🔔 __[abstract][ES] Changes in the morbidity and mortality profiles in Peru (2002-2016). Aplications with R and cdcper R package, 2019__ -->
 
-<!-- - 📒 poster:   -->
+<!-- - 🔖 poster:   -->
 <!-- - 🍲 repo: https://rpmesp.ins.gob.pe/rpmesp/article/view/5178 -->
 
-🔊 __[poster] Human mobility and malaria history in a periurban community of the Peruvian Amazon, 2019__
+🔔 __[poster] Human mobility and malaria history in a periurban community of the Peruvian Amazon, 2019__
 
 - 🍿 poster: https://raw.githubusercontent.com/avallecam/movmal/master/poster/astmh_poster-ValleAA-20191116.jpg 
 - 🍲 repo: https://github.com/avallecam/movmal
 
-🔊 __[ES] R applied to epidemiology, 2019__
+🔔 __[ES] R applied to epidemiology, 2019__
 
 - 🍭 slides: https://speakerdeck.com/avallecam/r-aplicado-a-epidemiologia 
 - 🍿 video: https://www.youtube.com/watch?v=C3Yqw883jrs 
@@ -136,6 +139,7 @@ knitr::opts_chunk$set(
 📌 __[ES] Visualizing public health and field epidemiology data, 2021__
 
 - 🍭 slides: https://bit.ly/epiviz2021 
+- 💾 record: https://avallecam.github.io/shiny-server/per/index.html
 
 📌 __[ES] Tardigrades and Bioinformatics in Horizontal Gene Transfer, 2016__
 
