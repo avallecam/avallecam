@@ -19,7 +19,7 @@ biology, **signaling** and living matter **configuration** principles.
 🔓 Also interested in reproducible **open** research from its *design*,
 healthy **work** environments, and how to **teach** better!
 
-⛑️ This is my **cv**. Here my
+⛑️ This is my **cv**. Here is a
 [resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
 
 ### NOW
