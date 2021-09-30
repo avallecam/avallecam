@@ -69,8 +69,8 @@ healthy **work** environments, and how to **teach** better!
 -   ♻️ tables: <https://bit.ly/epitables>
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
 -   ♻️ survey-forms: <https://ee.kobotoolbox.org/preview/oW0aWyxX>
--   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/>
-    \[translation [ES](https://avallecam.shinyapps.io/data_qc-es/)\]
+-   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/> translated
+    to \[[ES](https://avallecam.shinyapps.io/data_qc-es/)\]
 
 #### PUBS
 
