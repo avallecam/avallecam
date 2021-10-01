@@ -3,7 +3,7 @@
 
 # Hi there 👋
 
-### 🇵🇪 **Andree Valle-Campos** (él/he/his)
+## 🇵🇪 **Andree Valle-Campos** (él/he/his)
 
 <img src="figure/avallecam-perfil-20210426-2.jpeg" style="width:100.0%" />
 
@@ -14,25 +14,25 @@ them, satisfy my **own** expectations, and **motivate** myself :)
 
 🌱 Interested in **quantitative** biology, **systems** developmental
 biology, **signaling** and living matter **configuration** principles.
-<!-- **signaling** systems -->
 
-🔓 Also interested in reproducible **open** research from its *design*,
-healthy **work** environments, and how to **teach** better!
+🔓 Practicing reproducible **open** research from its *design*, learning
+how to **teach** better, and promote healthy **work** environments!
 
-⛑️ This is my **cv**. Here is a
-[resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
+⛑️ Here is a formal **pdf** version of my
+[cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
 
 ### NOW
 
--   💻 Freelancer;
-    <!-- and [coach](https://avallecam.github.io/health_data_science_editorial/);  -->
+-   💻 Freelancer; <!-- coach -->
+
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     📦;
+
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
     latinamerica
     ([thread](https://twitter.com/avallecam/status/1413682203041701889?s=20));
-    <!-- https://twitter.com/cdc_peru/status/1392099144689401857?s=20 -->
+
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
 
@@ -76,8 +76,8 @@ healthy **work** environments, and how to **teach** better!
 -   ♻️ tables: <https://bit.ly/epitables>
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
 -   ♻️ survey-forms: <https://ee.kobotoolbox.org/preview/oW0aWyxX>
--   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/> translated
-    to \[[ES](https://avallecam.shinyapps.io/data_qc-es/)\]
+-   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/>
+-   ♻️ translation: \[ES\] <https://avallecam.shinyapps.io/data_qc-es/>
 
 ## TEXTS
 
