@@ -16,23 +16,20 @@ them, satisfy my **own** expectations, and **motivate** myself :)
 biology, **signaling** and living matter **configuration** principles.
 
 🔓 Practicing reproducible **open** research from its *design*, learning
-how to **teach** better, and promote healthy **work** environments!
+how to **teach** better, and promote **healthy** work environments!
 
-⛑️ Here is a formal **pdf** version of my
+⛑️ Here is a **pdf** version of my
 [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
 
 ### NOW
 
 -   💻 Freelancer; <!-- coach -->
-
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     📦;
-
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
     latinamerica
     ([thread](https://twitter.com/avallecam/status/1413682203041701889?s=20));
-
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
 
@@ -61,15 +58,24 @@ how to **teach** better, and promote healthy **work** environments!
 
 ## R 📦’s
 
--   💙 [serosurvey](https://avallecam.github.io/serosurvey/)
--   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow)
--   💚 [covid19viz](https://avallecam.github.io/covid19viz/)
--   💚 [powder](https://github.com/avallecam/powder)
--   🚧 [sitreper](https://github.com/avallecam/sitreper)
--   💚 [cdcper](https://github.com/avallecam/cdcper)
--   💚 [epichannel](https://github.com/avallecam/epichannel)
--   💚 [epitidy](https://github.com/avallecam/epitidy)
--   🚧 [epihelper](https://avallecam.github.io/epihelper/)
+-   💙 [serosurvey](https://avallecam.github.io/serosurvey/) - estimate
+    prevalence in serological survey
+-   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow) - tidy
+    workflows using incidence and epiestim
+-   💚 [covid19viz](https://avallecam.github.io/covid19viz/) - visualize
+    covid-19 cases, mobility and interventions
+-   💚 [powder](https://github.com/avallecam/powder) - tidy extension for
+    power analysis
+-   🚧 [sitreper](https://github.com/avallecam/sitreper) - functions to
+    generate situational reports in peru
+-   💚 [cdcper](https://github.com/avallecam/cdcper) - funciones para el
+    cdc perú
+-   💚 [epichannel](https://github.com/avallecam/epichannel) - create
+    endemic channels
+-   💚 [epitidy](https://github.com/avallecam/epitidy) - tidy tables and
+    model outputs in an epidemiologist-way
+-   🚧 [epihelper](https://avallecam.github.io/epihelper/) - custom
+    (cool) funtions from epidemiology
 
 ## TEMPLATES
 
