@@ -10,15 +10,19 @@
 ## I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve
-them, satisfy my **own** expectations, and **motivate** myself :)
-
-🌱 Interested in **quantitative** biology, **systems** developmental
-biology, **signaling** and living matter **configuration** principles.
+them, **motivated** by causal questions and **discussing** their
+interpretations. <!-- their interpretation and implications. -->
+<!-- satisfy my **own** expectations, and **motivate** myself :) -->
+<!-- spatio temporal point and areal data analysis frameworks -->
 
 🔓 Practicing reproducible **open** research from its *design*, learning
 how to **teach** better, and promote **healthy** work environments!
 
-⛑️ Here is a **pdf** version of my
+🌱 Interested in **quantitative** biology, **systems** developmental
+biology, **signaling** and living matter **configuration** principles.
+
+⛑️ This site contains **links** to all my scientific contributions. Here
+is a structured **pdf** version of my
 [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
 
 ### NOW
@@ -36,52 +40,52 @@ how to **teach** better, and promote **healthy** work environments!
 ### BIO
 
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
-    quantitative **Epidemiological research**
+    quantitative **Epidemiological research**;
 -   📜 I did my [MSc](https://github.com/avallecam/movmal) at the
-    **Universidad Peruana Cayetano Heredia** (2018)
+    **Universidad Peruana Cayetano Heredia** (2018);
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
-    **Universidad Nacional Mayor de San Marcos** (2015)
--   ⚙️ I use **`R`** daily
+    **Universidad Nacional Mayor de San Marcos** (2015);
+-   ⚙️ I use **`R`** daily;
 -   📑 I have a coding **cheatsheet** full of reproducible examples in
-    [gist](https://gist.github.com/avallecam)
+    [gist](https://gist.github.com/avallecam);
 -   🌍 I have contributed with **answers** for the community in
-    [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
+    [stackoverflow](https://stackoverflow.com/users/6702544/avallecam);
 -   📚 I have my academic **publications** list in
     [orcid](https://orcid.org/0000-0002-7779-481X) and
-    [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es)
+    [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
 -   💌 I love to collect **links** for a lot of topics in a collaborative
-    [trello board](https://trello.com/b/xtO9VP36/scibites)
+    [trello board](https://trello.com/b/xtO9VP36/scibites);
 -   💬 Ping me about **applied biostatistics**, **data science
-    education**, and **reproducible research**
--   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com)
--   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam)
+    education**, and **reproducible research**;
+-   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com);
+-   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam).
 
 ## R 📦’s
 
 -   💙 [serosurvey](https://avallecam.github.io/serosurvey/) - estimate
-    prevalence in serological survey
+    prevalences.
 -   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow) - tidy
-    workflows using incidence and epiestim
--   💚 [covid19viz](https://avallecam.github.io/covid19viz/) - visualize
-    covid-19 cases, mobility and interventions
--   💚 [powder](https://github.com/avallecam/powder) - tidy extension for
-    power analysis
--   🚧 [sitreper](https://github.com/avallecam/sitreper) - functions to
-    generate situational reports in peru
+    incidence workflow.
+-   💚 [covid19viz](https://avallecam.github.io/covid19viz/) - access
+    covid-19 data.
+-   💚 [powder](https://github.com/avallecam/powder) - tidy power
+    analysis.
+-   🚧 [sitreper](https://github.com/avallecam/sitreper) - situational
+    reports in peru.
 -   💚 [cdcper](https://github.com/avallecam/cdcper) - funciones para el
-    cdc perú
+    cdc perú.
 -   💚 [epichannel](https://github.com/avallecam/epichannel) - create
-    endemic channels
+    endemic channels.
 -   💚 [epitidy](https://github.com/avallecam/epitidy) - tidy tables and
-    model outputs in an epidemiologist-way
+    model outputs.
 -   🚧 [epihelper](https://avallecam.github.io/epihelper/) - custom
-    (cool) funtions from epidemiology
+    (cool) funtions.
 
 ## TEMPLATES
 
 -   ♻️ tables: <https://bit.ly/epitables>
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
--   ♻️ survey-forms: <https://ee.kobotoolbox.org/preview/oW0aWyxX>
+-   ♻️ survey-forms: <https://ee.kobotoolbox.org/x/oW0aWyxX>
 -   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/>
 -   ♻️ translation: \[ES\] <https://avallecam.shinyapps.io/data_qc-es/>
 
