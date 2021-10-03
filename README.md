@@ -267,7 +267,7 @@ person and epidemic curve, 2021**
     [see](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
     this live
     [once](https://www.metmuseum.org/es/art/collection/search/267838);
--   🥦 I am curious about physical biology after reading:
+-   🥦 I am curious about physical biology after:
     [goodwin](https://libgen.rs/book/index.php?md5=CBFF641AD61645A284EE4566EB2B0146),
     [bejan](https://libgen.rs/book/index.php?md5=F9D8AF5DCDF3C74ED2C34A56C7522E22),
     [wilson](https://libgen.rs/book/index.php?md5=D3ED2F386838D03A42EAE1D3AE107B6B);
