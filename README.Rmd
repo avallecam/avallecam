@@ -22,7 +22,7 @@ knitr::opts_chunk$set(
 ## I'm a geneticist skilled in health data science 
 
 🏗️ 
-I take **data** problems to learn new **tools** in the route to solve them, **motivated** by causal questions and **creating** reusable software.
+I take **data** problems to learn new **tools** in the route to solve them, **motivated** by causal questions and **create** reusable software.
 <!-- discussing their interpretation and implications. -->
 <!-- satisfy my **own** expectations, and **motivate** myself :) -->
 <!-- spatio temporal point and areal data analysis frameworks -->
@@ -215,18 +215,18 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 
 ## ABOUT ME
 
-- 🏊 I was a [swimmer (lane #5)](https://www.youtube.com/watch?v=fN7sJPFeJcw)
-- 🎬 I love watching [musical videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ)
-- `r emo::ji("peru")` I have a playlist of [peruvian music](https://youtube.com/playlist?list=PLDHw5KzS-qvKv1z5CBELuQnqanqfZ4WSy)
-- 🎼 I play the guitar 🎸 and piano 🎹
-- 🌠 I have a wishlist in [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/)
-- 🖤 I am reading a manga called [berserk](https://readberserk.com/chapter/berserk-chapter-a0/)
-- 🎨 I love visiting [art galleries](https://coleccion.mali.pe/collections), hope to [see](https://maclima.pe/project/visitante-fernando-de-szyszlo/) this live [once](https://www.metmuseum.org/es/art/collection/search/267838) 
-- 🌩️ I enjoy reading dialectical materialism: [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136), [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2), [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995)
-- 🍥 I am [learning](https://www.a11yproject.com/) to design [accessible](https://user2021.r-project.org/participation/accessibility/) outputs
+- 🏊 I was a [swimmer (lane #5)](https://www.youtube.com/watch?v=fN7sJPFeJcw);
+- 🎬 I love watching [musical videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ);
+- `r emo::ji("peru")` I have a playlist of [peruvian music](https://youtube.com/playlist?list=PLDHw5KzS-qvKv1z5CBELuQnqanqfZ4WSy);
+- 🎼 I play the guitar 🎸 and piano 🎹;
+- 🌠 I have a wishlist in [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/);
+- 🖤 I am reading a manga called [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
+- 🎨 I love visiting [art galleries](https://coleccion.mali.pe/collections), hope to [see](https://maclima.pe/project/visitante-fernando-de-szyszlo/) this live [once](https://www.metmuseum.org/es/art/collection/search/267838);
+- 🥦 I am curious about physical biology after reading: [goodwin](https://libgen.rs/book/index.php?md5=CBFF641AD61645A284EE4566EB2B0146), [bejan](https://libgen.rs/book/index.php?md5=F9D8AF5DCDF3C74ED2C34A56C7522E22), [wilson](https://libgen.rs/book/index.php?md5=D3ED2F386838D03A42EAE1D3AE107B6B);
+- 🌩️ I enjoy reading dialectical materialism: [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136), [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2), [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995);
+- 🍥 I am [learning](https://www.a11yproject.com/) to design [accessible](https://user2021.r-project.org/participation/accessibility/) outputs.
 <!-- > #a11y - nothing about us without us -->
 <!-- - I am interested in discussing about how to provide local solutions against local [inequalities](https://unsdg.un.org/2030-agenda/universal-values/leave-no-one-behind) in society -->
-<!-- - ⌚ I took ten hours setting this 😅 -->
 
 ### avallecam
 
