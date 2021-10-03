@@ -55,7 +55,7 @@ Here is a structured **pdf** version of my
 -   📚 I have my academic **publications** list in
     [orcid](https://orcid.org/0000-0002-7779-481X) and
     [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
--   💌 I love to collect **links** for a lot of topics in a collaborative
+-   💌 I love to collect **links** for a lot of topics in a public
     [trello board](https://trello.com/b/xtO9VP36/scibites);
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **reproducible research**;
