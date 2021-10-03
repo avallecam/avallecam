@@ -10,19 +10,21 @@
 ## I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve
-them, **motivated** by causal questions and **discussing** their
-interpretations. <!-- their interpretation and implications. -->
+them, **motivated** by causal questions and **creating** reusable
+software. <!-- discussing their interpretation and implications. -->
 <!-- satisfy my **own** expectations, and **motivate** myself :) -->
 <!-- spatio temporal point and areal data analysis frameworks -->
 
-🔓 Practicing reproducible **open** research from its *design*, learning
-how to **teach** better, and promote **healthy** work environments!
+🔓 Practicing reproducible **open** research from its **design**,
+learning how to **teach** better, and promote **healthy** work
+environments!
 
-🌱 Interested in **quantitative** biology, **systems** developmental
-biology, **signaling** and living matter **configuration** principles.
+🌱 Interested in **quantitative** systems biology, **developmental**
+bioengineering, **signaling** and living matter **configuration**
+principles.
 
-⛑️ This site contains **links** to all my scientific contributions. Here
-is a structured **pdf** version of my
+⛑️ This site contains **links** to all my scientific **contributions**.
+Here is a structured **pdf** version of my
 [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
 
 ### NOW
@@ -60,12 +62,14 @@ is a structured **pdf** version of my
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com);
 -   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam).
 
+------------------------------------------------------------------------
+
 ## R 📦’s
 
 -   💙 [serosurvey](https://avallecam.github.io/serosurvey/) - estimate
     prevalences.
--   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow) - tidy
-    incidence workflow.
+-   🚧 [incidenceflow](https://github.com/avallecam/incidenceflow) -
+    epidemic workflows.
 -   💚 [covid19viz](https://avallecam.github.io/covid19viz/) - access
     covid-19 data.
 -   💚 [powder](https://github.com/avallecam/powder) - tidy power
@@ -76,10 +80,12 @@ is a structured **pdf** version of my
     cdc perú.
 -   💚 [epichannel](https://github.com/avallecam/epichannel) - create
     endemic channels.
--   💚 [epitidy](https://github.com/avallecam/epitidy) - tidy tables and
-    model outputs.
+-   💚 [epitidy](https://github.com/avallecam/epitidy) - table and model
+    outputs.
 -   🚧 [epihelper](https://avallecam.github.io/epihelper/) - custom
     (cool) funtions.
+
+------------------------------------------------------------------------
 
 ## TEMPLATES
 
@@ -88,6 +94,8 @@ is a structured **pdf** version of my
 -   ♻️ survey-forms: <https://ee.kobotoolbox.org/x/oW0aWyxX>
 -   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/>
 -   ♻️ translation: \[ES\] <https://avallecam.shinyapps.io/data_qc-es/>
+
+------------------------------------------------------------------------
 
 ## TEXTS
 
@@ -103,6 +111,8 @@ coronavirus, 2020**
 -   🔖 link:
     <https://avallecam.github.io/health_data_science_editorial/20191208-cdc_editorial.html>
 -   🍲 repo: <https://avallecam.github.io/health_data_science_editorial/>
+
+------------------------------------------------------------------------
 
 ## TALKS
 
@@ -156,6 +166,8 @@ community of the Peruvian Amazon, 2019**
 -   🍿 video: <https://www.youtube.com/watch?v=C3Yqw883jrs>
 -   🍲 repo: <https://avallecam.github.io/epiapli2019/>
 
+------------------------------------------------------------------------
+
 ## LECTURES
 
 📌 **\[ES\] Data analysis in epidemiological surveillance II: spatial
@@ -183,8 +195,11 @@ person and epidemic curve, 2021**
 📌 **\[ES\] Gene regulatory networks, 2015-2017**
 
 -   🍭 slides: <https://bit.ly/biomath2017_>
--   ⚒️ tutorial: <https://github.com/avallecam/gene_regulatory_networks>
+-   ⚒️ tutorial:
+    <https://github.com/avallecam/gene_regulatory_networks/blob/main/GRN_py/UNAM_mat2.ipynb>
 -   🍲 repo: <https://github.com/avallecam/gene_regulatory_networks>
+
+------------------------------------------------------------------------
 
 ## WORKSHOPS
 
@@ -232,7 +247,9 @@ person and epidemic curve, 2021**
     <https://avallecam.github.io/bioinfo2017/biocmicro.nb.html>
 -   🍲 repo: <https://avallecam.github.io/bioinfo2017/>
 
-## ME
+------------------------------------------------------------------------
+
+## ABOUT ME
 
 -   🏊 I was a [swimmer (lane
     \#5)](https://www.youtube.com/watch?v=fN7sJPFeJcw)
