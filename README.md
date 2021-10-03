@@ -13,7 +13,6 @@
 them, **motivated** by causal questions and **create** reusable
 software. <!-- discussing their interpretation and implications. -->
 <!-- satisfy my **own** expectations, and **motivate** myself :) -->
-<!-- spatio temporal point and areal data analysis frameworks -->
 
 🔓 Practicing reproducible **open** research from its **design**,
 learning how to **teach** better, and promote **healthy** work
@@ -43,11 +42,16 @@ Here is a structured **pdf** version of my
 
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
     quantitative **Epidemiological research**;
--   📜 I did my [MSc](https://github.com/avallecam/movmal) at the
-    **Universidad Peruana Cayetano Heredia** (2018);
--   📜 I did my [BSc](https://github.com/avallecam/abnomic) at the
-    **Universidad Nacional Mayor de San Marcos** (2015);
--   ⚙️ I use **`R`** daily;
+    <!-- - 📜 I did my [MSc](https://github.com/avallecam/movmal) at the **Universidad Peruana Cayetano Heredia** (2018); -->
+-   📜 I did my [MSc](https://github.com/avallecam/movmal) research about
+    human mobility and malaria history in the peruvian amazon (**UPCH,
+    2018**);
+    <!-- - 📜 I did my [BSc](https://github.com/avallecam/abnomic) at the **Universidad Nacional Mayor de San Marcos** (2015); -->
+-   📜 I did my [BSc](https://github.com/avallecam/abnomic) research
+    about antibody response against severe malaria using protein
+    microarrays (**UNMSM, 2015**);
+-   ⚙️ I am a fluent **`R`** user, with experience in serological,
+    questionnaire, movement (gps), and spatiotemporal data analysis;
 -   📑 I have a coding **cheatsheet** full of reproducible examples in
     [gist](https://gist.github.com/avallecam);
 -   🌍 I have contributed with **answers** for the community in
