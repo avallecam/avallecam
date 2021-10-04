@@ -43,6 +43,9 @@ Here is a structured **pdf** version of my
 
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
     quantitative **Epidemiological research**;
+-   📚 I have my academic **publications** list in
+    [orcid](https://orcid.org/0000-0002-7779-481X) and
+    [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
     <!-- - 📜 I did my [MSc](https://github.com/avallecam/movmal) at the **Universidad Peruana Cayetano Heredia** (2018); -->
 -   📜 I did my [MSc](https://github.com/avallecam/movmal) research about
     human mobility and malaria history in the peruvian amazon (**UPCH,
@@ -51,15 +54,15 @@ Here is a structured **pdf** version of my
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) research
     about antibody response against severe malaria using protein
     microarrays (**UNMSM, 2015**);
--   ⚙️ I am a fluent **`R`** user, with experience in serological,
-    questionnaire, movement (gps), and spatiotemporal data analysis;
+
+### MORE
+
+-   ⚙️ I am a fluent **tidyverse `R`** user, with experience in
+    spatiotemporal analysis;
 -   📑 I have a coding **cheatsheet** full of reproducible examples in
     [gist](https://gist.github.com/avallecam);
 -   🌍 I have contributed with **answers** for the community in
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam);
--   📚 I have my academic **publications** list in
-    [orcid](https://orcid.org/0000-0002-7779-481X) and
-    [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
 -   💌 I love to collect **links** for a lot of topics in a public
     [trello board](https://trello.com/b/xtO9VP36/scibites);
 -   💬 Ping me about **applied biostatistics**, **data science
