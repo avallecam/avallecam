@@ -18,9 +18,9 @@ software. <!-- discussing their interpretation and implications. -->
 learning how to **teach** better, and promote **healthy** work
 environments!
 
-🌱 Interested in **quantitative** and **systems** developmental biology,
-gene-cellular **networks** and living matter **configuration**
-principles.
+🌱 Interested in **quantitative** developmental biology,
+**gene-cellular** networks, **engineering** approaches, and
+**configuration** principles.
 <!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
 ⛑️ This site contains **links** to all my scientific **contributions**.

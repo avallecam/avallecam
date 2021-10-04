@@ -28,7 +28,7 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 
 🔓 Practicing reproducible **open** research from its **design**, learning how to **teach** better, and promote **healthy** work environments!
 
-🌱 Interested in **quantitative** and **systems** developmental biology, gene-cellular **networks** and living matter **configuration** principles. 
+🌱 Interested in **quantitative** developmental biology, **gene-cellular** networks, **engineering** approaches, and **configuration** principles. 
 <!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
 ⛑️ This site contains **links** to all my scientific **contributions**. Here is a structured **pdf** version of my [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
