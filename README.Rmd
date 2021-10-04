@@ -58,7 +58,7 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 
 --------------------------------------
 
-## TAKE A LOOK TO MY
+## TAKE A LOOK TO MY: 
 
 - [portfolio](./#portfolio)
 - [texts](./#texts)

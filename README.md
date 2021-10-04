@@ -69,7 +69,7 @@ Here is a structured **pdf** version of my
 
 ------------------------------------------------------------------------
 
-## TAKE A LOOK TO MY
+## TAKE A LOOK TO MY:
 
 -   [portfolio](./#portfolio)
 -   [texts](./#texts)
