@@ -18,9 +18,10 @@ software. <!-- discussing their interpretation and implications. -->
 learning how to **teach** better, and promote **healthy** work
 environments!
 
-🌱 Interested in **quantitative** systems biology, **developmental**
-bioengineering, **signaling** and living matter **configuration**
+🌱 Interested in **quantitative** and **systems** developmental biology,
+gene-cellular **networks** and living matter **configuration**
 principles.
+<!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
 ⛑️ This site contains **links** to all my scientific **contributions**.
 Here is a structured **pdf** version of my
@@ -57,8 +58,8 @@ Here is a structured **pdf** version of my
 
 ### MORE
 
--   ⚙️ I am a fluent **tidyverse `R`** user, with experience in
-    spatiotemporal analysis;
+-   ⚙️ I am a fluent **`R`** programmer, with experience in
+    spatio-temporal analysis;
 -   📑 I have a coding **cheatsheet** full of reproducible examples in
     [gist](https://gist.github.com/avallecam);
 -   🌍 I have contributed with **answers** for the community in
