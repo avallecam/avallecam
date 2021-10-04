@@ -25,12 +25,13 @@ principles.
 ⛑️ This site contains **links** to all my scientific **contributions**.
 Here is a structured **pdf** version of my
 [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
+<!-- in english [EN] and spanish [ES] -->
 
 ### NOW
 
 -   💻 Freelancer; <!-- coach -->
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
-    📦;
+    package 📦;
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
     latinamerica
@@ -68,7 +69,7 @@ Here is a structured **pdf** version of my
 
 ------------------------------------------------------------------------
 
-## LOOK AT MY
+## TAKE A LOOK TO MY
 
 -   [portfolio](./#portfolio)
 -   [texts](./#texts)
@@ -81,7 +82,7 @@ Here is a structured **pdf** version of my
 
 ## PORTFOLIO
 
-### R 📦’s
+### R packages 📦
 
 status: learning in progress!
 
@@ -104,8 +105,6 @@ status: learning in progress!
 -   🚧 [epihelper](https://avallecam.github.io/epihelper/) - custom
     (cool) funtions.
 
-------------------------------------------------------------------------
-
 ### DASHBOARDS
 
 -   💾 data exploration: <https://avallecam.shinyapps.io/data_qc/>
@@ -113,8 +112,6 @@ status: learning in progress!
     <https://avallecam.shinyapps.io/data_qc-es/>
 -   💾 disease surveillance:
     <https://avallecam.github.io/shiny-server/per/index.html>
-
-------------------------------------------------------------------------
 
 ### TEMPLATES
 

@@ -31,11 +31,12 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles. 
 
 ⛑️ This site contains **links** to all my scientific **contributions**. Here is a structured **pdf** version of my [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
+<!-- in english [EN] and spanish [ES] -->
 
 ### NOW
 
 - 💻 Freelancer; <!-- coach -->
-- ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) 📦; 
+- ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) package 📦; 
 - ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in latinamerica ([thread](https://twitter.com/avallecam/status/1413682203041701889?s=20));
 - ✒️ Excited to finish writing my thesis manuscripts and grad school applications!
 
@@ -57,7 +58,7 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 
 --------------------------------------
 
-## LOOK AT MY
+## TAKE A LOOK TO MY
 
 - [portfolio](./#portfolio)
 - [texts](./#texts)
@@ -70,7 +71,7 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 
 ## PORTFOLIO
 
-### R 📦's
+### R packages 📦
 
 status: learning in progress!
 
@@ -84,15 +85,11 @@ status: learning in progress!
 - 💚 [epitidy](https://github.com/avallecam/epitidy) - table and model outputs.
 - 🚧 [epihelper](https://avallecam.github.io/epihelper/) - custom (cool) funtions.
 
---------------------------------------
-
 ### DASHBOARDS
 
 - 💾 data exploration: https://avallecam.shinyapps.io/data_qc/ 
 - 💾 [ES] data exploration: https://avallecam.shinyapps.io/data_qc-es/
 - 💾 disease surveillance: https://avallecam.github.io/shiny-server/per/index.html
-
---------------------------------------
 
 ### TEMPLATES
 
