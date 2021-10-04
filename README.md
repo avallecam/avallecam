@@ -68,7 +68,22 @@ Here is a structured **pdf** version of my
 
 ------------------------------------------------------------------------
 
-## R 📦’s
+## LOOK AT MY
+
+-   [portfolio](./#portfolio)
+-   [texts](./#texts)
+-   [talks](./#talks)
+-   [lectures](./#lectures)
+-   [workshops](./#workshops)
+-   [about me](./#about-me)
+
+------------------------------------------------------------------------
+
+## PORTFOLIO
+
+### R 📦’s
+
+status: learning in progress!
 
 -   💙 [serosurvey](https://avallecam.github.io/serosurvey/) - estimate
     prevalences.
@@ -91,13 +106,21 @@ Here is a structured **pdf** version of my
 
 ------------------------------------------------------------------------
 
-## TEMPLATES
+### DASHBOARDS
+
+-   💾 data exploration: <https://avallecam.shinyapps.io/data_qc/>
+-   💾 \[ES\] data exploration:
+    <https://avallecam.shinyapps.io/data_qc-es/>
+-   💾 disease surveillance:
+    <https://avallecam.github.io/shiny-server/per/index.html>
+
+------------------------------------------------------------------------
+
+### TEMPLATES
 
 -   ♻️ tables: <https://bit.ly/epitables>
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
 -   ♻️ survey-forms: <https://ee.kobotoolbox.org/x/oW0aWyxX>
--   ♻️ shinyapps: <https://avallecam.shinyapps.io/data_qc/>
--   ♻️ translation: \[ES\] <https://avallecam.shinyapps.io/data_qc-es/>
 
 ------------------------------------------------------------------------
 
@@ -189,7 +212,6 @@ person and epidemic curve, 2021**
 📌 **\[ES\] Visualizing public health and field epidemiology data, 2021**
 
 -   🍭 slides: <https://bit.ly/epiviz2021>
--   💾 record: <https://avallecam.github.io/shiny-server/per/index.html>
 
 📌 **\[ES\] Tardigrades and Bioinformatics in Horizontal Gene Transfer,
 2016**

@@ -57,7 +57,22 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 
 --------------------------------------
 
-## R 📦's
+## LOOK AT MY
+
+- [portfolio](./#portfolio)
+- [texts](./#texts)
+- [talks](./#talks)
+- [lectures](./#lectures)
+- [workshops](./#workshops)
+- [about me](./#about-me)
+
+--------------------------------------
+
+## PORTFOLIO
+
+### R 📦's
+
+status: learning in progress!
 
 - 💙 [serosurvey](https://avallecam.github.io/serosurvey/) - estimate prevalences.
 - 🚧 [incidenceflow](https://github.com/avallecam/incidenceflow) - epidemic workflows.
@@ -71,13 +86,19 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 
 --------------------------------------
 
-## TEMPLATES
+### DASHBOARDS
+
+- 💾 data exploration: https://avallecam.shinyapps.io/data_qc/ 
+- 💾 [ES] data exploration: https://avallecam.shinyapps.io/data_qc-es/
+- 💾 disease surveillance: https://avallecam.github.io/shiny-server/per/index.html
+
+--------------------------------------
+
+### TEMPLATES
 
 - ♻️ tables: https://bit.ly/epitables
 - ♻️ manuscripts: https://bit.ly/draftmanuscript
 - ♻️ survey-forms: https://ee.kobotoolbox.org/x/oW0aWyxX
-- ♻️ shinyapps: https://avallecam.shinyapps.io/data_qc/ 
-- ♻️ translation: [ES] https://avallecam.shinyapps.io/data_qc-es/
 
 --------------------------------------
 
@@ -156,7 +177,6 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 📌 __[ES] Visualizing public health and field epidemiology data, 2021__
 
 - 🍭 slides: https://bit.ly/epiviz2021 
-- 💾 record: https://avallecam.github.io/shiny-server/per/index.html
 
 📌 __[ES] Tardigrades and Bioinformatics in Horizontal Gene Transfer, 2016__
 
