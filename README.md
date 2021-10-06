@@ -293,10 +293,12 @@ person and epidemic curve, 2021**
     [see](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
     this live
     [once](https://www.metmuseum.org/es/art/collection/search/267838);
--   🥦 I got curious about physical biology after:
+-   🥦 I got curious on physical biology after:
     [goodwin](https://libgen.rs/book/index.php?md5=CBFF641AD61645A284EE4566EB2B0146),
     [bejan](https://libgen.rs/book/index.php?md5=F9D8AF5DCDF3C74ED2C34A56C7522E22),
-    [cabrera](https://www.researchgate.net/publication/313988377_ON_NATURAL_STRUCTURES_THE_UNIFICATION_OF_NATURE)-[febola](https://www.researchgate.net/publication/313988382_ON_NATURAL_STRUCTURES_COMPLEMENTARY_ISSUES);
+    [leibler](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.041014);
+    <!-- [cabrera](https://www.researchgate.net/publication/313988377_ON_NATURAL_STRUCTURES_THE_UNIFICATION_OF_NATURE) -->
+    <!-- [newman](http://www.ijdb.ehu.es/web/paper/072481sn/dynamical-patterning-modules-a-pattern-language-for-development-and-evolution-of-multicellular-form) -->
 -   🌩️ I enjoy reading dialectical materialism:
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
