@@ -305,7 +305,7 @@ person and epidemic curve, 2021**
     [radiohead](https://youtu.be/I4pezRt9boY),
     [apparat](https://youtu.be/NOol5V4Tlk8), [niños
     sin](https://youtu.be/S5vKPHigWqY)
-    [smartphones](https://youtu.be/QI9mksVqivg)
+    [smartphones](https://youtu.be/QI9mksVqivg);
 -   🍥 I am [learning](https://www.a11yproject.com/) to design
     [accessible](https://user2021.r-project.org/participation/accessibility/)
     outputs. <!-- > #a11y - nothing about us without us -->
