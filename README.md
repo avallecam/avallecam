@@ -293,7 +293,7 @@ person and epidemic curve, 2021**
     [see](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
     this live
     [once](https://www.metmuseum.org/es/art/collection/search/267838);
--   🥦 I am curious about physical biology after:
+-   🥦 I got curious about physical biology after:
     [goodwin](https://libgen.rs/book/index.php?md5=CBFF641AD61645A284EE4566EB2B0146),
     [bejan](https://libgen.rs/book/index.php?md5=F9D8AF5DCDF3C74ED2C34A56C7522E22),
     [wilson](https://libgen.rs/book/index.php?md5=D3ED2F386838D03A42EAE1D3AE107B6B);
@@ -301,8 +301,7 @@ person and epidemic curve, 2021**
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995);
--   🎲 My favorite contemporary popular music groups are
-    [radiohead](https://youtu.be/I4pezRt9boY),
+-   🎲 I frequently listen [radiohead](https://youtu.be/I4pezRt9boY),
     [apparat](https://youtu.be/NOol5V4Tlk8), [niños
     sin](https://youtu.be/S5vKPHigWqY)
     [smartphones](https://youtu.be/QI9mksVqivg);
