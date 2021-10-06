@@ -301,6 +301,11 @@ person and epidemic curve, 2021**
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995);
+-   🎲 My favorite contemporary popular music groups are
+    [radiohead](https://youtu.be/I4pezRt9boY),
+    [apparat](https://youtu.be/NOol5V4Tlk8), [niños
+    sin](https://youtu.be/S5vKPHigWqY)
+    [smartphones](https://youtu.be/QI9mksVqivg)
 -   🍥 I am [learning](https://www.a11yproject.com/) to design
     [accessible](https://user2021.r-project.org/participation/accessibility/)
     outputs. <!-- > #a11y - nothing about us without us -->
