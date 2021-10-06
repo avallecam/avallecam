@@ -296,7 +296,7 @@ person and epidemic curve, 2021**
 -   🥦 I got curious about physical biology after:
     [goodwin](https://libgen.rs/book/index.php?md5=CBFF641AD61645A284EE4566EB2B0146),
     [bejan](https://libgen.rs/book/index.php?md5=F9D8AF5DCDF3C74ED2C34A56C7522E22),
-    [wilson](https://libgen.rs/book/index.php?md5=D3ED2F386838D03A42EAE1D3AE107B6B);
+    [cabrera](https://www.researchgate.net/publication/313988377_ON_NATURAL_STRUCTURES_THE_UNIFICATION_OF_NATURE)-[febola](https://www.researchgate.net/publication/313988382_ON_NATURAL_STRUCTURES_COMPLEMENTARY_ISSUES);
 -   🌩️ I enjoy reading dialectical materialism:
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
