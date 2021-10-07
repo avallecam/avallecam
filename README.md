@@ -74,7 +74,7 @@ Here is a structured **pdf** version of my
 
 ## TAKE A LOOK TO MY:
 
--   [portfolio](./#portfolio)
+-   [resources](./#resources)
 -   [texts](./#texts)
 -   [talks](./#talks)
 -   [lectures](./#lectures)
@@ -83,7 +83,7 @@ Here is a structured **pdf** version of my
 
 ------------------------------------------------------------------------
 
-## PORTFOLIO
+## RESOURCES
 
 ### R packages 📦
 
@@ -107,8 +107,9 @@ status: learning in progress!
     outputs.
 -   🚧 [epihelper](https://avallecam.github.io/epihelper/) - custom
     (cool) funtions.
+    <!-- - 💡 [elixr](https://bit.ly/elixr_rpkg) - in-house elisa standardization. -->
 
-### DASHBOARDS
+### Dashboards
 
 -   💾 data exploration: <https://avallecam.shinyapps.io/data_qc/>
 -   💾 \[ES\] data exploration:
@@ -116,11 +117,12 @@ status: learning in progress!
 -   💾 disease surveillance:
     <https://avallecam.github.io/shiny-server/per/index.html>
 
-### TEMPLATES
+### Templates
 
 -   ♻️ tables: <https://bit.ly/epitables>
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
 -   ♻️ survey-forms: <https://ee.kobotoolbox.org/x/oW0aWyxX>
+-   ♻️ linear regression: <https://bit.ly/gglinearregression>
 
 ------------------------------------------------------------------------
 
@@ -212,6 +214,12 @@ person and epidemic curve, 2021**
 📌 **\[ES\] Visualizing public health and field epidemiology data, 2021**
 
 -   🍭 slides: <https://bit.ly/epiviz2021>
+
+📌 **\[ES\] Algorithms for the detection of aberrations in
+epidemiological surveillance, 2020**
+
+-   🍭 slides:
+    <https://avallecam.github.io/episurv2020/0101-surveillance.html#1>
 
 📌 **\[ES\] Tardigrades and Bioinformatics in Horizontal Gene Transfer,
 2016**
