@@ -35,8 +35,7 @@ Here is a structured **pdf** version of my
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
     [latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
--   ✒️ Excited to finish writing my thesis manuscripts and grad school
-    applications!
+-   ✒️ Writing my thesis manuscripts and grad school applications!
 
 ### BIO
 
