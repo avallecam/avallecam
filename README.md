@@ -34,8 +34,7 @@ Here is a structured **pdf** version of my
     package 📦;
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
-    latinamerica
-    ([thread](https://twitter.com/avallecam/status/1413682203041701889?s=20));
+    [latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 -   ✒️ Excited to finish writing my thesis manuscripts and grad school
     applications!
 
@@ -296,11 +295,11 @@ epidemiological surveillance, 2020**
     [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/);
 -   🖤 I am reading a manga called
     [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
--   🎨 I love visiting [art
-    galleries](https://coleccion.mali.pe/collections), hope to
-    [see](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
-    this live
-    [once](https://www.metmuseum.org/es/art/collection/search/267838);
+-   🎨 I appreciate visiting [art
+    galleries](https://coleccion.mali.pe/collections),
+    [unexpected]((https://maclima.pe/project/visitante-fernando-de-szyszlo/))
+    findings
+    [occur](https://www.metmuseum.org/es/art/collection/search/267838);
 -   🥦 I got curious on physical biology after:
     [goodwin](https://libgen.rs/book/index.php?md5=CBFF641AD61645A284EE4566EB2B0146),
     [bejan](https://libgen.rs/book/index.php?md5=F9D8AF5DCDF3C74ED2C34A56C7522E22),
@@ -311,7 +310,7 @@ epidemiological surveillance, 2020**
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
     [engels](https://libgen.rs/book/index.php?md5=64BA70A56CE5241A442C2056B3766995);
--   🎲 I frequently listen [radiohead](https://youtu.be/I4pezRt9boY),
+-   🎲 I like listening to [radiohead](https://youtu.be/I4pezRt9boY),
     [apparat](https://youtu.be/NOol5V4Tlk8), [niños
     sin](https://youtu.be/S5vKPHigWqY)
     [smartphones](https://youtu.be/QI9mksVqivg);
