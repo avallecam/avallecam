@@ -296,7 +296,7 @@ epidemiological surveillance, 2020**
     [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
 -   🎨 I appreciate visiting [art
     galleries](https://coleccion.mali.pe/collections),
-    [unexpected]((https://maclima.pe/project/visitante-fernando-de-szyszlo/))
+    [unexpected](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
     findings
     [occur](https://www.metmuseum.org/es/art/collection/search/267838);
 -   🥦 I got curious on physical biology after:
