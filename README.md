@@ -289,11 +289,14 @@ epidemiological surveillance, 2020**
     videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ);
 -   🇵🇪 I have a playlist of [peruvian
     music](https://youtube.com/playlist?list=PLDHw5KzS-qvKv1z5CBELuQnqanqfZ4WSy);
--   🎼 I play the guitar 🎸 and piano 🎹;
--   🌠 I have a wishlist in
+-   🗃️ I store
+    [memories](https://www.youtube.com/channel/UCvbhEkxtIVA9ldfhqDFALTA/playlists)
+    in a couple more of them;
+-   🌠 I feed a wishlist in
     [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/);
 -   🖤 I am reading a manga called
     [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
+-   🎼 I practice music with guitar 🎸 and piano 🎹;
 -   🎨 I appreciate visiting [art
     galleries](https://coleccion.mali.pe/collections),
     [unexpected](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
