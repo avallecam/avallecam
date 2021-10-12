@@ -48,7 +48,7 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 <!-- - 📜 I did my [MSc](https://github.com/avallecam/movmal) at the **Universidad Peruana Cayetano Heredia** (2018); -->
 - 📜 I did my [MSc](https://github.com/avallecam/movmal) research about human mobility and malaria history in the peruvian amazon (**UPCH, 2018**);
 <!-- - 📜 I did my [BSc](https://github.com/avallecam/abnomic) at the **Universidad Nacional Mayor de San Marcos** (2015); -->
-- 📜 I did my [BSc](https://github.com/avallecam/abnomic) research about antibody responses against severe vivax malaria using protein microarrays (**UNMSM, 2015**);
+- 📜 I did my [BSc](https://github.com/avallecam/abnomic) research about antibody responses and severe vivax malaria with protein microarrays (**UNMSM, 2015**);
 
 ### MORE
 

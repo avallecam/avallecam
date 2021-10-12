@@ -51,7 +51,7 @@ Here is a structured **pdf** version of my
     2018**);
     <!-- - 📜 I did my [BSc](https://github.com/avallecam/abnomic) at the **Universidad Nacional Mayor de San Marcos** (2015); -->
 -   📜 I did my [BSc](https://github.com/avallecam/abnomic) research
-    about antibody responses against severe vivax malaria using protein
+    about antibody responses and severe vivax malaria with protein
     microarrays (**UNMSM, 2015**);
 
 ### MORE
