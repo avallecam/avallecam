@@ -44,7 +44,7 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 ### BIO
 
 - 🏠 I am a computationally-oriented **Geneticist** formally trained in quantitative **Epidemiological research**;
-- 📚 I have my academic **publications** list in ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [orcid](https://orcid.org/0000-0002-7779-481X) and [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
+- 📚 I have my list of academic **publications** in ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [orcid](https://orcid.org/0000-0002-7779-481X) and [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
 <!-- - 📜 I did my [MSc](https://github.com/avallecam/movmal) at the **Universidad Peruana Cayetano Heredia** (2018); -->
 - 📜 I did my [MSc](https://github.com/avallecam/movmal) research about human mobility and malaria history in the peruvian amazon (**UPCH, 2018**);
 <!-- - 📜 I did my [BSc](https://github.com/avallecam/abnomic) at the **Universidad Nacional Mayor de San Marcos** (2015); -->

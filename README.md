@@ -41,7 +41,7 @@ Here is a structured **pdf** version of my
 
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
     quantitative **Epidemiological research**;
--   📚 I have my academic **publications** list in
+-   📚 I have my list of academic **publications** in
     ![](https://orcid.org/sites/default/files/images/orcid_16x16.png)
     [orcid](https://orcid.org/0000-0002-7779-481X) and
     [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
