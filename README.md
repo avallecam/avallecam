@@ -42,6 +42,7 @@ Here is a structured **pdf** version of my
 -   🏠 I am a computationally-oriented **Geneticist** formally trained in
     quantitative **Epidemiological research**;
 -   📚 I have my academic **publications** list in
+    ![](https://orcid.org/sites/default/files/images/orcid_16x16.png)
     [orcid](https://orcid.org/0000-0002-7779-481X) and
     [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
     <!-- - 📜 I did my [MSc](https://github.com/avallecam/movmal) at the **Universidad Peruana Cayetano Heredia** (2018); -->
@@ -55,8 +56,9 @@ Here is a structured **pdf** version of my
 
 ### MORE
 
--   ⚙️ I am a fluent **`R`** programmer, with experience in
-    spatio-temporal analysis;
+-   ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler**,
+    and **visualization** creator, familiar with spatio-temporal
+    analysis;
 -   📑 I have a coding **cheatsheet** full of reproducible examples in
     [gist](https://gist.github.com/avallecam);
 -   🌍 I have contributed with **answers** for the community in
@@ -308,6 +310,7 @@ epidemiological surveillance, 2020**
     [leibler](https://journals.aps.org/prx/abstract/10.1103/PhysRevX.5.041014);
     <!-- [cabrera](https://www.researchgate.net/publication/313988377_ON_NATURAL_STRUCTURES_THE_UNIFICATION_OF_NATURE) -->
     <!-- [newman](http://www.ijdb.ehu.es/web/paper/072481sn/dynamical-patterning-modules-a-pattern-language-for-development-and-evolution-of-multicellular-form) -->
+    <!-- philosophy old books like -->
 -   🌩️ I enjoy reading dialectical materialism:
     [politzer](https://libgen.rs/book/index.php?md5=BDA5E8E26C125758A4C809D3C74F2136),
     [fromm](https://libgen.rs/book/index.php?md5=2B4A32A41996AEFB7D810F90A67EAEE2),
