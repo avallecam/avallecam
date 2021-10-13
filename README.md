@@ -57,7 +57,7 @@ Here is a structured **pdf** version of my
 ### MORE
 
 -   ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler**,
-    and **visualization** creator, familiar with spatio-temporal
+    and **visualization** enthusiast, familiar with spatio-temporal
     analysis;
 -   📑 I have a coding **cheatsheet** full of reproducible examples in
     [gist](https://gist.github.com/avallecam);
