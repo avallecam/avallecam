@@ -177,23 +177,23 @@ purrr, 2020**
 2020**
 
 -   🍭 slides: <https://bit.ly/noparam2020>
--   🍿 video: <https://www.youtube.com/watch?v=1MTt1Ro-OP4>
+-   🍿 video: <https://youtu.be/1MTt1Ro-OP4>
 
-🔔 **\[poster\]\[ES\] Epidemiological analysis of the epidemic of
-Guillain Barré Syndrome in Peru, 2019**
+🔔 **\[ES\] Epidemiological analysis of the epidemic of Guillain Barré
+Syndrome in Peru, 2019**
 
--   🍿 poster:
+-   💾 poster:
     <https://raw.githubusercontent.com/avallecam/cdcperu-gt_investigacion/master/20191120-poster-SGB-INSv3.jpg>
 -   🍲 repo: <https://avallecam.github.io/cdcperu-gt_investigacion/>
 
 <!-- 🔔 __[abstract][ES] Changes in the morbidity and mortality profiles in Peru (2002-2016). Aplications with R and cdcper R package, 2019__ -->
-<!-- - 🔖 poster:   -->
+<!-- - 💾 poster:   -->
 <!-- - 🍲 repo: https://rpmesp.ins.gob.pe/rpmesp/article/view/5178 -->
 
-🔔 **\[poster\] Human mobility and malaria history in a periurban
-community of the Peruvian Amazon, 2019**
+🔔 **Human mobility and malaria history in a periurban community of the
+Peruvian Amazon, 2019**
 
--   🍿 poster:
+-   💾 poster:
     <https://raw.githubusercontent.com/avallecam/movmal/master/poster/astmh_poster-ValleAA-20191116.jpg>
 -   🍲 repo: <https://github.com/avallecam/movmal>
 
@@ -201,7 +201,7 @@ community of the Peruvian Amazon, 2019**
 
 -   🍭 slides:
     <https://speakerdeck.com/avallecam/r-aplicado-a-epidemiologia>
--   🍿 video: <https://www.youtube.com/watch?v=C3Yqw883jrs>
+-   🍿 video: <https://youtu.be/C3Yqw883jrs>
 -   🍲 repo: <https://avallecam.github.io/epiapli2019/>
 
 ------------------------------------------------------------------------
