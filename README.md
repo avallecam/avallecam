@@ -10,22 +10,23 @@
 ## I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve
-them, **motivated** by causal questions and **create** reusable
-software. <!-- discussing their interpretation and implications. -->
+them, **motivated** by causal questions and **reproducible** workflows.
+<!-- create -->
+<!-- reproducible workflows and FAIR principles, reusable software -->
+<!-- discussing their interpretation and implications. -->
 <!-- satisfy my **own** expectations, and **motivate** myself :) -->
 
-🔓 Practicing reproducible **open** research from its **design**,
-learning how to **teach** better, and promote **healthy** work
-environments!
+🔓 Practicing **open** research from its **design**, learning how to
+**teach** better, and promote **healthy** work environments!
 
 🌱 Interested in **quantitative** and **systems** developmental biology,
 **bioengineering** approaches, and **configuration** principles.
 <!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
-⛑️ This site contains **links** to all my scientific **contributions**.
-Here is a structured **pdf** version of my
-[cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf).
-<!-- in english [EN] and spanish [ES] -->
+⛑️ This site contains **links** to all my (reusable) scientific
+**contributions**. Here is a structured **pdf** version of my
+[cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf)
+in english. <!-- in english [EN] and spanish [ES] -->
 
 ### NOW
 
@@ -65,6 +66,11 @@ Here is a structured **pdf** version of my
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam);
 -   💌 I love to collect **links** for a lot of topics in a public
     [trello board](https://trello.com/b/xtO9VP36/scibites);
+-   🧃 I have been **trained** by awesome communities like:
+    [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/),
+    [codata-rda](https://www.datascienceschools.org/),
+    [recon](https://www.reconlearn.org/),
+    [metadocencia](https://www.metadocencia.org/cursos/);
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **reproducible research**;
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com);
@@ -149,6 +155,7 @@ coronavirus, 2020**
 Misclassification, 2021**
 
 -   🍭 slides: <https://bit.ly/serosurvey-user21>
+-   🍿 video: <https://youtu.be/0mugb1mE68g>
 -   🍲 repo: <https://github.com/avallecam/serosurvey-user21>
 
 🔔 **\[ES\] Introduction to spatial analysis, 2021**
@@ -159,6 +166,8 @@ Misclassification, 2021**
 purrr, 2020**
 
 -   🍭 slides: <https://bit.ly/bbslisepi>
+-   🍿 video: <https://youtu.be/mxX8tDmC45E>
+    <!-- https://imtavh.cayetano.edu.pe/videos/innovacion-en-salud -->
 
 🔔 **\[ES\] Causal questions for hypothetical interventions, 2020**
 
