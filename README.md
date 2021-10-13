@@ -66,7 +66,7 @@ in english. <!-- in english [EN] and spanish [ES] -->
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam);
 -   💌 I love to collect **links** for a lot of topics in a public
     [trello board](https://trello.com/b/xtO9VP36/scibites);
--   🧃 I have been **trained** by awesome communities like:
+-   🥤 I have been **trained** by awesome communities like:
     [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/),
     [codata-rda](https://www.datascienceschools.org/),
     [recon](https://www.reconlearn.org/),
