@@ -10,14 +10,15 @@
 ## I’m a geneticist skilled in health data science
 
 🏗️ I take **data** problems to learn new **tools** in the route to solve
-them, **motivated** by causal questions and **reproducible** workflows.
+them, **motivated** by causal questions and **reproducible** research.
 <!-- create -->
 <!-- reproducible workflows and FAIR principles, reusable software -->
 <!-- discussing their interpretation and implications. -->
 <!-- satisfy my **own** expectations, and **motivate** myself :) -->
 
-🔓 Practicing **open** research from its **design**, learning how to
-**teach** better, and promote **healthy** work environments!
+🔓 Continuously integrating **open** science, **software** development
+and **teaching** online evidence-based best-practices!
+<!-- from its *design* --> <!-- **healthy** work habits -->
 
 🌱 Interested in **quantitative** and **systems** developmental biology,
 **bioengineering** approaches, and **configuration** principles.
@@ -55,17 +56,11 @@ in english. <!-- in english [EN] and spanish [ES] -->
     about antibody responses and severe vivax malaria with protein
     microarrays (**UNMSM, 2015**);
 
-### MORE
+### ALSO
 
 -   ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler**,
     and **visualization** enthusiast, familiar with spatio-temporal
     analysis;
--   📑 I have a coding **cheatsheet** full of reproducible examples in
-    [gist](https://gist.github.com/avallecam);
--   🌍 I have contributed with **answers** for the community in
-    [stackoverflow](https://stackoverflow.com/users/6702544/avallecam);
--   💌 I love to collect **links** for a lot of topics in a public
-    [trello board](https://trello.com/b/xtO9VP36/scibites);
 -   🥤 I have complemented my **training** with awesome communities:
     [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/),
     [codata-rda](https://www.datascienceschools.org/),
@@ -129,6 +124,15 @@ status: learning in progress!
 -   ♻️ manuscripts: <https://bit.ly/draftmanuscript>
 -   ♻️ survey-forms: <https://ee.kobotoolbox.org/x/oW0aWyxX>
 -   ♻️ linear regression: <https://bit.ly/gglinearregression>
+
+### Lifeguards
+
+-   📑 I have a coding **cheatsheet** full of reproducible examples in
+    [gist](https://gist.github.com/avallecam)
+-   🌍 I have contributed with **answers** for the community in
+    [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
+-   💌 I love to collect **links** for a lot of topics in a public
+    [trello board](https://trello.com/b/xtO9VP36/scibites)
 
 ------------------------------------------------------------------------
 
