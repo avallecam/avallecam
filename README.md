@@ -66,10 +66,10 @@ in english. <!-- in english [EN] and spanish [ES] -->
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam);
 -   💌 I love to collect **links** for a lot of topics in a public
     [trello board](https://trello.com/b/xtO9VP36/scibites);
--   🥤 I have been **trained** by awesome communities like:
+-   🥤 I have complemented my **training** with awesome communities:
     [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/),
     [codata-rda](https://www.datascienceschools.org/),
-    [recon](https://www.reconlearn.org/),
+    [recon](https://www.repidemicsconsortium.org/),
     [metadocencia](https://www.metadocencia.org/cursos/);
 -   💬 Ping me about **applied biostatistics**, **data science
     education**, and **reproducible research**;
@@ -303,11 +303,11 @@ epidemiological surveillance, 2020**
 -   🗃️ I store
     [memories](https://www.youtube.com/channel/UCvbhEkxtIVA9ldfhqDFALTA/playlists)
     in a couple more;
+-   🎼 I occasionally play guitar 🎸 \| piano 🎹;
+-   🖤 I read a manga called
+    [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
 -   🌠 I feed a wishlist in
     [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/);
--   🖤 I am reading a manga called
-    [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
--   🎼 I occasionally play guitar 🎸 or piano 🎹;
 -   🎨 I appreciate visiting [art
     galleries](https://coleccion.mali.pe/collections),
     [unexpected](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
