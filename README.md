@@ -307,7 +307,7 @@ epidemiological surveillance, 2020**
     [elfster](https://www.elfster.com/profile/097d261f-1196-45a1-a4b4-12e0b245ce2d/wish-lists/be4efeaf-b9e7-465d-bcac-65ef129be519/);
 -   🖤 I am reading a manga called
     [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
--   🎼 I practice music, guitar 🎸, piano 🎹;
+-   🎼 I occasionally play guitar 🎸 or piano 🎹;
 -   🎨 I appreciate visiting [art
     galleries](https://coleccion.mali.pe/collections),
     [unexpected](https://maclima.pe/project/visitante-fernando-de-szyszlo/)
