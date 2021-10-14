@@ -303,7 +303,7 @@ epidemiological surveillance, 2020**
 -   🗃️ I store
     [memories](https://www.youtube.com/channel/UCvbhEkxtIVA9ldfhqDFALTA/playlists)
     in a couple more;
--   🎼 I occasionally play guitar 🎸 \| piano 🎹;
+-   🎼 I occasionally play guitar🎸\|piano🎹;
 -   🖤 I read a manga called
     [berserk](https://readberserk.com/chapter/berserk-chapter-a0/);
 -   🌠 I feed a wishlist in
