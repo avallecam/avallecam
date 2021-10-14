@@ -58,7 +58,8 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 
 ### ALSO
 
-- ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler**, and **visualization** enthusiast, familiar with **spatio-temporal** analysis;
+- ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler** and **visualization** enthusiast. 
+- 📀 I have made analysis **workflows** with **-omic**, serological and **spatio-temporal** data;
 - 🥤 I have complemented my **training** with awesome communities: [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/), [codata-rda](https://www.datascienceschools.org/), [recon](https://www.repidemicsconsortium.org/), [metadocencia](https://www.metadocencia.org/cursos/);
 - 💬 Ping me about **applied biostatistics**, **data science education**, and **reproducible research**;
 - 📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com);

@@ -58,9 +58,10 @@ in english. <!-- in english [EN] and spanish [ES] -->
 
 ### ALSO
 
--   ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler**,
-    and **visualization** enthusiast, familiar with **spatio-temporal**
-    analysis;
+-   ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler**
+    and **visualization** enthusiast.
+-   📀 I have made analysis **workflows** with **-omic**, serological and
+    **spatio-temporal** data;
 -   🥤 I have complemented my **training** with awesome communities:
     [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/),
     [codata-rda](https://www.datascienceschools.org/),
