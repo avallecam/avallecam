@@ -133,7 +133,7 @@ status: learning in progress!
 -   🌍 I have contributed **answers** for the
     [stackoverflow](https://stackoverflow.com/users/6702544/avallecam)
     community;
--   💌 I love to collect **links** for a lot of topics in a public
+-   💌 I collect helpful **links** for a lot of topics in a public
     [trello board](https://trello.com/b/xtO9VP36/scibites).
 
 ------------------------------------------------------------------------
