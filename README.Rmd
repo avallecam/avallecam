@@ -29,7 +29,7 @@ I take **data** problems to learn new **tools** in the route to solve them, **mo
 <!-- satisfy my **own** expectations, and **motivate** myself :) -->
 
 🔓 
-Continuously integrating **open** science, **software** development and **teaching** online evidence-based best-practices!
+Continuously integrating **open** science, **software** development and **teaching** online better practices!
 <!-- from its *design* -->
 <!-- **healthy** work habits -->
 
@@ -59,7 +59,7 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 ### ALSO
 
 - ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler** and **visualization** enthusiast. 
-- 📀 I have made analysis **workflows** with **-omic**, serological and **spatio-temporal** data;
+- 📀 I have made analysis **workflows** with **omic**, serological, gps, health service and **spatio-temporal** data;
 - 🥤 I have complemented my **training** with awesome communities: [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/), [codata-rda](https://www.datascienceschools.org/), [recon](https://www.repidemicsconsortium.org/), [metadocencia](https://www.metadocencia.org/cursos/);
 - 💬 Ping me about **applied biostatistics**, **data science education**, and **reproducible research**;
 - 📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com);

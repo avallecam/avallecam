@@ -17,8 +17,8 @@ them, **motivated** by causal questions and **reproducible** research.
 <!-- satisfy my **own** expectations, and **motivate** myself :) -->
 
 🔓 Continuously integrating **open** science, **software** development
-and **teaching** online evidence-based best-practices!
-<!-- from its *design* --> <!-- **healthy** work habits -->
+and **teaching** online better practices! <!-- from its *design* -->
+<!-- **healthy** work habits -->
 
 🌱 Interested in **quantitative** and **systems** developmental biology,
 **bioengineering** approaches, and **configuration** principles.
@@ -60,8 +60,8 @@ in english. <!-- in english [EN] and spanish [ES] -->
 
 -   ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler**
     and **visualization** enthusiast.
--   📀 I have made analysis **workflows** with **-omic**, serological and
-    **spatio-temporal** data;
+-   📀 I have made analysis **workflows** with **omic**, serological,
+    gps, health service and **spatio-temporal** data;
 -   🥤 I have complemented my **training** with awesome communities:
     [ictp-saifr](https://www.ictp-saifr.org/v-southern-summer-school-on-mathematical-biology/),
     [codata-rda](https://www.datascienceschools.org/),
