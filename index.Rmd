@@ -1,9 +1,16 @@
 ---
+title: Hi there 👋
 output: html_document
 layout: default
 ---
 
-<!-- README.md is generated from README.Rmd. Please edit that file -->
+<style type="text/css">
+
+.main-container {
+  max-width: 500px;
+}
+
+</style>
 
 ```{r, include = FALSE}
 knitr::opts_chunk$set(
@@ -14,13 +21,13 @@ knitr::opts_chunk$set(
 )
 ```
 
-# Hi there 👋
-
-## `r emo::ji("peru")` **Andree Valle-Campos** (él/he/his)
+# `r emo::ji("peru")` **Andree Valle-Campos** (él/he/his)
 
 ![](figure/avallecam-perfil-20210426-2.jpeg){ width=100% }
 
-## I'm a geneticist skilled in health data science 
+#### __I'm a geneticist skilled in health data science__
+
+--------------------------------------
 
 🏗️ 
 I take **data** problems to learn new **tools** in the route to solve them, **motivated** by causal questions and **reproducible** research.
@@ -123,11 +130,7 @@ status: learning in progress!
 - 🌍 I have contributed **answers** for the [stackoverflow](https://stackoverflow.com/users/6702544/avallecam) community;
 - 💌 I collect helpful **links** for a lot of topics in a public [trello board](https://trello.com/b/xtO9VP36/scibites).
 
---------------------------------------
-
-## texts
-
-### texts
+#### texts
 
 📌 __[opinion][ES] Data and transparency to fight against the coronavirus, 2020__
 
@@ -272,7 +275,7 @@ status: learning in progress!
 
 --------------------------------------
 
-## about me
+## about
 
 ### about me
 
