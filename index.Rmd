@@ -67,13 +67,10 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 
 - 💻 Freelancer; <!-- coach -->
 - ✒️ Writing my thesis manuscripts and grad school applications!
-
-#### lastly
-
 - ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) package 📦; 
 - ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in [latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 
-#### cv
+#### bio
 
 - 🏠 I am a computationally-oriented **geneticist** formally trained in quantitative **epidemiological research**;
 - 📚 I have my list of academic **publications** in ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [orcid](https://orcid.org/0000-0002-7779-481X) and [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
