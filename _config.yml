@@ -1,3 +1,9 @@
 title: Andree Valle-Campos
 description: Personal site with a couple of links!
 theme: jekyll-theme-minimal
+
+plugins:
+  - jekyll-relative-links
+relative_links:
+  enabled: true
+  collections: true
