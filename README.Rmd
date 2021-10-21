@@ -43,7 +43,7 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 
 --------------------------------------
 
-# TAKE A LOOK TO MY: {.tabset}
+# TAKE A LOOK TO MY:
 
 - [bio](./#bio)
 - [resources](./#resources)

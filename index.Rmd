@@ -1,5 +1,6 @@
 ---
 output: html_document
+layout: page
 ---
 
 <!-- README.md is generated from README.Rmd. Please edit that file -->
@@ -43,7 +44,7 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 
 --------------------------------------
 
-# TAKE A LOOK TO MY: {.tabset}
+# 🗂️ {.tabset}
 
 <!-- - [bio](./#bio) -->
 <!-- - [resources](./#resources) -->
@@ -53,19 +54,19 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 <!-- - [workshops](./#workshops) -->
 <!-- - [about me](./#about-me) -->
 
-## BIO
+## bio
 
-### NOW
+#### now
 
 - 💻 Freelancer; <!-- coach -->
 - ✒️ Writing my thesis manuscripts and grad school applications!
 
-### LASTLY
+#### lastly
 
 - ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) package 📦; 
 - ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in [latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 
-### CV
+#### cv
 
 - 🏠 I am a computationally-oriented **geneticist** formally trained in quantitative **epidemiological research**;
 - 📚 I have my list of academic **publications** in ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [orcid](https://orcid.org/0000-0002-7779-481X) and [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
@@ -74,7 +75,7 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 <!-- - 📜 I did my [BSc](https://github.com/avallecam/abnomic) at the **Universidad Nacional Mayor de San Marcos** (2015); -->
 - 📜 I did my [BSc](https://github.com/avallecam/abnomic) research about antibody responses and severe vivax malaria with protein microarrays (**UNMSM, 2015**);
 
-### ALSO
+#### also
 
 - ⚙️ I am a fluent **`R`** programmer, proficient data **wrangler** and **visualization** enthusiast. 
 - 📀 I have made analysis **workflows** with **omic**, serological, gps, health service and **spatio-temporal** data;
@@ -86,9 +87,9 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 
 --------------------------------------
 
-## RESOURCES
+## resources
 
-### R packages 📦
+#### R packages 📦
 
 status: learning in progress!
 
@@ -103,20 +104,20 @@ status: learning in progress!
 - 🚧 [epihelper](https://avallecam.github.io/epihelper/) - custom (cool) funtions.
 <!-- - 💡 [elixr](https://bit.ly/elixr_rpkg) - in-house elisa standardization. -->
 
-### Dashboards
+#### dashboards
 
 - 💾 data exploration: https://avallecam.shinyapps.io/data_qc/ 
 - 💾 [ES] data exploration: https://avallecam.shinyapps.io/data_qc-es/
 - 💾 disease surveillance: https://avallecam.github.io/shiny-server/per/index.html
 
-### Templates
+#### templates
 
 - ♻️ tables: https://bit.ly/epitables
 - ♻️ manuscripts: https://bit.ly/draftmanuscript
 - ♻️ survey-forms: https://ee.kobotoolbox.org/x/oW0aWyxX
 - ♻️ linear regression: https://bit.ly/gglinearregression
 
-### Lifeguards
+#### lifeguards
 
 - 📑 I have a coding **cheatsheet** full of reproducible examples in [gist](https://gist.github.com/avallecam);
 - 🌍 I have contributed **answers** for the [stackoverflow](https://stackoverflow.com/users/6702544/avallecam) community;
@@ -124,7 +125,9 @@ status: learning in progress!
 
 --------------------------------------
 
-## TEXTS
+## texts
+
+### texts
 
 📌 __[opinion][ES] Data and transparency to fight against the coronavirus, 2020__
 
@@ -137,7 +140,9 @@ status: learning in progress!
 
 --------------------------------------
 
-## TALKS
+## talks
+
+### talks
 
 🔔 __serosurvey: Serological Surveys and Prevalence Estimation Under Misclassification, 2021__
 
@@ -187,7 +192,9 @@ status: learning in progress!
 
 --------------------------------------
 
-## LECTURES
+## lectures
+
+### lectures
 
 📌 __[ES] Data analysis in epidemiological surveillance II: spatial analysis, 2021__
 
@@ -219,7 +226,9 @@ status: learning in progress!
 
 --------------------------------------
 
-## WORKSHOPS
+## workshops
+
+### workshops
 
 🖐️ __[ES] Introduction to statistical analysis of epidemics, 2021__
 
@@ -263,7 +272,9 @@ status: learning in progress!
 
 --------------------------------------
 
-## ABOUT ME
+## about me
+
+### about me
 
 - 🏊 I was a [swimmer (lane #5)](https://www.youtube.com/watch?v=fN7sJPFeJcw);
 - 🎬 I love watching [musical videos](https://youtube.com/playlist?list=PLDHw5KzS-qvL90chbF74RS3fAU5JdtVzZ);
@@ -283,7 +294,7 @@ status: learning in progress!
 <!-- > #a11y - nothing about us without us -->
 <!-- - I am interested in discussing about how to provide local solutions against local [inequalities](https://unsdg.un.org/2030-agenda/universal-values/leave-no-one-behind) in society -->
 
-### avallecam
+#### avallecam
 
 - 🌞 Stands for **a**ndree **valle** **cam**pos.
 - 💕 I intentionally used **cam** in reference to my [chinese](https://www.mychinaroots.com/surnames/detail?word=Campos) ancestry
