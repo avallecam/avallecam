@@ -24,6 +24,5 @@ and **teaching** online better practices! <!-- from its *design* -->
 [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf)
 in english. <!-- in english [EN] and spanish [ES] -->
 
-------------------------------------------------------------------------
-
-# Take a look to my website: https://avallecam.github.io/avallecam/
+🗂️
+Take a look to my website: https://avallecam.github.io/avallecam/
