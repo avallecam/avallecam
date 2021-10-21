@@ -29,17 +29,34 @@ and **teaching** online better practices! <!-- from its *design* -->
 [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf)
 in english. <!-- in english [EN] and spanish [ES] -->
 
+------------------------------------------------------------------------
+
+# TAKE A LOOK TO MY:
+
+-   [bio](./#bio)
+-   [resources](./#resources)
+-   [texts](./#texts)
+-   [talks](./#talks)
+-   [lectures](./#lectures)
+-   [workshops](./#workshops)
+-   [about me](./#about-me)
+
+## BIO
+
 ### NOW
 
 -   💻 Freelancer; <!-- coach -->
+-   ✒️ Writing my thesis manuscripts and grad school applications!
+
+### LASTLY
+
 -   ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/)
     package 📦;
 -   ⭐ Coordinator in a last [outbreak analysis
     course](https://www.cursoepidemias-col-peru-2021.org/) in
     [latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
--   ✒️ Writing my thesis manuscripts and grad school applications!
 
-### BIO
+### CV
 
 -   🏠 I am a computationally-oriented **geneticist** formally trained in
     quantitative **epidemiological research**;
@@ -71,17 +88,6 @@ in english. <!-- in english [EN] and spanish [ES] -->
     education**, and **reproducible research**;
 -   📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com);
 -   🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam).
-
-------------------------------------------------------------------------
-
-## TAKE A LOOK TO MY:
-
--   [resources](./#resources)
--   [texts](./#texts)
--   [talks](./#talks)
--   [lectures](./#lectures)
--   [workshops](./#workshops)
--   [about me](./#about-me)
 
 ------------------------------------------------------------------------
 

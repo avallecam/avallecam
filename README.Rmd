@@ -40,14 +40,32 @@ Continuously integrating **open** science, **software** development and **teachi
 This site contains **links** to all my (reusable) scientific **contributions**. Here is a structured **pdf** version of my [cv/resume](https://github.com/avallecam/resume/raw/main/cv-andree_vallecampos.pdf) in english.
 <!-- in english [EN] and spanish [ES] -->
 
+
+--------------------------------------
+
+# TAKE A LOOK TO MY: {.tabset}
+
+- [bio](./#bio)
+- [resources](./#resources)
+- [texts](./#texts)
+- [talks](./#talks)
+- [lectures](./#lectures)
+- [workshops](./#workshops)
+- [about me](./#about-me)
+
+## BIO
+
 ### NOW
 
 - 💻 Freelancer; <!-- coach -->
-- ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) package 📦; 
-- ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in [latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
 - ✒️ Writing my thesis manuscripts and grad school applications!
 
-### BIO
+### LASTLY
+
+- ✨ Crafted last [serosurvey](https://avallecam.github.io/serosurvey/) package 📦; 
+- ⭐ Coordinator in a last [outbreak analysis course](https://www.cursoepidemias-col-peru-2021.org/) in [latinamerica](https://twitter.com/avallecam/status/1413682203041701889?s=20);
+
+### CV
 
 - 🏠 I am a computationally-oriented **geneticist** formally trained in quantitative **epidemiological research**;
 - 📚 I have my list of academic **publications** in ![](https://orcid.org/sites/default/files/images/orcid_16x16.png) [orcid](https://orcid.org/0000-0002-7779-481X) and [scholar](https://scholar.google.com/citations?user=p1Tq4esAAAAJ&hl=es);
@@ -65,16 +83,6 @@ This site contains **links** to all my (reusable) scientific **contributions**. 
 - 📫 Reach me: [avallecam@gmail.com](avallecam@gmail.com);
 - 🐤 Tweet me: [`@avallecam`](https://twitter.com/avallecam).
 
---------------------------------------
-
-## TAKE A LOOK TO MY: 
-
-- [resources](./#resources)
-- [texts](./#texts)
-- [talks](./#talks)
-- [lectures](./#lectures)
-- [workshops](./#workshops)
-- [about me](./#about-me)
 
 --------------------------------------
 
