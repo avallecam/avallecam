@@ -21,3 +21,5 @@ and **teaching** online better practices! <!-- from its *design* -->
 
 - ⛑️ My website contains **links** to all my (reusable) scientific
 **contributions**. Take a look: https://avallecam.github.io/avallecam/
+
+> format inspired by: https://github.com/seabbs/
