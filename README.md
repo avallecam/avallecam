@@ -20,6 +20,6 @@ and **teaching** online better practices! <!-- from its *design* -->
 <!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
 - ⛑️ My website contains **links** to all my (reusable) scientific
-**contributions**. Take a look: https://avallecam.github.io/avallecam/
+**contributions**. Take a look: https://avallecam.github.io/
 
 > format inspired by: https://github.com/seabbs/
