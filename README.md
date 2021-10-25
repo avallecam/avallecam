@@ -15,8 +15,8 @@ them, **motivated** by causal questions and **reproducible** research.
 and **teaching** online better practices! <!-- from its *design* -->
 <!-- **healthy** work habits -->
 
-- 🌱 Interested in **quantitative** and **systems** developmental biology,
-**bioengineering** approaches, and **configuration** principles.
+- 🌱 Interested in **systems** developmental biology,
+**quantitative** and **bioengineering** approaches, living matter **configuration** principles.
 <!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
 - ⛑️ My website contains **links** to all my (reusable) scientific
