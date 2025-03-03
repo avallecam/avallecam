@@ -2,7 +2,7 @@
 
 ## 🇵🇪 **Andree Valle-Campos** (él/he/his)
 
-## I’m a geneticist skilled in health data science
+## Interested in Epidemiology, Serology, and Outbreak analytics
 
 - 🏗️ I take **data** problems to learn new **tools** in the route to solve
 them, **motivated** by causal questions and **reproducible** research.
