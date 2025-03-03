@@ -2,7 +2,7 @@
 
 ## 🇵🇪 **Andree Valle-Campos** (él/he/his)
 
-## Main interest: Outbreak analytics, Epidemiology and Serology. 
+## Working on Outbreak analytics, Epidemiology and Serology. 
 
 - 🏗️ I take **data** problems to learn new **tools** in the route to solve
 them, **motivated** by causal questions and **reproducible** research.
@@ -15,7 +15,7 @@ them, **motivated** by causal questions and **reproducible** research.
 and **teaching** online better practices! <!-- from its *design* -->
 <!-- **healthy** work habits -->
 
-- 🌱 Interested (also) in **systems** developmental biology,
+- 🌱 Curious about **systems** developmental biology,
 **quantitative** and **bioengineering** approaches, living matter **configuration** principles.
 <!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
