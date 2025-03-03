@@ -1,6 +1,6 @@
 # Hi there 👋
 
-## 🇵🇪 **Andree Valle-Campos** (él/he/his)
+## 🇵🇪 **Andree Valle-Campos**
 
 ## Working on Outbreak analytics, Epidemiology and Serology. 
 
