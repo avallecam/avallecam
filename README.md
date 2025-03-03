@@ -16,7 +16,7 @@ and **teaching** online better practices! <!-- from its *design* -->
 <!-- **healthy** work habits -->
 
 - 🌱 Curious about **systems** developmental biology,
-**quantitative** and **bioengineering** approaches, living matter **configuration** principles.
+**bioengineering** approaches, living matter **configuration** principles.
 <!-- 🌱 Interested in **quantitative** systems biology, **developmental** bioengineering, **signaling** and living matter **configuration** principles.  -->
 
 - ⛑️ My website contains **links** to all my (reusable) scientific
