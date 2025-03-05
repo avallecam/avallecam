@@ -2,7 +2,7 @@
 
 ## 🇵🇪 **Andree Valle-Campos**
 
-## Working on Outbreak analytics, Epidemiology and Serology. 
+## Interested in Outbreak analytics, Epidemiology and Serology. 
 
 - 🏗️ I take **data** problems to learn new **tools** in the route to solve
 them, **motivated** by causal questions and **reproducible** research.
